@@ -1,0 +1,13 @@
+filename = 'kubejs-mekanism-1902.1.5-build.20.jar'
+name = 'KubeJS Mekanism'
+side = 'both'
+
+[download]
+hash = 'b97dc005958154c87233f09d54de16433d83f3dd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4842864
+project-id = 418651

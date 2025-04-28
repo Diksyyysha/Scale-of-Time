@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_3"
+	group: "54209D604C333018"
+	icon: "mekanismgenerators:fission_reactor_casing"
+	id: "491E207C4858ECFF"
+	images: [{
+		alpha: 155
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "mekanism:item/pellet_polonium"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: [
+			" На первой фотографии показано как выглядит сама структура. А на второй фотографии как выглядит внутри."
+			""
+			"{image:ftbquests:textures/item/reactor.png width:190 height:100 align:1}"
+			"{image:ftbquests:textures/item/reactor2.png width:190 height:100 align:1}"
+			""
+			"&a В дальнейшем можно увеличить в длину, ширину и в высоту."
+			""
+			"&a В один из четырех портов мы вводим воду для того, чтобы остужать реактор. В другой мы вводим ядерное топливо, а из других извлекаем ядерные отходы и пар. Для того, чтобы поменять режим порта ввод/вывод кликаем &4конфигуратором &aSHIFT+ПКМ."
+		]
+		id: "61A04C6152C6D909"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "10A46FF8774F862D"
+			table_id: 573058633436694511L
+			type: "random"
+		}]
+		size: 2.0d
+		subtitle: "Мультиблочная структура."
+		tasks: [
+			{
+				count: 32L
+				id: "2D92F4AF2DD57540"
+				item: "mekanismgenerators:fission_reactor_casing"
+				type: "item"
+			}
+			{
+				count: 2L
+				id: "1836FE346C4F9681"
+				item: "mekanismgenerators:fission_reactor_port"
+				type: "item"
+			}
+			{
+				id: "635111480FE417FE"
+				item: "mekanismgenerators:fission_fuel_assembly"
+				type: "item"
+			}
+			{
+				id: "1878CD682DD2CD4C"
+				item: "mekanismgenerators:control_rod_assembly"
+				type: "item"
+			}
+		]
+		title: "Ядерный реактор"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&4Mekanism: Ядерный реактор"
+}

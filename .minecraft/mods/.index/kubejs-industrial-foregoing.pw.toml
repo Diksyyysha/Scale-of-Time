@@ -1,0 +1,16 @@
+filename = 'kjsindustrialforegoing-1.0.jar'
+name = 'KubeJS Industrial Foregoing'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7c29b94f703a2773d53c58c1a53130e56d69c481'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4651656
+project-id = 890485

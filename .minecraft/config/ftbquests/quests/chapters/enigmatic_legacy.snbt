@@ -1,0 +1,184 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enigmatic_legacy"
+	group: "54209D604C333018"
+	icon: "enigmaticlegacy:enigmatic_item"
+	id: "272FFB945F1F89F0"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 5.0d
+		hover: [ ]
+		image: "minecraft:textures/particle/sculk_charge_pop_1.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Вместе со снаряжением&7(которого у вас более нет)&r вам дали по загадочному амулету который должен был помочь в поисках потерянных артефактов. Однако, с перемещением в это время артефакты преобразились и стали обладать новыми свойствами которых не бывало ранге. Вместе с этим амулеты стали неким оберегом для вас и вашей души, так, что даже не надевая их можно почувствовать всю мощь что таится в них"]
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:enigmatic_amulet"
+				tag: {
+					AssignedColor: 0.1f
+				}
+			}
+			id: "293B314B23F4B0AC"
+			rewards: [{
+				id: "708C04D567315221"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "50BBA8188E832D7D"
+				title: "Артефакты"
+				type: "checkmark"
+			}]
+			title: "Проклятье?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["293B314B23F4B0AC"]
+			description: ["Странно, но это кольцо вы не брали с собой во время ритуала. Похоже, оно само нашло вас когда ваш амулет пробудился. От этого кольца исходит зловещяя аура, но при этом манящая, как-будто скрывает в себе невоображаемые силы... &7Вы не уверены, стоит ли его надевать, и как это обернётся в дальнейшем.&r"]
+			hide: false
+			id: "26C290F0EA33D11C"
+			rewards: [{
+				id: "236A1E2E678978FC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3471140B00FD5C5E"
+				item: "enigmaticlegacy:cursed_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3471140B00FD5C5E"]
+			description: ["Похоже вы всё таки осмелились экипировать данное кольцо. Чтож, возможно всё не так уж и плохо, конечно, если вы не надели его в самом начале своего пути. В таком случае придётся вам не сладко... Но и без плюсов не обойтись, кольцо даёт доступ к новым, ранее неизвестным знаниям, которые помогут вам пережить бремя ношения этого кольца, пока вы не сможете найти способ от него избавится."]
+			hide: true
+			hide_dependency_lines: true
+			id: "4096F4A501AB0261"
+			rewards: [{
+				id: "7BC100032FE88E51"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				icon: "enigmaticlegacy:cursed_ring"
+				id: "5A11B16F91313690"
+				stat: "enigmaticlegacy:play_time_with_seven_curses"
+				type: "stat"
+				value: 1
+			}]
+			title: "Первородный грех"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["293B314B23F4B0AC"]
+			description: ["Похоже, эта книга может помочь мне разгадать тайны всех этих амулетов и колец. Нужно будет обязательно её прочитать"]
+			id: "530A234C2B93EF5F"
+			rewards: [{
+				id: "372798950735FE23"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "3CA4C21687FD3A92"
+				item: "enigmaticlegacy:the_acknowledgment"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["530A234C2B93EF5F"]
+			description: ["Похоже, книга не имеет всех знаний без самостоятельного изучения и прямого взаимодействия с предметами "]
+			id: "655D52905B760B9B"
+			tasks: [{
+				id: "15A3B04F538788B1"
+				title: "Исследование"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["655D52905B760B9B"]
+			description: ["Это кольцо может быть полезно как для крафта, так и для боевой экипировки"]
+			id: "64F7C9AFD4BBB7E9"
+			tasks: [{
+				id: "237C9D2E24719B45"
+				item: "enigmaticlegacy:iron_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"655D52905B760B9B"
+				"64F7C9AFD4BBB7E9"
+			]
+			description: ["Это кольцо является основой большинства акссесуаров, при обычном ношении повышает везение владельца"]
+			id: "73688A1DCDB791FA"
+			tasks: [{
+				id: "71F7E249332D65B3"
+				item: "enigmaticlegacy:golden_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["64F7C9AFD4BBB7E9"]
+			id: "0D47AF5AE8AA4024"
+			tasks: [{
+				id: "4E64F8E2F0038F05"
+				item: "enigmaticlegacy:ender_ring"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["64F7C9AFD4BBB7E9"]
+			description: ["Вы будете притягивать к себе все предметы в радиусе 8 блоков &8(Эту функцию можно отключить в инвентаре)&r"]
+			id: "043568080A07BD71"
+			tasks: [{
+				id: "66C21154A45130B6"
+				item: "enigmaticlegacy:magnet_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["043568080A07BD71"]
+			description: ["Телепортирует все предметы в радиусе 16 блоков в ваш инвентарь &8(Так-же может быть выключен в инвентаре)&r"]
+			id: "3C9ABC69F3A4C5B6"
+			tasks: [{
+				id: "114592CF3C775119"
+				item: "enigmaticlegacy:super_magnet_ring"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+	]
+	title: "Enigmatic Legacy"
+}

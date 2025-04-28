@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Салават/AppData/Roaming/PrismLauncher/instances/Scale of time/.minecraft/saves/4
+}
+

@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "5A95BCB1F38BADF8"
+	group: ""
+	icon: "enigmaticlegacy:eye_of_nebula"
+	id: "5A95BCB1F38BADF8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bArs Nouveau"
+				"&bBotania"
+				"&bEnigmatic Legacy"
+				"&bEvilCraft"
+				"&9Mekanism"
+				"&9Applied Energistics 2"
+				"&9Thermal Series"
+				"&9Industrial Foregoing"
+			]
+			icon: "kubejs:cum_bucket"
+			id: "080232FE1C2B809B"
+			rewards: [{
+				id: "2E0476E66D863923"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Техномагическая РПГ сборка по майнкрафту на версии 1.19.2"
+			tasks: [{
+				id: "3E6BD80AD061738C"
+				title: "Scale of time"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FB4D1D4B26F3097"]
+			description: [
+				"Вы – член элитного отряда «Мордовороты», объединяющего самых сильных и умных воинов государства Артрит. На протяжении десятилетий Артрит сражается с Империей Зла, и затянувшаяся холодная война переходит в горячую фазу. В отчаянной попытке вырвать победу из рук врага, правительство решается на отчаянный шаг – проведение запрещённого ритуала, способного изменить ход истории."
+				""
+				"Этот ритуал должен перенести вас и ваш отряд в далёкое прошлое, где скрыты древние артефакты могущественной, давно исчезнувшей цивилизации. Собрав эти артефакты и объединив их в один, вы сможете создать аномальный предмет невероятной силы, способный одержать победу над Империей Зла. Более того, тот же артефакт обещает вернуть вас обратно в ваше время, чтобы вы принесли долгожданную победу своему государству."
+				""
+				"Однако теория отходит от практики. Как только ритуал завершился, всё ваше современное снаряжение – кроме амулетов и путеводителей древних времён – исчезло в хаосе временного потока. Вы оказались в жестоком прошлом безоружными и уязвимыми. У вас просто не остаётся выбора кроме как изучить местную флору и фауну в поисках подходящего снаряжения для добычи и дальнейшего изучения мира прошлого в поисках забытых артефактов. "
+				""
+				"К счастью, у вас достаточно для этого времени, поэтому можно не торопиться. Верно же?"
+			]
+			icon: "kubejs:scale_of_time"
+			id: "1D6D7DCAF5943B14"
+			rewards: [{
+				auto: "invisible"
+				command: "/title @p title {\"text\":\"Вперед к новым приключениям!!!\",\"color\":\"blue\"}"
+				id: "2FE485454A888320"
+				type: "command"
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "7880A3E0E6694E65"
+				title: "Предыстория"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["080232FE1C2B809B"]
+			description: [
+				"&4D1kyyysha&f: Dev, Quests, Translator."
+				"&4X1kkan&f: Dev, Quests, Resource Pack."
+			]
+			id: "171CE43D7C1A2B03"
+			rewards: [
+				{
+					id: "7D8E38BE037BF3F6"
+					item: {
+						Count: 1b
+						id: "evilcraft:flesh_humanoid"
+						tag: {
+							Id: [I;
+								329510678
+								-824491978
+								-1701993276
+								1073641301
+							]
+							Name: "D1kyyysha"
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTczNjI3ODExNDUxMSwKICAicHJvZmlsZUlkIiA6ICIxM2EzZWYxNmNlZGI0MDM2OWE4ZGE0YzQzZmZlNzc1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEMWt5eXlzaGEiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYyYjM1M2I5MzA5NTRlOTYxNWIwOGI4NGRkZGZlMjUxNDMyYWNmOGFlN2Y5MTY5MTgzYTE3NjVmYWQ2MzJmNSIKICAgIH0KICB9Cn0="
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "495EBCA6094EAB94"
+					item: {
+						Count: 1b
+						id: "evilcraft:flesh_humanoid"
+						tag: {
+							Id: [I;
+								-1348492847
+								-623423865
+								-1206326589
+								1991955133
+							]
+							Name: "X1kkan"
+							Properties: {
+								textures: [{
+									Signature: "ahhwoUqeQ6pAwYmSonF/UjtzGFXiwxMDAUBCzLgMX7AZ+4hixKKLZbNCsCHkRpkgmZDk2Sd6cmgXTdRAmpmgXy0Q18PSxUO/MQZ5liex9AEDtEi4GI45jPQ+2fs3M1QURhI524gB3aRsjITsJg62hYRwhfAYAuZNHMzRci8o3tVBLUJzKWHBPTMFeQukerJG9pR4XbOPiI4D/iOxliJ9aVfuPoF/Dm/yxSvJ19gzqiwD5+KvDdQ0WjapMa75tNx5mxMxzf4lLgEGil+JmVEzcOMcMtR83ckMAOND2ffnrZ9B74K82EsakcbRiX/5uhu6ib9YIXA5CDRpg9WkdMwhl4oskotJpYa1Dlh+zlFh2Gax4Oqky4xnEJUZgaSqwzrraW8N7Q1B2RGhYS7jKpFBnGVpHMmtteXQZrcKbROuSl/pUrCWCktFYbA9Z8kZDBWPZMAZPfek2tdJpU9y7XoqaYHynKa5hJOmwlLBk9OxRh1mi5AxPCZ4GdhIlEHiRrkaqQvgoo4VHVXgy3ntUJRdERh+tbKESDk+GI+YqqOwkpNLm1i2rVCe038z2Yd7MG9Twd8vnJXssunWHgemkk0TrNLivJIppksYIf/qKHt6IbVeIJJBoGVcrZWA04gxkY1Hu/RBRs1vBDva57Inur4vHR1IZURm+YTDhJmXHuLcBxw="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTczNjI3ODIwMDE0MywKICAicHJvZmlsZUlkIiA6ICJhZjlmYTFkMWRhZDc0ZTg3YjgxOGVhYzM3NmJhZDJiZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJYMWtrYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDljN2QyYjRmMGY0NDc4MWEwZWUwZTdlZjRjMjNhYzAwNmU5MTllN2U5Nzg2ZjVjMTM5NDdlNTQyMzU5NTRjMyIKICAgIH0KICB9Cn0="
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3FB4D1D4B26F3097"
+				title: "Создатели сборки"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Добро пожаловать"
+}

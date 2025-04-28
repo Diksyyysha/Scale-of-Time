@@ -1,0 +1,91 @@
+[23:23:37.252][INFO]: Successfully injected RecipeFS file system
+[23:23:37.355][INFO]: Successfully identified and loaded plugin jeitweaker:common
+[23:23:37.438][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[23:23:37.494][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[23:23:37.501][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
+[23:23:37.617][INFO]: Identified JeiTweaker plugin 'jeitweaker:forge': loading scheduled
+[23:23:37.620][INFO]: Identified JeiTweaker plugin 'jeitweaker:common': loading scheduled
+[23:23:37.625][INFO]: Identified JeiTweaker plugin 'mekanism:crt_jei': loading scheduled
+[23:23:37.645][INFO]: JEITweaker Environmental Check: the combination of mods [jei] is fully supported
+[23:23:37.645][INFO]: Running JeiTweaker plugin initialization
+[23:23:37.901][INFO]: JeiTweaker plugin initialization completed successfully
+[23:23:41.193][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[23:23:41.198][INFO]: - 'crafttweaker' at version '10.1.55'
+[23:23:41.198][INFO]: - 'extendedcrafting' at version '5.1.10'
+[23:23:41.198][INFO]: - 'jeitweaker' at version '4.0.13'
+[23:23:41.198][INFO]: - 'mekanism' at version '10.3.9'
+[23:23:47.988][INFO]: Started loading scripts for loader 'mekanismcontent'
+[23:23:48.296][INFO]: Compiling and executing scripts
+[23:23:48.919][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[23:23:49.168][INFO]: Execution for loader 'mekanismcontent' completed successfully
+[23:23:49.168][INFO]: Registering 0 custom gases.
+[23:23:49.180][INFO]: Registering 0 custom infuse types.
+[23:23:49.186][INFO]: Registering 0 custom pigments.
+[23:23:49.190][INFO]: Registering 0 custom robit skins.
+[23:23:49.193][INFO]: Registering 0 custom slurries.
+[23:23:58.206][INFO]: Started loading scripts for loader 'initialize'
+[23:23:58.298][INFO]: Compiling and executing scripts
+[23:23:58.302][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[23:23:58.331][INFO]: Execution for loader 'initialize' completed successfully
+[23:25:09.885][INFO]: Started loading scripts for loader 'tags'
+[23:25:09.897][INFO]: Compiling and executing scripts
+[23:25:09.901][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[23:25:09.908][INFO]: Execution for loader 'tags' completed successfully
+[23:25:12.855][INFO]: Started loading scripts for loader 'crafttweaker'
+[23:25:12.868][INFO]: Compiling and executing scripts
+[23:25:12.995][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[23:25:12.996][INFO]: Loading file 'Scale of Time\alfa_steel.zs' with priority 0
+[23:25:13.001][INFO]: Loading file 'Scale of Time\ars.zs' with priority 0
+[23:25:13.013][INFO]: Loading file 'Scale of Time\flight_tiara.zs' with priority 0
+[23:25:13.014][INFO]: Loading file 'Scale of Time\infinity_tools.zs' with priority 0
+[23:25:13.025][INFO]: Loading file 'Scale of Time\terra_steel.zs' with priority 0
+[23:25:13.150][INFO]: Adding Shaped Table recipe for <item:mythicbotany:alfsteel_helmet>
+[23:25:13.153][INFO]: Adding Shaped Table recipe for <item:mythicbotany:alfsteel_chestplate>
+[23:25:13.154][INFO]: Adding Shaped Table recipe for <item:mythicbotany:alfsteel_leggings>
+[23:25:13.154][INFO]: Adding Shaped Table recipe for <item:mythicbotany:alfsteel_boots>
+[23:25:13.154][INFO]: Adding Shaped Table recipe for <item:mythicbotany:alfsteel_sword>
+[23:25:13.154][INFO]: Adding Shaped Table recipe for <item:mythicbotany:alfsteel_pick>
+[23:25:13.160][INFO]: Removing 'smithing' recipes with output: '<item:mythicbotany:alfsteel_helmet>'
+[23:25:13.164][INFO]: Removing 'smithing' recipes with output: '<item:mythicbotany:alfsteel_chestplate>'
+[23:25:13.164][INFO]: Removing 'smithing' recipes with output: '<item:mythicbotany:alfsteel_leggings>'
+[23:25:13.165][INFO]: Removing 'smithing' recipes with output: '<item:mythicbotany:alfsteel_boots>'
+[23:25:13.165][INFO]: Removing 'smithing' recipes with output: '<item:mythicbotany:alfsteel_pick>'
+[23:25:13.165][INFO]: Removing 'smithing' recipes with output: '<item:mythicbotany:alfsteel_sword>'
+[23:25:13.166][INFO]: Adding Shaped Table recipe for <item:ars_nouveau:enchanting_apparatus>
+[23:25:13.166][INFO]: Adding Shaped Table recipe for <item:ars_nouveau:arcane_core>
+[23:25:13.172][INFO]: Adding Shaped Table recipe for <item:ars_nouveau:scribes_table>
+[23:25:13.173][INFO]: Adding Shaped Table recipe for <item:ars_nouveau:alteration_table>
+[23:25:13.173][INFO]: Adding Shaped Table recipe for <item:ars_nouveau:imbuement_chamber>
+[23:25:13.173][INFO]: Removing 'crafting' recipes with output: '<item:ars_nouveau:scribes_table>'
+[23:25:13.175][INFO]: Removing 'crafting' recipes with output: '<item:ars_nouveau:arcane_core>'
+[23:25:13.177][INFO]: Removing 'crafting' recipes with output: '<item:ars_nouveau:enchanting_apparatus>'
+[23:25:13.179][INFO]: Removing 'crafting' recipes with output: '<item:ars_nouveau:alteration_table>'
+[23:25:13.181][INFO]: Removing 'crafting' recipes with output: '<item:ars_nouveau:scribes_table>'
+[23:25:13.182][INFO]: Removing 'crafting' recipes with output: '<item:ars_nouveau:imbuement_chamber>'
+[23:25:13.192][INFO]: Adding Shaped Table recipe for <item:botania:flight_tiara>.withTag({"variant": 0})
+[23:25:13.193][INFO]: Removing 'crafting' recipes with output: '<item:botania:flight_tiara>'
+[23:25:13.202][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiara_1' that outputs: '<item:botania:flight_tiara>.withTag({"variant": 1})'
+[23:25:13.204][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiara_2' that outputs: '<item:botania:flight_tiara>.withTag({"variant": 2})'
+[23:25:13.205][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiara_3' that outputs: '<item:botania:flight_tiara>.withTag({"variant": 3})'
+[23:25:13.206][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiara_4' that outputs: '<item:botania:flight_tiara>.withTag({"variant": 4})'
+[23:25:13.207][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiara_5' that outputs: '<item:botania:flight_tiara>.withTag({"variant": 5})'
+[23:25:13.207][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiara_6' that outputs: '<item:botania:flight_tiara>.withTag({"variant": 6})'
+[23:25:13.209][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiara_7' that outputs: '<item:botania:flight_tiara>.withTag({"variant": 7})'
+[23:25:13.210][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:tiara_8' that outputs: '<item:botania:flight_tiara>.withTag({"variant": 8})'
+[23:25:13.211][INFO]: Adding Shaped Table recipe for <item:industrialforegoing:infinity_drill>.withTag({CanCharge: 1, Special: 0, Selected: "POOR", Energy: 0, Fluid: {FluidName: "biofuel", Amount: 0}})
+[23:25:13.211][INFO]: Adding Shaped Table recipe for <item:industrialforegoing:infinity_saw>.withTag({CanCharge: 1, Special: 0, Selected: "POOR", Energy: 0, Fluid: {FluidName: "biofuel", Amount: 0}})
+[23:25:13.211][INFO]: Adding Shaped Table recipe for <item:industrialforegoing:infinity_hammer>.withTag({CanCharge: 1, Energy: 0, Fluid: {FluidName: "biofuel", Amount: 0}, Special: 0, Selected: "POOR", Beheading: 0})
+[23:25:13.211][INFO]: Adding Shaped Table recipe for <item:industrialforegoing:infinity_trident>.withTag({CanCharge: 1, Riptide: 0, Channeling: 0, Energy: 0, Fluid: {FluidName: "biofuel", Amount: 0}, Special: 0, Selected: "POOR", Loyalty: 0})
+[23:25:13.212][INFO]: Adding Shaped Table recipe for <item:industrialforegoing:infinity_nuke>.withTag({CanCharge: 1, Special: 0, Selected: "POOR", Energy: 0, Fluid: {FluidName: "biofuel", Amount: 0}})
+[23:25:13.214][INFO]: Removing 'industrialforegoing:dissolution_chamber' recipes with output: '<item:industrialforegoing:infinity_hammer>'
+[23:25:13.214][INFO]: Removing 'industrialforegoing:dissolution_chamber' recipes with output: '<item:industrialforegoing:infinity_trident>'
+[23:25:13.214][INFO]: Removing 'industrialforegoing:dissolution_chamber' recipes with output: '<item:industrialforegoing:infinity_saw>'
+[23:25:13.214][INFO]: Removing 'industrialforegoing:dissolution_chamber' recipes with output: '<item:industrialforegoing:infinity_drill>'
+[23:25:13.215][INFO]: Removing 'industrialforegoing:dissolution_chamber' recipes with output: '<item:industrialforegoing:infinity_backpack>'
+[23:25:13.215][INFO]: Removing 'industrialforegoing:dissolution_chamber' recipes with output: '<item:industrialforegoing:infinity_nuke>'
+[23:25:13.215][INFO]: Adding Shaped Table recipe for <item:botania:terra_sword>
+[23:25:13.215][INFO]: Adding Shaped Table recipe for <item:botania:terra_pick>
+[23:25:13.215][INFO]: Removing 'crafting' recipes with output: '<item:botania:terra_sword>'
+[23:25:13.218][INFO]: Removing 'crafting' recipes with output: '<item:botania:terra_pick>'
+[23:25:13.219][INFO]: Execution for loader 'crafttweaker' completed successfully
+[23:25:13.227][INFO]: This reload was made possible by embeddedt and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod

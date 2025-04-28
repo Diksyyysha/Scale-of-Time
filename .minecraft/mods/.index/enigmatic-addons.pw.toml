@@ -1,0 +1,13 @@
+filename = 'enigmaticaddons-1.19.2-1.2.0.jar'
+name = 'Enigmatic Addons'
+side = 'both'
+
+[download]
+hash = 'befde87d425860a1c44e6e47a67a7161d2357315'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6035247
+project-id = 1030121

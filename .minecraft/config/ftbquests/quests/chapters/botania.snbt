@@ -1,0 +1,974 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "54209D604C333018"
+	icon: {
+		Count: 1b
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	id: "6C95664ADC69698A"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.3d
+			hover: [ ]
+			image: "ftbquests:textures/item/terraplita.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "botania:block/white_mystical_flower"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -0.8142857142857167d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: -45.0d
+			width: 1.0d
+			x: 20.89795918367347d
+			y: 1.9693877551020407d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: -45.0d
+			width: 1.0d
+			x: 20.897959183673457d
+			y: 0.9897959183673493d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: -45.0d
+			width: 1.0d
+			x: 20.908163265306115d
+			y: 1.525510204081634d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: -45.0d
+			width: 1.0d
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: -45.0d
+			width: 1.0d
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: -45.0d
+			width: 1.0d
+			x: 17.01020408163265d
+			y: 1.5459183673469354d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 45.0d
+			width: 1.0d
+			x: 19.46938775510202d
+			y: 2.4387755102040742d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 45.0d
+			width: 1.0d
+			x: 20.448979591836718d
+			y: 2.4387755102040742d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 45.0d
+			width: 1.0d
+			x: 18.489795918367328d
+			y: 2.4387755102040742d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 45.0d
+			width: 1.0d
+			x: 17.51020408163263d
+			y: 2.4387755102040742d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 45.0d
+			width: 1.0d
+			x: 17.95918367346936d
+			y: 2.4387755102040742d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 45.0d
+			width: 1.0d
+			x: 19.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 45.0d
+			width: 1.0d
+			x: 19.92244897959182d
+			y: 2.4224489795918345d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 45.0d
+			width: 1.0d
+			x: 20.428571428571416d
+			y: 0.4999999999999929d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 45.0d
+			width: 1.0d
+			x: 17.503401360544203d
+			y: 0.4914965986394506d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 45.0d
+			width: 1.0d
+			x: 19.897959183673443d
+			y: 0.4999999999999929d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 45.0d
+			width: 1.0d
+			x: 19.45578231292515d
+			y: 0.4914965986394506d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 45.0d
+			width: 1.0d
+			x: 18.47959183673467d
+			y: 0.4914965986394506d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 45.0d
+			width: 1.0d
+			x: 18.999999999999986d
+			y: 0.4999999999999929d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:item/hdpe_stick"
+			rotation: 45.0d
+			width: 1.0d
+			x: 17.95918367346936d
+			y: 0.4999999999999929d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.3d
+			hover: [ ]
+			image: "ftbquests:textures/item/mana_infuser.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.3d
+			hover: [ ]
+			image: "ftbquests:textures/item/alfheim_portal.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: 19.0d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "botania:item/spark_upgrade_rune_dispersive"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "botania:item/spark_upgrade_rune_dominant"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "botania:item/spark_upgrade_rune_isolated"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "botania:item/spark_upgrade_rune_recessive"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -3.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [" Блуждаю по миру вы можете наткнуться на магические цветы. &aОщущение будто я коснулся чего-то мистического?.."]
+			id: "3B59A583494E7FD9"
+			tasks: [{
+				id: "0D92BA6CC88506E3"
+				title: "Мистические растения!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B59A583494E7FD9"]
+			description: [" Хмм... Что можно с этим сделать? Возможно налить воды и смешать с лепестками разных цветочков??"]
+			id: "66CD3ED3E3E73CB7"
+			tasks: [{
+				id: "121F9F1B57FC107B"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66CD3ED3E3E73CB7"]
+			description: [" Выглядит очень странно и интересно... Попробую посадить его и обложить вокруг камнем/древесиной."]
+			id: "0563F0FE59623813"
+			tasks: [{
+				id: "315674D97AD62871"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0563F0FE59623813"]
+			description: ["Удивительно, но это сработало!!!"]
+			id: "151E8E326F1A0AD2"
+			tasks: [
+				{
+					id: "6486E53EB8CE7A08"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					id: "5C338E9D1484FAAF"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			title: "Жизнь!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["151E8E326F1A0AD2"]
+			id: "74832169D8A0C025"
+			tasks: [{
+				id: "7505C282EB750913"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["151E8E326F1A0AD2"]
+			id: "2B953A76843F445C"
+			tasks: [{
+				id: "2568C142C2AC577A"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2B953A76843F445C"
+				"74832169D8A0C025"
+			]
+			id: "3139D7850BF73AB9"
+			tasks: [{
+				id: "5F59015733461CCB"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"74832169D8A0C025"
+				"2B953A76843F445C"
+			]
+			id: "219DE1D806843B96"
+			tasks: [{
+				id: "32DC9A31677370B5"
+				item: "botania:mana_powder"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"74832169D8A0C025"
+				"2B953A76843F445C"
+			]
+			id: "1FE8E3031230DFED"
+			tasks: [{
+				id: "42FFC29578ED157C"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2B953A76843F445C"
+				"74832169D8A0C025"
+			]
+			id: "5587C6E508CE916C"
+			tasks: [{
+				id: "31CB2FA6EDF1F90C"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00B8C79C4553F433"]
+			description: [" Цветок, который генерирует ману если будет рядом вода."]
+			id: "72B6D877A1591133"
+			tasks: [{
+				id: "3F1669801278B3A0"
+				item: "botania:hydroangeas"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["66CD3ED3E3E73CB7"]
+			description: [" В это время была &bмана&f?.. Звучит сложно, но на деле оказалось все проще."]
+			id: "00B8C79C4553F433"
+			tasks: [{
+				id: "74BD072BCE434F1B"
+				title: "Цветы вырабатывающие ману!"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0ECD571E3FF5629B"]
+			description: [" С помощью него можно управлять разными механизмами из этого мода."]
+			id: "4EE4A3E51D257631"
+			tasks: [{
+				id: "5B3D3536711A3437"
+				item: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["151E8E326F1A0AD2"]
+			id: "0ECD571E3FF5629B"
+			tasks: [{
+				id: "4433BD4A8EBA02AC"
+				item: "botania:livingwood_twig"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00B8C79C4553F433"]
+			description: [" Цветок, который генерирует ману используя горящие предметы. (по типу уголь, доски, палки, бревна и т.п.)"]
+			id: "6DF255311B1EA37F"
+			tasks: [{
+				id: "4921D0D14D4AB808"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5587C6E508CE916C"
+				"1FE8E3031230DFED"
+				"60C081B51E2CF6B8"
+			]
+			dependency_requirement: "one_completed"
+			description: [" С помощью него можно сделать руны."]
+			id: "5263BD9D86087E68"
+			tasks: [{
+				id: "281D739F50292956"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["281D739F50292956"]
+			id: "6EDAE04B380C0512"
+			tasks: [{
+				id: "3995584436D5C90D"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["281D739F50292956"]
+			id: "585468B690E2C7EF"
+			tasks: [{
+				id: "1A673A2871E5BA3A"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["281D739F50292956"]
+			id: "14BCD5A23E427E8A"
+			tasks: [{
+				id: "1F3F370F1CAB993F"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["281D739F50292956"]
+			id: "1972798BAA8205E4"
+			tasks: [{
+				id: "421DD2A6F2D682D3"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["281D739F50292956"]
+			id: "29843E4006D1FB03"
+			tasks: [{
+				id: "4CC916921481C89F"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6EDAE04B380C0512"
+				"1972798BAA8205E4"
+				"14BCD5A23E427E8A"
+				"29843E4006D1FB03"
+				"585468B690E2C7EF"
+			]
+			icon: "botania:terra_plate"
+			id: "30D3C1DA13F8343F"
+			tasks: [
+				{
+					id: "15540CC789807F6E"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "545D3271A8AE7AC5"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "709248F13CD4709A"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2B953A76843F445C"
+				"74832169D8A0C025"
+			]
+			id: "60C081B51E2CF6B8"
+			tasks: [{
+				id: "625A366FF460848F"
+				item: "botanicalmachinery:mana_emerald"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"00B8C79C4553F433"
+				"1A673A2871E5BA3A"
+				"39D379123631E4B8"
+			]
+			description: [" Цветок, который вырабатывает ману за счет того, что кушает разную еду."]
+			id: "0F49ED3CE506B789"
+			tasks: [{
+				id: "18BB440B39C596DC"
+				item: "botania:gourmaryllis"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3995584436D5C90D"
+				"1A673A2871E5BA3A"
+			]
+			id: "2F54B3CB04A68D70"
+			tasks: [{
+				id: "6DE14D354D6F34A5"
+				item: "botania:rune_spring"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1F3F370F1CAB993F"
+				"421DD2A6F2D682D3"
+			]
+			id: "0483F619541455E9"
+			tasks: [{
+				id: "39D379123631E4B8"
+				item: "botania:rune_summer"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"421DD2A6F2D682D3"
+				"1A673A2871E5BA3A"
+			]
+			id: "4195BB168BDF8989"
+			tasks: [{
+				id: "6728B21CF19D2B88"
+				item: "botania:rune_autumn"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3995584436D5C90D"
+				"1F3F370F1CAB993F"
+			]
+			id: "68B346C497251723"
+			tasks: [{
+				id: "56C7D9B1315EEEC8"
+				item: "botania:rune_winter"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"39D379123631E4B8"
+				"421DD2A6F2D682D3"
+			]
+			id: "613D4488B63B40BA"
+			tasks: [{
+				id: "425067D6AB65B2FA"
+				item: "botania:rune_lust"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"56C7D9B1315EEEC8"
+				"1A673A2871E5BA3A"
+			]
+			id: "34DD19C5F03AD389"
+			tasks: [{
+				id: "65CA658340509DFB"
+				item: "botania:rune_gluttony"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3995584436D5C90D"
+				"6DE14D354D6F34A5"
+			]
+			id: "6311B106E551F9BB"
+			tasks: [{
+				id: "7E9286E6B876C7E9"
+				item: "botania:rune_greed"
+				type: "item"
+			}]
+			x: 29.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6728B21CF19D2B88"
+				"421DD2A6F2D682D3"
+			]
+			id: "66254B68F9D06C88"
+			tasks: [{
+				id: "195250495D3650CE"
+				item: "botania:rune_sloth"
+				type: "item"
+			}]
+			x: 29.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"56C7D9B1315EEEC8"
+				"1F3F370F1CAB993F"
+			]
+			id: "67D19071DDE7D3BC"
+			tasks: [{
+				id: "1CB61919EDAE7EB3"
+				item: "botania:rune_wrath"
+				type: "item"
+			}]
+			x: 28.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"56C7D9B1315EEEC8"
+				"3995584436D5C90D"
+			]
+			id: "024BEB9EC433CC8E"
+			tasks: [{
+				id: "0531D38076321F8E"
+				item: "botania:rune_envy"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"39D379123631E4B8"
+				"1A673A2871E5BA3A"
+			]
+			id: "02AE428CA49A49FD"
+			tasks: [{
+				id: "536C97235071C0FC"
+				item: "botania:rune_pride"
+				type: "item"
+			}]
+			x: 28.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15540CC789807F6E"]
+			id: "6A9B7190D685F953"
+			tasks: [{
+				id: "0D342AAAB62AC0CA"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0483F619541455E9"
+				"2F54B3CB04A68D70"
+				"68B346C497251723"
+				"4195BB168BDF8989"
+				"7504AC903E72E28F"
+			]
+			icon: "mythicbotany:mana_infuser"
+			id: "79F53177796AE62D"
+			tasks: [
+				{
+					id: "00F9E3B2ACC2FA5A"
+					item: "mythicbotany:mana_infuser"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3B9AAACB94C83362"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "62BDA24EA772C89A"
+					item: "botania:shimmerrock"
+					type: "item"
+				}
+				{
+					id: "7B084063F6E81F88"
+					item: "botania:spark"
+					type: "item"
+				}
+				{
+					id: "184B6988BC6D422D"
+					item: "botania:spark_upgrade_dominant"
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"421DD2A6F2D682D3"
+				"6728B21CF19D2B88"
+				"536C97235071C0FC"
+			]
+			id: "7504AC903E72E28F"
+			tasks: [{
+				id: "64CBBDF8C9EE7512"
+				item: "mythicbotany:asgard_rune"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00F9E3B2ACC2FA5A"]
+			id: "47143C7AECF067A3"
+			tasks: [{
+				id: "2AE94FBBABC967DF"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0D92BA6CC88506E3"]
+			description: [" Удобный способ переносить ману из бассейнов в механизмы."]
+			id: "15CF089C660EE431"
+			tasks: [{
+				id: "695C0475F87BED3A"
+				item: "botania:spark"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A9B7190D685F953"]
+			icon: "botania:alfheim_portal"
+			id: "60E53E8E03525581"
+			tasks: [
+				{
+					id: "2F70A774A56FAC22"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "59817FFD50406B3A"
+					item: "botania:glimmering_livingwood"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5486EDDF62393056"
+					item: "botania:livingwood"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2EC9040BEACF885E"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7F898F12EDA80D62"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+			]
+			title: "Портал в Эльфхейм"
+			x: 19.0d
+			y: 5.0d
+		}
+	]
+	title: "&bBotania"
+}

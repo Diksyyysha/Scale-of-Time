@@ -1,0 +1,16 @@
+filename = 'L_Enders_Cataclysm-2.25-1.19.2.jar'
+name = "L_Ender 's Cataclysm"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e497b917cf9c2f2ed1eeb904db963dba51843f99'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5921717
+project-id = 551586

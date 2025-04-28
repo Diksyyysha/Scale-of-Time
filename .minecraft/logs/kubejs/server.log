@@ -1,0 +1,13 @@
+[23:25:07] [INIT] KubeJS 1902.6.2-build.73; MC 1902 forge
+[23:25:07] [INIT] Loaded plugins:
+[23:25:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[23:25:07] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[23:25:07] [INIT] - dev.latvian.kubejs.mekanism.MekanismKubeJSPlugin
+[23:25:07] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[23:25:07] [INIT] - com.sunekaer.sdrp.integration.kubejs.SDRPKubeJSIntegration
+[23:25:07] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[23:25:07] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
+[23:25:07] [INIT] - com.bobvarioa.kjsindustrialforegoing.KJSIndustrialForegoingPlugin
+[23:25:07] [INIT] - com.prunoideae.KubeJSBotaniaPlugin
+[23:25:08] [INFO] Loaded 0/0 KubeJS server scripts in 0.008 s
+[23:25:08] [INFO] Scripts loaded

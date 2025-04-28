@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "54209D604C333018", title: "1 стадия" }
+		{ id: "786039148FECCFBA", title: "2 стадия" }
+		{ id: "59F4B31CF7D0D74F", title: "Концовка" }
+	]
+}

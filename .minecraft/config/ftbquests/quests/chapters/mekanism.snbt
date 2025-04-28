@@ -1,0 +1,612 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "54209D604C333018"
+	icon: "mekanism:ultimate_enriching_factory"
+	id: "3316E8849AF2133E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "mekanism:energy_tablet"
+			id: "65A8EF176DF7E0AB"
+			rewards: [{
+				id: "7B835DDF6EBF6969"
+				type: "xp"
+				xp: 5
+			}]
+			size: 2.0d
+			subtitle: "Mekanism - технический мод."
+			tasks: [{
+				id: "06AAB3FB5D074364"
+				title: "Mekanism"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65A8EF176DF7E0AB"]
+			id: "6FE98ABF50A42EBD"
+			rewards: [{
+				count: 8
+				id: "11B143ED1E2CA5A5"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Первый способ выработки энергии."
+			tasks: [{
+				id: "62BB85DB18A86697"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6FE98ABF50A42EBD"]
+			id: "5329EC9BD9E981E1"
+			subtitle: "С помощью этого механизма можно получить разные сплавы."
+			tasks: [{
+				id: "6CA6BCDEE336A164"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5329EC9BD9E981E1"]
+			id: "5B469D40AB95704B"
+			rewards: [{
+				count: 8
+				id: "73D2DFDC6E745579"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DC86934D08AA55C"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5329EC9BD9E981E1"]
+			id: "479A57E065D461E5"
+			rewards: [{
+				count: 2
+				id: "54EBA49105A57F5D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14243BD7D0BE3269"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5329EC9BD9E981E1"
+				"72114239F2853E15"
+			]
+			id: "0381BE9DBF8FE5D2"
+			rewards: [{
+				count: 2
+				id: "5651E582BF88D127"
+				item: "mekanism:dust_refined_obsidian"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5997C35578C5D357"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10798D61B1E7F0DD"]
+			hide_dependency_lines: true
+			id: "72114239F2853E15"
+			tasks: [{
+				id: "4CB9BA9ADCAA0E88"
+				item: "mekanism:dust_refined_obsidian"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5329EC9BD9E981E1"]
+			id: "7E8199EA9E1FB7A5"
+			rewards: [{
+				count: 2
+				id: "1BABB165EB6D9C21"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "289C898D44B18871"
+				item: "mekanism:dust_steel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7E8199EA9E1FB7A5"]
+			id: "76722BE98E0B5F42"
+			rewards: [{
+				count: 2
+				id: "1AA4AC66FA7EBE85"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			subtitle: "Корпус, который используется во всех механизмах этого мода."
+			tasks: [{
+				id: "51B8803B69698DF6"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["76722BE98E0B5F42"]
+			id: "10798D61B1E7F0DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65E44FD866EC373E"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			subtitle: "Основной полезный механизм. С помощью которого можно дробить предметы."
+			tasks: [{
+				id: "7897041408E3F6B0"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["76722BE98E0B5F42"]
+			id: "529974AB7D0F0ADE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30FC6832B849DE53"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			subtitle: "Основной полезный механизм, с помощью которого можно обогащать руды."
+			tasks: [{
+				id: "4057079B6B543FFE"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["76722BE98E0B5F42"]
+			id: "191BACFFAEA4C7C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CD92084AF9DE547"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			subtitle: "Основной полезный механизм. С помощью которого можно плавить предметы."
+			tasks: [{
+				id: "4B5B6515BA3AE4D4"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5329EC9BD9E981E1"]
+			hide_dependency_lines: true
+			id: "1D7A65B0ED7F4BB5"
+			tasks: [{
+				id: "1210611412BBA6E0"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5B469D40AB95704B"
+				"1D7A65B0ED7F4BB5"
+			]
+			hide_dependency_lines: true
+			id: "61DC091513B008D3"
+			tasks: [{
+				id: "41A2BFAEB179CB30"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"61DC091513B008D3"
+				"479A57E065D461E5"
+			]
+			hide_dependency_lines: true
+			id: "195C0F9862D97809"
+			tasks: [{
+				id: "66DF0AEDE916EAC0"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"195C0F9862D97809"
+				"0381BE9DBF8FE5D2"
+			]
+			hide_dependency_lines: true
+			id: "2958B9165F6C25DC"
+			tasks: [{
+				id: "48ABA494CA8A47AC"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"191BACFFAEA4C7C7"
+				"1210611412BBA6E0"
+			]
+			id: "4A29179C9BC8C0F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36F99F05A936C9DF"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D488734D702CF88"
+				item: "mekanism:basic_smelting_factory"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"10798D61B1E7F0DD"
+				"1210611412BBA6E0"
+			]
+			id: "409A96461140C0A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1102D302FA34971B"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B85DAF70AD2E124"
+				item: "mekanism:basic_crushing_factory"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"529974AB7D0F0ADE"
+				"1210611412BBA6E0"
+			]
+			id: "1319D44C35F80699"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40CD5E538ADD00B2"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1C173EA75E792F4B"
+				item: "mekanism:basic_enriching_factory"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"41A2BFAEB179CB30"
+				"4A29179C9BC8C0F1"
+			]
+			id: "1A0404ECA7362D94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DA788EC1BCD0B10"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "66EA035B732468A8"
+				item: "mekanism:advanced_smelting_factory"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"66DF0AEDE916EAC0"
+				"1A0404ECA7362D94"
+			]
+			id: "5483F9132C718F27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0494A0D582562D90"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1F2856AE33D4FFD8"
+				item: "mekanism:elite_smelting_factory"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5483F9132C718F27"
+				"48ABA494CA8A47AC"
+			]
+			id: "58363DE204E0C40D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C8AC6EA857EA4B8"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72AEEAEC84CF8FFB"
+				item: "mekanism:ultimate_smelting_factory"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"409A96461140C0A6"
+				"41A2BFAEB179CB30"
+			]
+			id: "7DAAA1959F4C7142"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C26A17D1B98485E"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "77436EEBF4B73318"
+				item: "mekanism:advanced_crushing_factory"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"7DAAA1959F4C7142"
+				"66DF0AEDE916EAC0"
+			]
+			id: "5BD9ADEDC0C661ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30C613A32AC79D16"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31921CE5D86579ED"
+				item: "mekanism:elite_crushing_factory"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5BD9ADEDC0C661ED"
+				"48ABA494CA8A47AC"
+			]
+			id: "30A51CB6022384AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "534932F238188B7B"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "222324AED20383AF"
+				item: "mekanism:ultimate_crushing_factory"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1319D44C35F80699"
+				"41A2BFAEB179CB30"
+			]
+			id: "1667B1818F9CBB13"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "105DC0E7DBA8C165"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70CFC6D0C578E461"
+				item: "mekanism:advanced_enriching_factory"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1667B1818F9CBB13"
+				"66DF0AEDE916EAC0"
+			]
+			id: "42EF9D940991EAA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "479B5CEBFC4AB11F"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55348208224DE397"
+				item: "mekanism:elite_enriching_factory"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"42EF9D940991EAA6"
+				"48ABA494CA8A47AC"
+			]
+			id: "7B1F69203A36FC5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A2ACDEF60D7425B"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "60CBDA8F661E755F"
+				item: "mekanism:ultimate_enriching_factory"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["140576223C365E4A"]
+			id: "40CD192E95473DD4"
+			subtitle: "Не плохой способ выработать энергию на начальной стадии развития."
+			tasks: [{
+				id: "6E5FF4AA716E5828"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B469D40AB95704B"]
+			hide_dependency_lines: true
+			id: "140576223C365E4A"
+			tasks: [{
+				id: "52A0A8DC68AD4585"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["140576223C365E4A"]
+			id: "0031FD8E2CC68594"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "304752ACF0FB8085"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			subtitle: "Хороший способ хранения энергии."
+			tasks: [{
+				id: "06CED2826FFF318E"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"140576223C365E4A"
+				"0381BE9DBF8FE5D2"
+			]
+			id: "1A37DFE9E064526D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36548593B94680A5"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			subtitle: "Мультинструмент, который копает очень быстро. Чтобы сменить его скорость зажмите SHIFT и крутите колесиком мыши."
+			tasks: [{
+				id: "56D67DCB4A13B914"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["140576223C365E4A"]
+			id: "065B70A9AA8BE8E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7600D65DFFD35557"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			subtitle: "С помощью него можно удобно настраивать свои механизмы, а так же разные трубы."
+			tasks: [{
+				id: "26DF84664EAF585F"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["140576223C365E4A"]
+			id: "1F70574DB2132758"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BA9A82F3F1A1083"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			subtitle: "Лук, которому вместо стрел нужна энергия."
+			tasks: [{
+				id: "17BA1CAA37EA1C9D"
+				item: "mekanism:electric_bow"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+	]
+	title: "Mekanism"
+}

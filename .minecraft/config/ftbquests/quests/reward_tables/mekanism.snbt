@@ -1,0 +1,16 @@
+{
+	id: "07F3E9CA797707EF"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "mekanism:alloy_infused", weight: 3.0f }
+		{ item: "mekanism:alloy_reinforced", weight: 2.0f }
+		{ item: "mekanism:alloy_atomic", weight: 0.75f }
+		{ item: "mekanism:dust_steel", weight: 3.0f }
+		{ item: "mekanism:basic_control_circuit", weight: 2.0f }
+		{ item: "mekanism:advanced_control_circuit" }
+		{ item: "mekanism:elite_control_circuit", weight: 0.5f }
+		{ item: "mekanism:ultimate_control_circuit", weight: 0.1f }
+	]
+	title: "Mekanism"
+}

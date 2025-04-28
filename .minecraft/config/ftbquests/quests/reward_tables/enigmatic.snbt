@@ -1,0 +1,20 @@
+{
+	id: "29901C3FC0B6A037"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:lore_fragment"
+				tag: {
+					display: { }
+				}
+			}
+			weight: 5.0f
+		}
+		{ item: "enigmaticlegacy:iron_ring", weight: 1.5f }
+		{ item: "enigmaticaddons:earth_heart_fragment", weight: 0.25f }
+	]
+	title: "Enigmatic"
+}

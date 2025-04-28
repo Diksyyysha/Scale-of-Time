@@ -1,0 +1,13 @@
+filename = 'enchantedbookredesign-1.19.2-1.jar'
+name = 'Enchanted Book Redesign'
+side = 'both'
+
+[download]
+hash = '8a8e3b5e22276d7d953ab280d2705c137f22e45a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4693212
+project-id = 348076

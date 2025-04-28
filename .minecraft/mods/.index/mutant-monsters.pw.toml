@@ -1,0 +1,16 @@
+filename = 'MutantMonsters-v4.0.6-1.19.2-Forge.jar'
+name = 'Mutant Monsters [Forge & Fabric]'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '007fa9422c96aad74b8b0edc5a4ee36fcc5fc324'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4569847
+project-id = 852665

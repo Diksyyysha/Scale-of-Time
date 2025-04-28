@@ -1,0 +1,15 @@
+{
+	id: "6EEC33152430F172"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "solarpanels:carbone_solar_element", weight: 5.0f }
+		{ item: "solarpanels:hybrid_solar_element", weight: 3.0f }
+		{ item: "solarpanels:improved_hybrid_solar_element", weight: 1.5f }
+		{ item: "solarpanels:quantum_solar_element", weight: 0.4f }
+		{ item: "solarpanels:spectral_solar_element", weight: 0.3f }
+		{ item: "solarpanels:light_absorbing_solar_element", weight: 0.1f }
+		{ item: "solarpanels:photonic_solar_element", weight: 0.05f }
+	]
+	title: "Mekanism: Солнечные панели"
+}

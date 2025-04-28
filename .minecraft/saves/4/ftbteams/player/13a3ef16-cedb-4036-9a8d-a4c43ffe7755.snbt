@@ -1,0 +1,17 @@
+{
+	id: "13a3ef16-cedb-4036-9a8d-a4c43ffe7755"
+	type: "player"
+	player_name: "D1kyyysha"
+	ranks: {
+		13a3ef16-cedb-4036-9a8d-a4c43ffe7755: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "D1kyyysha"
+		"ftbteams:description": ""
+		"ftbteams:color": "#CEFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

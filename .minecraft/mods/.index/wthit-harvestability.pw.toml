@@ -1,0 +1,13 @@
+filename = 'wthitharvestability-mc1.19.2-2.1.0.jar'
+name = 'WTHIT Harvestability'
+side = 'both'
+
+[download]
+hash = '86629477109392b14800f3d5a917e7721022fa15'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3960349
+project-id = 666621

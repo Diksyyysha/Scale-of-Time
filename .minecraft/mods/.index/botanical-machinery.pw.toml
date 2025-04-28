@@ -1,0 +1,13 @@
+filename = 'BotanicalMachinery-1.19.2-2.0.5.jar'
+name = 'Botanical Machinery'
+side = 'both'
+
+[download]
+hash = 'c53fe60ac6bc8b75b9dbe3ab9df4a89a78f67537'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5220832
+project-id = 395617
