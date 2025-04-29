@@ -27,13 +27,13 @@
 
 [Stamina_HUD_Configuration]
 	#Allowed Values: Normal, Light, Hide
-	stamina_hud_type = "Light"
+	stamina_hud_type = "Normal"
 	#horizontal alignment
 	#Allowed Values: Left, Right
-	align_h_s_hud = "Right"
+	align_h_s_hud = "Left"
 	#vertical alignment
 	#Allowed Values: Top, Bottom
-	align_v_s_hud = "Bottom"
+	align_v_s_hud = "Top"
 	hide_hud_if_stamina_infinite = true
 	#horizontal offset of normal HUD
 	#Range: 0 ~ 100

@@ -5,10 +5,11 @@
 	group: "786039148FECCFBA"
 	icon: "ars_nouveau:creative_spell_book"
 	id: "3CEF855BE1798414"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["378F86FFCC2A3932"]
 			description: [" Чтобы начать изучать магию вам понадобится эта книга, в ней ты сможешь хранить и создавать свои &eзаклинания"]
 			id: "7463837C46345755"
 			tasks: [{
@@ -84,7 +85,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0DEE1EAE195A6D92"]
@@ -96,7 +97,7 @@
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -108,7 +109,7 @@
 				item: "ars_nouveau:source_gem"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -120,7 +121,7 @@
 				type: "checkmark"
 			}]
 			x: -2.0d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -131,7 +132,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -142,7 +143,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -153,7 +154,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -164,7 +165,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -175,7 +176,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -7.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -186,7 +187,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -7.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -197,7 +198,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -7.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -208,7 +209,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -219,7 +220,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -230,7 +231,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -241,7 +242,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -9.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -252,7 +253,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -9.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -263,7 +264,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -9.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -274,7 +275,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -10.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -285,7 +286,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -10.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -296,7 +297,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -10.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -307,7 +308,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -11.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -318,7 +319,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -11.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -329,7 +330,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -11.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -340,7 +341,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -12.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -351,7 +352,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -12.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -362,7 +363,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -12.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -373,7 +374,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -13.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -384,7 +385,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -13.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -395,7 +396,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -13.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -406,7 +407,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -14.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -417,7 +418,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -14.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -428,7 +429,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -14.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -439,7 +440,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -15.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -450,7 +451,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -15.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -461,7 +462,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -15.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["2F423A6DA86E409D"]
@@ -472,7 +473,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -16.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["1B841CE97AF31255"]
@@ -483,7 +484,7 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -494,7 +495,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -505,7 +506,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -516,7 +517,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -527,7 +528,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -538,7 +539,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -549,7 +550,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -560,7 +561,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -7.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -571,7 +572,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -7.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -582,7 +583,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -7.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -593,7 +594,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -604,7 +605,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -9.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -615,7 +616,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -10.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -626,7 +627,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -10.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -637,7 +638,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -10.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -648,7 +649,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -11.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -659,7 +660,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -11.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -670,7 +671,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -11.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -681,7 +682,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -12.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -692,7 +693,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -12.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -703,7 +704,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -12.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -714,7 +715,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -13.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -725,7 +726,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -13.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -736,7 +737,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -13.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -747,7 +748,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -14.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -758,7 +759,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -14.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -769,7 +770,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -14.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -780,7 +781,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -15.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -791,7 +792,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -15.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -802,7 +803,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -15.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -813,7 +814,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -16.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -824,7 +825,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -16.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -835,7 +836,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -16.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -846,7 +847,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -17.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -857,7 +858,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -17.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -868,7 +869,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -17.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -879,7 +880,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -18.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -890,7 +891,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -18.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["2AE56532511CAF67"]
@@ -901,7 +902,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -18.0d
+			y: -22.0d
 		}
 		{
 			dependencies: ["1B841CE97AF31255"]
@@ -912,7 +913,7 @@
 				type: "checkmark"
 			}]
 			x: 6.0d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -923,7 +924,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -934,7 +935,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -945,7 +946,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -956,7 +957,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -7.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -967,7 +968,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -978,7 +979,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -989,7 +990,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -1000,7 +1001,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -9.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -1011,7 +1012,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -9.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -1022,7 +1023,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -9.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -1033,7 +1034,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -10.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -1044,7 +1045,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -10.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -1055,7 +1056,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -10.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -1066,7 +1067,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -11.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -1077,7 +1078,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -11.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -1088,7 +1089,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -11.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -1099,7 +1100,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -12.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["56B539332C5883D1"]
@@ -1110,7 +1111,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -12.0d
+			y: -16.0d
 		}
 		{
 			dependencies: [
@@ -1142,7 +1143,7 @@
 				}
 			]
 			title: "Чародейский аппарат"
-			x: 8.0d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
@@ -1153,8 +1154,8 @@
 				item: "ars_nouveau:sourcestone"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 16.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["03F7CAC2ED33A645"]
@@ -1164,8 +1165,885 @@
 				item: "ars_nouveau:magebloom_crop"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 18.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["70A14DA5E3743BB2"]
+			id: "5F45050697116733"
+			tasks: [{
+				id: "67278E4E3997D94A"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["141440E7A1D1B25B"]
+			description: [" Генерирует &dИсток &fблагодаря сжиганию горющих блоков, предметов."]
+			id: "5E87BB7E73B6101F"
+			tasks: [{
+				id: "77BF44FCD645E2A9"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["141440E7A1D1B25B"]
+			description: [" Генерирует &dИсток &fблагодаря росту урожая и деревьев."]
+			id: "7F10733C49A1BCDF"
+			tasks: [{
+				id: "5E15A674AD23CACE"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["141440E7A1D1B25B"]
+			description: [" Генерирует &dИсток &fблагодаря поглощение зелий из соседних банок с зельями."]
+			id: "75BA10C45E3C14D1"
+			tasks: [{
+				id: "3DDFEBBC5A3B7D08"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["141440E7A1D1B25B"]
+			description: [" Генерирует &dИсток &fблагодаря убийству мобов и разведению животных."]
+			id: "23E374F0E7F1D896"
+			tasks: [{
+				id: "59A4EE5E37FBDE68"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["141440E7A1D1B25B"]
+			description: [" Генерирует &dИсток &fблагодаря поглощению еды."]
+			id: "50869C575438EEEE"
+			tasks: [{
+				id: "70BA956B833C26B9"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1942EB13C94BB458"]
+			id: "21D49CE526AFFE1D"
+			tasks: [{
+				id: "44C6D3D35C7ED5B4"
+				item: "ars_nouveau:water_essence"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1942EB13C94BB458"]
+			id: "1ECA766954CF4C08"
+			tasks: [{
+				id: "2E7B4F86B210B118"
+				item: "ars_nouveau:fire_essence"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1942EB13C94BB458"]
+			id: "11F185A0EA811D7A"
+			tasks: [{
+				id: "7853CBE3315A3799"
+				item: "ars_nouveau:earth_essence"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1942EB13C94BB458"]
+			id: "4EA1F8EE1CC36765"
+			tasks: [{
+				id: "6D6DD8EB294BF831"
+				item: "ars_nouveau:air_essence"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1942EB13C94BB458"]
+			id: "454D7D1EE2334FBF"
+			tasks: [{
+				id: "3820281E1408539E"
+				item: "ars_nouveau:abjuration_essence"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1942EB13C94BB458"]
+			id: "5169A2E2ED845BC4"
+			tasks: [{
+				id: "053A9019F048C5E6"
+				item: "ars_nouveau:conjuration_essence"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1942EB13C94BB458"]
+			id: "4336C1D6020C7ACA"
+			tasks: [{
+				id: "6B01FD5B856190D0"
+				item: "ars_nouveau:manipulation_essence"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1942EB13C94BB458"]
+			id: "6547200E7CA5E7C5"
+			tasks: [{
+				id: "66945CD7121E8D6B"
+				item: "ars_elemental:anima_essence"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["141440E7A1D1B25B"]
+			description: [" Позволяет привязаться к любой точке мира с помощью комбинации Shift + ПКМ, а затем мгновенно телепортироваться к ней из любого места, потратив сам свиток."]
+			id: "0E2269C7178D613D"
+			tasks: [{
+				id: "14018DBF6A8A4076"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"60817DF4EBA4164E"
+				"0E2269C7178D613D"
+			]
+			description: [" Создает портал не тратя свиток, в который можно войти и попасть к привязанным координатам."]
+			id: "6F4DF6A9ADCCE602"
+			tasks: [{
+				id: "6A8BE490EE882781"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:stable_warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F45050697116733"]
+			id: "2E2B1F298EE407DA"
+			tasks: [
+				{
+					id: "359AD635EDC411D9"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3421515238DBDB29"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36CC6F61826229C5"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AB23327CA6D5BF0"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Комплект брони чародея 1 уровня"
+			x: 21.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F45050697116733"]
+			id: "1A815EE1CF604CE6"
+			tasks: [
+				{
+					id: "074F84A239697E13"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48634B5944442143"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43F073DA2B3D9F4C"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6889E1725FD88FA6"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Комплект брони колдуна 1 уровня"
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F45050697116733"]
+			id: "2E08BB1601EEC864"
+			tasks: [
+				{
+					id: "2CC0152E27E96BD5"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47C7D5317C743959"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B09E64680FD7BE2"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "735685F94F637F50"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Комплект брони боевого мага 1 уровня"
+			x: 21.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2E08BB1601EEC864"
+				"1A815EE1CF604CE6"
+				"2E2B1F298EE407DA"
+			]
+			description: [" Комплекты брони 2 и 3 уровня делаются на чародейском аппарате, подробный рецепт находится в JEI."]
+			id: "523BCDA7CA265EEF"
+			tasks: [{
+				id: "6370328046FFA55A"
+				type: "checkmark"
+			}]
+			title: "Комплекты брони 2, 3 уровня"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"523BCDA7CA265EEF"
+				"769BA204301CE4DD"
+			]
+			id: "636ADE456A5D7299"
+			tasks: [
+				{
+					id: "12559C284B980A3B"
+					item: {
+						Count: 1b
+						id: "ars_elemental:fire_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "201AD063833855C9"
+					item: {
+						Count: 1b
+						id: "ars_elemental:fire_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13F5902053A4A9B9"
+					item: {
+						Count: 1b
+						id: "ars_elemental:fire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C24CB48D4BE501C"
+					item: {
+						Count: 1b
+						id: "ars_elemental:fire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"523BCDA7CA265EEF"
+				"769BA204301CE4DD"
+			]
+			id: "2E72C14CF24703C4"
+			tasks: [
+				{
+					id: "37E2CC7A76E97495"
+					item: {
+						Count: 1b
+						id: "ars_elemental:air_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DD89EC6C40A57A7"
+					item: {
+						Count: 1b
+						id: "ars_elemental:air_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7124518D3E35DF08"
+					item: {
+						Count: 1b
+						id: "ars_elemental:air_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53DC8B8FDAFC7F45"
+					item: {
+						Count: 1b
+						id: "ars_elemental:air_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"523BCDA7CA265EEF"
+				"769BA204301CE4DD"
+			]
+			id: "34840F68781519AF"
+			tasks: [
+				{
+					id: "2D5E5246AE84C2CA"
+					item: {
+						Count: 1b
+						id: "ars_elemental:earth_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33CAC36C1A3CF0DC"
+					item: {
+						Count: 1b
+						id: "ars_elemental:earth_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25F246493F982DEF"
+					item: {
+						Count: 1b
+						id: "ars_elemental:earth_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A79AB90F64A6BFA"
+					item: {
+						Count: 1b
+						id: "ars_elemental:earth_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"523BCDA7CA265EEF"
+				"769BA204301CE4DD"
+			]
+			id: "23E31F467CD741AA"
+			tasks: [
+				{
+					id: "294CA493D1C83DC9"
+					item: {
+						Count: 1b
+						id: "ars_elemental:aqua_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4760957D1202F320"
+					item: {
+						Count: 1b
+						id: "ars_elemental:aqua_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78CA480A97761DA0"
+					item: {
+						Count: 1b
+						id: "ars_elemental:aqua_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CA345252CD6D0E0"
+					item: {
+						Count: 1b
+						id: "ars_elemental:aqua_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["141440E7A1D1B25B"]
+			description: [" Существует большое разнообразие &l&4ритуалов&r, которые могут помочь вам выжить в этом мире."]
+			id: "3B16BDE5DD0B5503"
+			tasks: [{
+				id: "6DA0BF5DA696A92D"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B16BDE5DD0B5503"]
+			description: [" Чтобы призвать Дикого, создайте скрижаль призыва, нажмите ПКМ по ритуальной жаровне и бросьте в неё рог, шип и крыло Дикаря. После этого появится босс, с которого выпадает &l&5дань уважения диким&r."]
+			icon: "ars_nouveau:wilden_tribute"
+			id: "0330479544A13698"
+			tasks: [
+				{
+					id: "1286589E52B702B4"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+				{
+					id: "681CE6E0282B9DBA"
+					item: "ars_nouveau:ritual_wilden_summon"
+					type: "item"
+				}
+				{
+					id: "133E87CC205068AD"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+				{
+					id: "1DA2DEEA1871E07C"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+				{
+					id: "7A3906B957D694B0"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1286589E52B702B4"
+				"44C6D3D35C7ED5B4"
+				"6D6DD8EB294BF831"
+				"7853CBE3315A3799"
+				"053A9019F048C5E6"
+				"6B01FD5B856190D0"
+				"66945CD7121E8D6B"
+				"2E7B4F86B210B118"
+				"3820281E1408539E"
+			]
+			id: "785027DBCCDE6C8A"
+			tasks: [{
+				count: 5L
+				id: "769BA204301CE4DD"
+				item: "ars_elemental:mark_of_mastery"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0DEE1EAE195A6D92"]
+			description: [" В нем можно хранить &l&dИсток&r."]
+			id: "33EBC06722DD2077"
+			tasks: [{
+				id: "7BDEDFDCC85CDDFB"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "378F86FFCC2A3932"
+			subtitle: "Документация Ars Nouveau"
+			tasks: [{
+				id: "5A1370BBFF1412E1"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03F7CAC2ED33A645"]
+			description: [" Инструмент для настройки Реле источника и автоматизации существ."]
+			id: "43412BB4DC6EC1DF"
+			tasks: [{
+				id: "700542C1D3B4ECD4"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1ECA766954CF4C08"]
+			id: "736AA05BA29C5010"
+			tasks: [{
+				id: "493E196575409069"
+				item: "ars_elemental:lesser_fire_focus"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["736AA05BA29C5010"]
+			id: "7B3164BB894508E8"
+			tasks: [{
+				id: "020A05E8F53BEE81"
+				item: "ars_elemental:fire_focus"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6547200E7CA5E7C5"]
+			id: "6597962650E25036"
+			tasks: [{
+				id: "0BBAB9BD5D1A751F"
+				item: "ars_elemental:necrotic_focus"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["21D49CE526AFFE1D"]
+			id: "4A36649F37D6B021"
+			tasks: [{
+				id: "46D6942D2B0651C7"
+				item: "ars_elemental:lesser_water_focus"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["11F185A0EA811D7A"]
+			id: "4BF0EC0A63710119"
+			tasks: [{
+				id: "15CFB0237C81BD7E"
+				item: "ars_elemental:lesser_earth_focus"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4BF0EC0A63710119"]
+			id: "67B4ADA852BCBF08"
+			tasks: [{
+				id: "47FFF5C2668D3F9A"
+				item: "ars_elemental:earth_focus"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A36649F37D6B021"]
+			id: "24F6621F611A0239"
+			tasks: [{
+				id: "5B117AE4302611D3"
+				item: "ars_elemental:water_focus"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4EA1F8EE1CC36765"]
+			id: "1D9135BC367C4F2D"
+			tasks: [{
+				id: "63EE99B64F8BF6FC"
+				item: "ars_elemental:lesser_air_focus"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D9135BC367C4F2D"]
+			id: "23CCDBCB7F123A40"
+			tasks: [{
+				id: "4A794D7D252592A3"
+				item: "ars_elemental:air_focus"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["141440E7A1D1B25B"]
+			id: "3E17F9637A1374ED"
+			tasks: [{
+				id: "1CF0E4784401889D"
+				item: "ars_nouveau:ring_of_potential"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3E17F9637A1374ED"
+				"60817DF4EBA4164E"
+			]
+			id: "4F31315397175208"
+			tasks: [{
+				id: "7D25B296CB10C308"
+				item: "ars_elemental:base_bangle"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7D25B296CB10C308"
+				"1ECA766954CF4C08"
+			]
+			id: "5B6345031F31BE8C"
+			tasks: [{
+				id: "000A9392027CA400"
+				item: "ars_elemental:fire_bangle"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7D25B296CB10C308"
+				"21D49CE526AFFE1D"
+			]
+			id: "5E416CAA7AA7CE59"
+			tasks: [{
+				id: "6359022C6F272B58"
+				item: "ars_elemental:water_bangle"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7D25B296CB10C308"
+				"11F185A0EA811D7A"
+			]
+			id: "1E406C87DDC735BB"
+			tasks: [{
+				id: "7D6D7A78958D91AF"
+				item: "ars_elemental:earth_bangle"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7D25B296CB10C308"
+				"4EA1F8EE1CC36765"
+			]
+			id: "76FF5DB158C7D93F"
+			tasks: [{
+				id: "74DF7A754EC55B7E"
+				item: "ars_elemental:air_bangle"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
 		}
 	]
 	title: "Ars Nouveau"

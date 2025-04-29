@@ -3,7 +3,7 @@
 	default_quest_shape: "octagon"
 	filename: "5A95BCB1F38BADF8"
 	group: ""
-	icon: "enigmaticlegacy:eye_of_nebula"
+	icon: "kubejs:scale_of_time"
 	id: "5A95BCB1F38BADF8"
 	order_index: 0
 	quest_links: [ ]
@@ -32,11 +32,12 @@
 				title: "Scale of time"
 				type: "checkmark"
 			}]
+			title: "Scale of Time"
 			x: 0.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["3FB4D1D4B26F3097"]
+			dependencies: ["171CE43D7C1A2B03"]
 			description: [
 				"Вы – член элитного отряда «Мордовороты», объединяющего самых сильных и умных воинов государства Артрит. На протяжении десятилетий Артрит сражается с Империей Зла, и затянувшаяся холодная война переходит в горячую фазу. В отчаянной попытке вырвать победу из рук врага, правительство решается на отчаянный шаг – проведение запрещённого ритуала, способного изменить ход истории."
 				""
@@ -46,7 +47,7 @@
 				""
 				"К счастью, у вас достаточно для этого времени, поэтому можно не торопиться. Верно же?"
 			]
-			icon: "kubejs:scale_of_time"
+			icon: "kubejs:scale_of_time_1"
 			id: "1D6D7DCAF5943B14"
 			rewards: [{
 				auto: "invisible"
@@ -54,7 +55,6 @@
 				id: "2FE485454A888320"
 				type: "command"
 			}]
-			shape: "square"
 			size: 3.0d
 			tasks: [{
 				id: "7880A3E0E6694E65"
@@ -124,7 +124,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: 0.5d
 		}
 	]
 	title: "Добро пожаловать"

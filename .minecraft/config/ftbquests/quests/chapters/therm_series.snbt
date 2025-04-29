@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "therm_series"
-	group: "786039148FECCFBA"
+	group: "54209D604C333018"
 	icon: "thermal:machine_frame"
 	id: "74D32109DB94E6A1"
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [ ]
 	title: "Thermal Series"
