@@ -1,0 +1,361 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_2"
+	group: "54209D604C333018"
+	icon: "solarpanels:photonic_solar_panel"
+	id: "657ED8CD3639FBC6"
+	images: [
+		{
+			alpha: 155
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "minecraft:block/sunflower_front"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanismgenerators:item/solar_panel"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "solarpanels:item/improved_hybrid_solar_element"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "solarpanels:item/light_absorbing_solar_element"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "solarpanels:item/quantum_solar_element"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "solarpanels:item/singular_solar_element"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "solarpanels:item/spectral_solar_element"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "solarpanels:item/photonic_solar_element"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "solarpanels:item/carbone_solar_element"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"140576223C365E4A"
+				"5B469D40AB95704B"
+			]
+			hide_dependency_lines: true
+			id: "1FF1911A0D174B23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2450FBE7891BFBD5"
+				table_id: 7992819604570304882L
+				type: "random"
+			}]
+			tasks: [{
+				id: "46CD67DA5A678FBD"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FF1911A0D174B23"]
+			id: "36B4F03B1E67B6A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CBD283892F33BBC"
+				table_id: 7992819604570304882L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3AFF70F23142CF9E"
+				item: "solarpanels:advanced_solar_panel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36B4F03B1E67B6A1"]
+			id: "720F3B6449A74217"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "445DB48B88268152"
+				table_id: 7992819604570304882L
+				type: "random"
+			}]
+			tasks: [{
+				id: "31BEAE3FA3E58C3C"
+				item: "solarpanels:hybrid_solar_panel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["720F3B6449A74217"]
+			id: "17B9384EAD880E7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CEA44A1F1E81B1C"
+				table_id: 7992819604570304882L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5CFE77B0E4ED045F"
+				item: "solarpanels:ultimate_hybrid_solar_panel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17B9384EAD880E7E"]
+			id: "0D35054D15C675FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A4D8A1050F2C7AF"
+				table_id: 7992819604570304882L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5472EAAAC2E41ACE"
+				item: "solarpanels:quantum_solar_panel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6FEC11BE93C7987D"
+				"0D35054D15C675FC"
+			]
+			id: "591B1C0107DBF9F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E51150F494A18E2"
+				table_id: 7992819604570304882L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32C07700978D83FE"
+				item: "solarpanels:spectral_solar_panel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6AFC26E0B47B2D3E"
+				"591B1C0107DBF9F5"
+			]
+			id: "4BE47130F2F2530A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BACB8B4FCB7F302"
+				table_id: 7992819604570304882L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E297ADA3D437E51"
+				item: "solarpanels:singular_solar_panel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6F3E33DDEE80533A"
+				"4BE47130F2F2530A"
+			]
+			id: "38E1A1CC87714994"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DE7E5B60E1657A7"
+				table_id: 7992819604570304882L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E6D906FCB90C249"
+				item: "solarpanels:light_absorbing_solar_panel"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"283134B4173DCEAB"
+				"38E1A1CC87714994"
+			]
+			id: "145D9A40E013F23B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04001B633218F194"
+				table_id: 7992819604570304882L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C9ABC6234BDF06F"
+				item: "solarpanels:photonic_solar_panel"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["140576223C365E4A"]
+			id: "6FEC11BE93C7987D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "631503DAA30D2428"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "04C2628265AB6756"
+				item: "solarpanels:spectral_energy_tablet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6FEC11BE93C7987D"]
+			id: "6AFC26E0B47B2D3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43E450347FCCA8D1"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1C95189E71380F47"
+				item: "solarpanels:singular_energy_tablet"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AFC26E0B47B2D3E"]
+			id: "6F3E33DDEE80533A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B87CD1F780911FA"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "055C7273CF780D2D"
+				item: "solarpanels:light_absorbing_energy_tablet"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F3E33DDEE80533A"]
+			id: "283134B4173DCEAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20282D6BA365CFEC"
+				table_id: 573058633436694511L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19866E0891B52397"
+				item: "solarpanels:photonic_energy_tablet"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+	]
+	title: "&dMekanism: Солнечные панели"
+}
