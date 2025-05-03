@@ -159,7 +159,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["7E8199EA9E1FB7A5"]
@@ -177,7 +177,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["76722BE98E0B5F42"]
@@ -195,7 +195,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["76722BE98E0B5F42"]
@@ -213,7 +213,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["76722BE98E0B5F42"]
@@ -231,7 +231,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -7.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["5329EC9BD9E981E1"]
@@ -248,8 +248,8 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.5d
+			x: 10.5d
+			y: -4.25d
 		}
 		{
 			dependencies: [
@@ -269,8 +269,8 @@
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 10.5d
+			y: -2.75d
 		}
 		{
 			dependencies: [
@@ -290,8 +290,8 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -4.5d
+			x: 12.0d
+			y: -4.25d
 		}
 		{
 			dependencies: [
@@ -305,8 +305,8 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.0d
+			x: 12.0d
+			y: -2.75d
 		}
 		{
 			dependencies: [
@@ -326,7 +326,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -7.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -346,7 +346,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -366,7 +366,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -386,7 +386,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -7.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -406,7 +406,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -7.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -426,7 +426,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -7.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -446,7 +446,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -466,7 +466,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -486,7 +486,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -506,7 +506,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -526,7 +526,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -546,7 +546,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["140576223C365E4A"]
@@ -646,6 +646,79 @@
 			}]
 			x: 7.5d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2958B9165F6C25DC"
+				"48ABA494CA8A47AC"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "7160E63819B366F4"
+			tasks: [{
+				id: "17E7B9DAA37D73DA"
+				item: "mekaevolution:absolute_control_circuit"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7160E63819B366F4"
+				"17E7B9DAA37D73DA"
+			]
+			hide_dependency_lines: true
+			id: "296D4A1D278F4880"
+			tasks: [{
+				id: "59487E8BC0EF2C3A"
+				item: "mekaevolution:supreme_control_circuit"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"296D4A1D278F4880"
+				"59487E8BC0EF2C3A"
+			]
+			hide_dependency_lines: true
+			id: "6E1A26223D9017B0"
+			tasks: [{
+				id: "0FE65DA497F9070D"
+				item: "mekaevolution:cosmic_control_circuit"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6E1A26223D9017B0"
+				"0FE65DA497F9070D"
+			]
+			hide_dependency_lines: true
+			id: "3F02EE91EB315A4C"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "4CCAC1C3AC17D819"
+				item: "mekaevolution:infinite_control_circuit"
+				type: "item"
+			}]
+			x: 18.75d
+			y: -3.5d
+		}
+		{
+			id: "12C54F353852BF02"
+			tasks: [{
+				id: "6E43CEBFA43BE3DE"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -3.75d
 		}
 	]
 	title: "Mekanism"

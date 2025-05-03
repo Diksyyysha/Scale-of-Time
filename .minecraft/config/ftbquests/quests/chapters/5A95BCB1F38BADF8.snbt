@@ -5,18 +5,489 @@
 	group: ""
 	icon: "kubejs:scale_of_time"
 	id: "5A95BCB1F38BADF8"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 12.0d
-		hover: [ ]
-		image: "ftbquests:textures/item/scale_of_time.png"
-		rotation: 0.0d
-		width: 12.0d
-		x: 0.0d
-		y: -5.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 12.0d
+			hover: [ ]
+			image: "ftbquests:textures/item/scale_of_time.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -0.4d
+			y: -5.0d
+		}
+		{
+			alpha: 155
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "enigmaticlegacy:items/storage_crystal"
+			rotation: 0.0d
+			width: 5.0d
+			x: -0.2d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.55d
+			y: 5.65d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.25d
+			y: 2.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.25d
+			y: 1.4d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.55d
+			y: 3.95d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.55d
+			y: 3.1d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.25d
+			y: 0.55d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.55d
+			y: 2.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.25d
+			y: -0.3d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.55d
+			y: 4.8d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.25d
+			y: 3.1d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.55d
+			y: 1.4d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.25d
+			y: -1.15d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.25d
+			y: 3.95d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.25d
+			y: 4.8d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.25d
+			y: 5.65d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.25d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.4d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.55d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.7d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.15d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.85d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: -2.7d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.55d
+			y: 6.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.55d
+			y: 0.55d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.55d
+			y: -0.3d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.55d
+			y: -1.15d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.55d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.55d
+			y: -2.85d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.25d
+			y: -2.85d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.25d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.4d
+			y: -2.85d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.55d
+			y: -2.85d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.7d
+			y: -2.85d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.15d
+			y: -2.85d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.85d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: -1.85d
+			y: -2.85d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_column_lights"
+			rotation: 90.0d
+			width: 1.0d
+			x: -2.7d
+			y: -2.85d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -46,8 +517,8 @@
 				type: "checkmark"
 			}]
 			title: "Scale of Time"
-			x: 0.0d
-			y: -1.0d
+			x: -0.22500000000000003d
+			y: -0.9750000000000001d
 		}
 		{
 			dependencies: ["171CE43D7C1A2B03"]
@@ -74,8 +545,8 @@
 				title: "Предыстория"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: -0.22500000000000003d
+			y: 4.525d
 		}
 		{
 			dependencies: ["080232FE1C2B809B"]
@@ -137,8 +608,8 @@
 				title: "Создатели сборки"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: -0.22500000000000003d
+			y: 1.525d
 		}
 	]
 	title: "Добро пожаловать"

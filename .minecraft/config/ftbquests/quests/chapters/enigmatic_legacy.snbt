@@ -75,7 +75,7 @@
 				type: "xp"
 				xp: 250
 			}]
-			shape: "rsquare"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				icon: "enigmaticlegacy:cursed_ring"

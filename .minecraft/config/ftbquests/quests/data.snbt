@@ -2,14 +2,55 @@
 	default_autoclaim_rewards: "disabled"
 	default_consume_items: false
 	default_quest_disable_jei: false
-	default_quest_shape: "circle"
-	default_reward_team: false
+	default_quest_shape: "rsquare"
+	default_reward_team: true
 	detection_delay: 20
 	disable_gui: false
-	drop_loot_crates: false
-	emergency_items_cooldown: 300
-	grid_scale: 0.5d
-	icon: "enigmaticlegacy:unholy_grail"
+	drop_loot_crates: true
+	emergency_items: [
+		{ Count: 1b, id: "minecraft:recovery_compass" }
+		{ Count: 1b, id: "enigmaticlegacy:the_acknowledgment" }
+		{
+			Count: 1b
+			id: "patchouli:guide_book"
+			tag: {
+				"patchouli:book": "parcool:parcool_guide"
+			}
+		}
+		{
+			Count: 1b
+			id: "patchouli:guide_book"
+			tag: {
+				"patchouli:book": "extendedcrafting:guide"
+			}
+		}
+		{
+			Count: 1b
+			id: "patchouli:guide_book"
+			tag: {
+				"patchouli:book": "thermal:guidebook"
+			}
+		}
+		{
+			Count: 1b
+			id: "patchouli:guide_book"
+			tag: {
+				"patchouli:book": "simplyswords:runic_grimoire"
+			}
+		}
+		{
+			Count: 1b
+			id: "patchouli:guide_book"
+			tag: {
+				"patchouli:book": "industrialforegoing:industrial_foregoing"
+			}
+		}
+		{ Count: 1b, id: "ars_nouveau:worn_notebook" }
+		{ Count: 40b, id: "minecraft:cooked_porkchop" }
+	]
+	emergency_items_cooldown: 2500
+	grid_scale: 0.05d
+	icon: "kubejs:scale_of_time"
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0
