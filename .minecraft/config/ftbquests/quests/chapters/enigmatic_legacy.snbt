@@ -5,18 +5,32 @@
 	group: "786039148FECCFBA"
 	icon: "enigmaticlegacy:enigmatic_item"
 	id: "272FFB945F1F89F0"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 5.0d
-		hover: [ ]
-		image: "minecraft:textures/particle/sculk_charge_pop_1.png"
-		rotation: 0.0d
-		width: 5.0d
-		x: 0.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "minecraft:textures/particle/sculk_charge_pop_1.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "enigmaticaddons:item/etherium_frame"
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.5d
+			y: -7.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -61,7 +75,7 @@
 				item: "enigmaticlegacy:cursed_ring"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -69,6 +83,7 @@
 			description: ["Похоже вы всё таки осмелились экипировать данное кольцо. Чтож, возможно, всё не так уж и плохо если вы, конечно, не надели его в самом начале своего пути. В таком случае придётся вам не сладко... Но и без плюсов не обойтись, кольцо даёт доступ к новым, ранее неизвестным знаниям, которые помогут вам пережить бремя ношения этого кольца, пока вы не найдёте способ избавится от кольца, либо ослабить его действие."]
 			hide: true
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "4096F4A501AB0261"
 			rewards: [
 				{
@@ -122,7 +137,9 @@
 		{
 			dependencies: ["530A234C2B93EF5F"]
 			description: ["Похоже, книга не имеет всех знаний без самостоятельного изучения и прямого взаимодействия с предметами "]
+			hide: true
 			id: "655D52905B760B9B"
+			shape: "circle"
 			tasks: [{
 				id: "15A3B04F538788B1"
 				title: "Исследование"
@@ -134,6 +151,7 @@
 		{
 			dependencies: ["655D52905B760B9B"]
 			description: ["Это кольцо может быть полезно как для крафта, так и для боевой экипировки"]
+			hide_dependency_lines: true
 			id: "64F7C9AFD4BBB7E9"
 			rewards: [{
 				id: "022A55941A12C69B"
@@ -145,23 +163,25 @@
 				item: "enigmaticlegacy:iron_ring"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.5d
+			x: -4.0d
+			y: -10.0d
 		}
 		{
-			dependencies: [
-				"655D52905B760B9B"
-				"64F7C9AFD4BBB7E9"
-			]
-			description: ["Это кольцо является основой большинства акссесуаров, при обычном ношении повышает везение владельца"]
+			dependencies: ["64F7C9AFD4BBB7E9"]
+			description: ["Это кольцо является основой большинства акссесуаров, при обычном ношении повышает удачу владельца"]
 			id: "73688A1DCDB791FA"
+			rewards: [{
+				id: "72499F9DFC71B56C"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "71F7E249332D65B3"
 				item: "enigmaticlegacy:golden_ring"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -9.0d
+			x: 1.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["64F7C9AFD4BBB7E9"]
@@ -176,8 +196,8 @@
 				item: "enigmaticlegacy:ender_ring"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.5d
+			x: -6.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["64F7C9AFD4BBB7E9"]
@@ -193,8 +213,8 @@
 				item: "enigmaticlegacy:magnet_ring"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.5d
+			x: -4.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["043568080A07BD71"]
@@ -210,8 +230,540 @@
 				item: "enigmaticlegacy:super_magnet_ring"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -6.5d
+			x: -4.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"71F7E249332D65B3"
+				"73688A1DCDB791FA"
+			]
+			hide: true
+			hide_dependent_lines: true
+			id: "215F314FF4F4C25D"
+			rewards: [{
+				id: "44306E4F26603C2F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0CF8BB80A90CAAD7"
+				item: "enigmaticaddons:quartz_ring"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"293B314B23F4B0AC"
+				"655D52905B760B9B"
+			]
+			description: ["Амулеты это сильные артефакты которые могут помочь в разных ситуациях. Некоторые из них можно скрафтить, а некоторые только найти."]
+			hide: true
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:void_stone"
+				tag: { }
+			}
+			id: "422A36EEB6675EE7"
+			rewards: [{
+				id: "3DCE6DF65CB9A35F"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7BE40B5584A32A4C"
+				title: "Амулеты"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["422A36EEB6675EE7"]
+			description: ["Крайне полезный и не дорогой амулет"]
+			id: "3DD510C1DBF9457E"
+			rewards: [
+				{
+					id: "46B365F9ACE273C8"
+					type: "xp"
+					xp: 55
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69FD4BDFC5D2A3C3"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6C06BFEF337F5519"
+				item: "enigmaticlegacy:monster_charm"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["422A36EEB6675EE7"]
+			description: ["Будет очень полезен для шахтёров"]
+			id: "61ADF81CD1E19A14"
+			rewards: [
+				{
+					id: "40B87BC5955237CC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "057A9845F5177C6E"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0AE649019625E532"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["422A36EEB6675EE7"]
+			description: ["&8&mНе стоит того&r&r"]
+			id: "0B205583B8A92399"
+			rewards: [{
+				id: "6CA579498B6FDF01"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "175AF4FF7FA3E6AF"
+				item: "enigmaticlegacy:mega_sponge"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["422A36EEB6675EE7"]
+			description: ["&m&8Бесполезен&r&r"]
+			id: "2FEA30467DFED421"
+			tasks: [{
+				id: "240BF716CD0BB25F"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:insignia"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"422A36EEB6675EE7"
+				"4096F4A501AB0261"
+			]
+			id: "189003B4D057A1AA"
+			rewards: [
+				{
+					id: "3E574834B8D27832"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65D2A849E94ACD74"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "096E9D029D04B67B"
+				item: "enigmaticlegacy:enchanter_pearl"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["422A36EEB6675EE7"]
+			description: ["&8&mКогда найдешь его, попробуй использовать...&r&r"]
+			id: "08A759F46B413CA0"
+			rewards: [{
+				id: "00DE68D92404D859"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2F09941463EC4EEC"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"422A36EEB6675EE7"
+				"4096F4A501AB0261"
+			]
+			id: "368AF2BDF9BD379C"
+			rewards: [
+				{
+					id: "6D648BF37418E472"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04CDBE95327752F7"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "42700B647CD53755"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["422A36EEB6675EE7"]
+			description: ["Такой амулет будет полезен только в связке с чем-то другим..."]
+			id: "7B49437784697661"
+			rewards: [{
+				id: "3759378AE1816EE9"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4C7189A34A4CF8B9"
+				item: "enigmaticaddons:hell_blade_charm"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"422A36EEB6675EE7"
+				"215F314FF4F4C25D"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Слишком дешевый для такого"]
+			hide: true
+			id: "35F5A04AB524413A"
+			rewards: [{
+				id: "035B9131CD48C334"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F006E19690D9AA0"
+				item: "enigmaticaddons:forger_gem"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["422A36EEB6675EE7"]
+			description: ["Очень полезен и очень дешёвый"]
+			id: "4948A9A9D269213F"
+			rewards: [{
+				id: "04AB25863CE1FAB1"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "66F9319FA603EC97"
+				item: "enigmaticaddons:adventure_charm"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["422A36EEB6675EE7"]
+			description: ["&m&8его МОЖНО скрафтить&r&r"]
+			id: "0424BD7E78D3CA8F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03808E19411807AD"
+					table_id: 2994924812343091255L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27CA5D416927F224"
+					table_id: 2994924812343091255L
+					type: "choice"
+				}
+				{
+					id: "0E1145B401AFD79F"
+					type: "xp"
+					xp: 333
+				}
+			]
+			tasks: [{
+				id: "53F185C0E0077108"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:ascension_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"422A36EEB6675EE7"
+				"0424BD7E78D3CA8F"
+				"4096F4A501AB0261"
+			]
+			hide: true
+			id: "6C26BAFEE7EE70C3"
+			rewards: [
+				{
+					id: "5A4F54A8CEC9174E"
+					type: "xp"
+					xp: 666
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2673C7D5EC4EB1C9"
+					table_id: 2856130773300716246L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30AF7F70BB5A4B31"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "40CC2840E731D1F5"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:eldritch_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["655D52905B760B9B"]
+			description: ["Довольно редкий артефакт, используется в многих крафтах."]
+			hide_dependency_lines: true
+			id: "24BA09ABE6005D4A"
+			rewards: [
+				{
+					id: "2D23C78FB0F91299"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "0B83A93F16C9B3FB"
+					item: "enigmaticaddons:earth_heart_fragment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30E47C615069D4C8"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:earth_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4096F4A501AB0261"
+				"24BA09ABE6005D4A"
+			]
+			hide: true
+			id: "2DD0A6A988C9917D"
+			rewards: [
+				{
+					id: "7FB3EA9C30E05EB1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F075C493745C313"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "60FCBDD09E9919BF"
+				item: "enigmaticlegacy:twisted_heart"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DD0A6A988C9917D"]
+			description: ["Благодаря новому искаженному сердцу у вас появилась возможность создавать новые уникальные предметы для уменьшения действия проклятий кольца. Изучите свойства каждого из них и создайте наиболее полезные из них"]
+			icon: "enigmaticlegacy:berserk_charm"
+			id: "0A841B2A40591ADB"
+			rewards: [{
+				id: "434F46831094CA15"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7FBA5D4311AA549E"
+				title: "Проклятые амулеты"
+				type: "checkmark"
+			}]
+			title: "Проклятые предметы"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24BA09ABE6005D4A"]
+			description: ["Чистое сердце? Может ли оно помочь с проклятьями?"]
+			hide: true
+			hide_dependent_lines: true
+			id: "601A9DF1B2D01E4F"
+			rewards: [{
+				id: "1C5ACC66BCC67E39"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E7DA77C9CA043CF"
+				item: "enigmaticaddons:pure_heart"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"73688A1DCDB791FA"
+				"4096F4A501AB0261"
+			]
+			id: "415D28A42060B7AE"
+			rewards: [
+				{
+					id: "4552B921E0D13215"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20AB43109F5E3F66"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "090913D1E0667582"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"73688A1DCDB791FA"
+				"4096F4A501AB0261"
+			]
+			id: "7678D2492099FA9F"
+			rewards: [
+				{
+					id: "43E4F3C7D68ECC68"
+					type: "xp"
+					xp: 666
+				}
+				{
+					exclude_from_claim_all: true
+					id: "588EAEB0FE29945E"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F123505BE44E64B"
+					table_id: 2856130773300716246L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "778DF5D5DBE778CC"
+				item: "enigmaticlegacy:desolation_ring"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"73688A1DCDB791FA"
+				"601A9DF1B2D01E4F"
+				"4096F4A501AB0261"
+			]
+			id: "130AB3A0E346844A"
+			rewards: [
+				{
+					id: "0F621631FD705876"
+					type: "xp"
+					xp: 777
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43732A923BDDBBF6"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3385BED99141E110"
+					table_id: 2856130773300716246L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0BFEBECCF1B0C25A"
+				item: "enigmaticaddons:earth_promise"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.0d
 		}
 	]
 	title: "Enigmatic Legacy"
