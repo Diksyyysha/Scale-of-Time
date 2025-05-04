@@ -58,7 +58,7 @@
 			rotation: 0.0d
 			width: 4.5d
 			x: 19.0d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			click: ""
@@ -691,7 +691,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["6A9B7190D685F953"]
+			dependencies: ["16CF62ACB876C7E3"]
 			icon: "botania:alfheim_portal"
 			id: "60E53E8E03525581"
 			tasks: [
@@ -727,7 +727,132 @@
 			]
 			title: "Портал в Эльфхейм"
 			x: 19.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["60E53E8E03525581"]
+			id: "1F516F2D191FA5BB"
+			tasks: [{
+				id: "56CE83650BA2AFB1"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["60E53E8E03525581"]
+			id: "3120A82B72E1CB68"
+			tasks: [{
+				id: "134E73ADB51CB8E2"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["60E53E8E03525581"]
+			id: "0FEEC08D1314C232"
+			tasks: [{
+				id: "7704F363946F047A"
+				item: "botania:pixie_dust"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5F59015733461CCB"
+				"31CB2FA6EDF1F90C"
+			]
+			id: "44AF60AEE14331E1"
+			tasks: [{
+				id: "1B07950DE7088CB8"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: 18.0d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"44AF60AEE14331E1"
+				"6A9B7190D685F953"
+			]
+			id: "16CF62ACB876C7E3"
+			tasks: [{
+				id: "03EB6CCF850A1828"
+				item: "botania:natura_pylon"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2AE94FBBABC967DF"
+				"16CF62ACB876C7E3"
+			]
+			id: "4667DE47B4447AEB"
+			tasks: [{
+				id: "0AD55FABCF99AAA1"
+				item: "mythicbotany:alfsteel_pylon"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4667DE47B4447AEB"]
+			id: "1C0D7A45A8A1F07F"
+			tasks: [{
+				id: "7E1CA04A2F7D0EE6"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1C0D7A45A8A1F07F"]
+			id: "0626601491D4C027"
+			tasks: [{
+				id: "582104FC09BB005B"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0626601491D4C027"]
+			id: "452CC0577D57CA29"
+			tasks: [{
+				id: "613CC3306188FDF3"
+				item: "botania:spawner_mover"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0626601491D4C027"]
+			id: "179A335A6EFE43EB"
+			tasks: [{
+				id: "0CACFA19787D8608"
+				item: {
+					Count: 1b
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 24.5d
+			y: 6.0d
 		}
 	]
 	title: "&bBotania"
