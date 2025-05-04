@@ -5,6 +5,17 @@
 	rewards: [
 		{ count: 4, item: "ars_nouveau:source_gem" }
 		{ count: 4, item: "ars_nouveau:magebloom_fiber" }
+		{ count: 2, item: "ars_nouveau:fire_essence" }
+		{ count: 2, item: "ars_elemental:anima_essence" }
+		{ count: 2, item: "ars_nouveau:water_essence" }
+		{ count: 2, item: "ars_nouveau:manipulation_essence" }
+		{ count: 2, item: "ars_nouveau:earth_essence" }
+		{ count: 2, item: "ars_nouveau:air_essence" }
+		{ count: 2, item: "ars_nouveau:conjuration_essence" }
+		{ count: 2, item: "ars_nouveau:abjuration_essence" }
+		{ count: 4, item: "ars_nouveau:wilden_horn" }
+		{ count: 4, item: "ars_nouveau:wilden_spike" }
+		{ count: 4, item: "ars_nouveau:wilden_wing" }
 	]
 	title: "Ars Nouveau"
 }
