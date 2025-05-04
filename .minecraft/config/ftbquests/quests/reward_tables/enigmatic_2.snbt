@@ -1,0 +1,27 @@
+{
+	hide_tooltip: true
+	icon: "enigmaticlegacy:the_cube"
+	id: "27A303CE4EA6A2D6"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "enigmaticlegacy:eye_of_nebula" }
+		{ item: "enigmaticlegacy:golem_heart" }
+		{ item: "enigmaticlegacy:blazing_core" }
+		{ item: "enigmaticlegacy:void_pearl" }
+		{ item: "enigmaticlegacy:ocean_stone" }
+		{ item: "enigmaticlegacy:angel_blessing" }
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticaddons:etherium_core"
+				tag: { }
+			}
+		}
+		{ item: "enigmaticaddons:forgotten_ice" }
+		{ item: "enigmaticaddons:lost_engine" }
+		{ item: "enigmaticaddons:revival_leaf" }
+		{ item: "enigmaticlegacy:the_cube", weight: 1.0E-4f }
+	]
+	title: "Enigmatic: Камни стихий"
+}

@@ -248,8 +248,8 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -4.25d
+			x: 7.25d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -269,8 +269,8 @@
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.75d
+			x: 7.25d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -290,8 +290,8 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.25d
+			x: 8.75d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -305,8 +305,8 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.75d
+			x: 8.75d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -660,8 +660,8 @@
 				item: "mekaevolution:absolute_control_circuit"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -3.5d
+			x: 10.25d
+			y: -3.75d
 		}
 		{
 			dependencies: [
@@ -675,8 +675,8 @@
 				item: "mekaevolution:supreme_control_circuit"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -3.5d
+			x: 11.75d
+			y: -3.75d
 		}
 		{
 			dependencies: [
@@ -690,8 +690,8 @@
 				item: "mekaevolution:cosmic_control_circuit"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -3.5d
+			x: 13.25d
+			y: -3.75d
 		}
 		{
 			dependencies: [
@@ -700,6 +700,32 @@
 			]
 			hide_dependency_lines: true
 			id: "3F02EE91EB315A4C"
+			optional: true
+			rewards: [
+				{
+					id: "085896FC05AD5F2D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FC927D00743DDD6"
+					table_id: 7992819604570304882L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69722337E2790DDA"
+					table_id: 2806461768677942413L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03F0A9B3BD002F50"
+					table_id: 573058633436694511L
+					type: "choice"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -707,11 +733,28 @@
 				item: "mekaevolution:infinite_control_circuit"
 				type: "item"
 			}]
-			x: 18.75d
-			y: -3.5d
+			x: 15.5d
+			y: -3.75d
 		}
 		{
+			dependencies: [
+				"479A57E065D461E5"
+				"14243BD7D0BE3269"
+			]
 			id: "12C54F353852BF02"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24734AB04399A55A"
+					table_id: 573058633436694511L
+					type: "random"
+				}
+				{
+					id: "119290604A3654DA"
+					item: "mekanism:enriched_refined_obsidian"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6E43CEBFA43BE3DE"
 				item: "mekanism:alloy_atomic"

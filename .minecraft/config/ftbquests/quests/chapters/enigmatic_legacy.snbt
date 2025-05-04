@@ -70,11 +70,25 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "4096F4A501AB0261"
-			rewards: [{
-				id: "7BC100032FE88E51"
-				type: "xp"
-				xp: 250
-			}]
+			rewards: [
+				{
+					id: "7BC100032FE88E51"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C8C91D72759C699"
+					table_id: 2856130773300716246L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3637672E0D396A9F"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
@@ -121,6 +135,11 @@
 			dependencies: ["655D52905B760B9B"]
 			description: ["Это кольцо может быть полезно как для крафта, так и для боевой экипировки"]
 			id: "64F7C9AFD4BBB7E9"
+			rewards: [{
+				id: "022A55941A12C69B"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				id: "237C9D2E24719B45"
 				item: "enigmaticlegacy:iron_ring"
@@ -147,6 +166,11 @@
 		{
 			dependencies: ["64F7C9AFD4BBB7E9"]
 			id: "0D47AF5AE8AA4024"
+			rewards: [{
+				id: "7CEF49B45B8B0997"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "4E64F8E2F0038F05"
 				item: "enigmaticlegacy:ender_ring"
@@ -159,6 +183,11 @@
 			dependencies: ["64F7C9AFD4BBB7E9"]
 			description: ["Вы будете притягивать к себе все предметы в радиусе 8 блоков &8(Эту функцию можно отключить в инвентаре)&r"]
 			id: "043568080A07BD71"
+			rewards: [{
+				id: "07D03328C73D4CEB"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "66C21154A45130B6"
 				item: "enigmaticlegacy:magnet_ring"
@@ -171,6 +200,11 @@
 			dependencies: ["043568080A07BD71"]
 			description: ["Телепортирует все предметы в радиусе 16 блоков в ваш инвентарь &8(Так-же может быть выключен в инвентаре)&r"]
 			id: "3C9ABC69F3A4C5B6"
+			rewards: [{
+				id: "1661F5B3171F4F23"
+				type: "xp"
+				xp: 45
+			}]
 			tasks: [{
 				id: "114592CF3C775119"
 				item: "enigmaticlegacy:super_magnet_ring"

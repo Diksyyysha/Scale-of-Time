@@ -19,8 +19,60 @@
 		}
 		{ item: "mekanism:gauge_dropper" }
 		{ item: "mekanism:basic_tier_installer" }
-		{ item: "mekanism:advanced_tier_installer" }
-		{ item: "mekanism:elite_tier_installer" }
+		{ item: "mekanism:advanced_tier_installer", weight: 0.6f }
+		{ item: "mekanism:elite_tier_installer", weight: 0.4f }
+		{ item: "mekanism:ultimate_tier_installer", weight: 0.2f }
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:seismic_reader"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "12000"
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:energy_tablet"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "1000000"
+						}]
+					}
+				}
+			}
+		}
+		{ item: "mekanism:enriched_carbon" }
+		{ item: "mekanism:enriched_redstone" }
+		{ item: "mekanism:enriched_diamond" }
+		{ item: "mekanism:enriched_refined_obsidian" }
+		{ item: "mekanism:enriched_gold" }
+		{ item: "mekanism:enriched_tin" }
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:seismic_reader"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "12000"
+						}]
+					}
+				}
+			}
+		}
+		{ count: 4, item: "mekanism:upgrade_speed" }
+		{ count: 4, item: "mekanism:upgrade_energy" }
+		{ item: "mekanism:upgrade_anchor", weight: 0.2f }
 	]
 	title: "Mekanism: Прочее"
 }

@@ -49,7 +49,7 @@
 		{ Count: 40b, id: "minecraft:cooked_porkchop" }
 	]
 	emergency_items_cooldown: 2500
-	grid_scale: 0.05d
+	grid_scale: 0.5d
 	icon: "kubejs:scale_of_time"
 	lock_message: ""
 	loot_crate_no_drop: {

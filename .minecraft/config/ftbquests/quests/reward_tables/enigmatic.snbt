@@ -1,9 +1,12 @@
 {
+	hide_tooltip: true
+	icon: "enigmaticlegacy:etherium_ore"
 	id: "29901C3FC0B6A037"
 	loot_size: 1
 	order_index: 2
 	rewards: [
 		{
+			count: 3
 			item: {
 				Count: 1b
 				id: "enigmaticlegacy:lore_fragment"
@@ -14,7 +17,25 @@
 			weight: 5.0f
 		}
 		{ item: "enigmaticlegacy:iron_ring", weight: 1.5f }
-		{ item: "enigmaticaddons:earth_heart_fragment", weight: 0.25f }
+		{ item: "enigmaticaddons:earth_heart_fragment", weight: 0.7f }
+		{ item: "enigmaticaddons:antique_bag", weight: 0.4f }
+		{ item: "enigmaticlegacy:cosmic_cake", weight: 0.2f }
+		{ item: "enigmaticlegacy:golden_ring", weight: 1.2f }
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:earth_heart"
+				tag: { }
+			}
+			weight: 0.4f
+		}
+		{ count: 2, item: "enigmaticlegacy:etherium_ore", weight: 0.2f }
+		{ count: 3, item: "enigmaticlegacy:astral_dust", weight: 0.6f }
+		{ count: 4, item: "enigmaticlegacy:thicc_scroll" }
+		{ item: "enigmaticlegacy:magnet_ring" }
+		{ item: "enigmaticlegacy:ender_ring" }
+		{ item: "enigmaticlegacy:super_magnet_ring" }
+		{ count: 3, item: "enigmaticlegacy:darkest_scroll" }
 	]
 	title: "Enigmatic"
 }
