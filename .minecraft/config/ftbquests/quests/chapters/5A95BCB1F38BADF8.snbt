@@ -487,6 +487,30 @@
 			x: -2.7d
 			y: -2.85d
 		}
+		{
+			click: "https://discord.gg/682xgRjZYN"
+			corner: false
+			dev: false
+			height: 3.2d
+			hover: ["Наш дискор сервер"]
+			image: "ftbquests:textures/item/discord.png"
+			rotation: 0.0d
+			width: 4.2d
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			click: "https://t.me/scale_of_time"
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: ["Наш телеграм канал"]
+			image: "ftbquests:textures/item/telegram.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -6.0d
+			y: 1.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]

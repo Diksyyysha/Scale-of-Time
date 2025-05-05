@@ -1,0 +1,2003 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_expansion"
+	group: "54209D604C333018"
+	icon: "thermal:dynamo_compression"
+	id: "03FB9B21CF187A77"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["198F0C42A683F08B"]
+			id: "79F52FF6D229D098"
+			rewards: [{
+				id: "43075527919B7DA9"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "09B033F4C8736C99"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79F52FF6D229D098"]
+			id: "218E2E68B07DDA2F"
+			rewards: [{
+				count: 3
+				id: "5520F93078A3E5B5"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EF579AB4A920468"
+				item: "thermal:rf_coil"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CB8175A0ABCFC2B"]
+			id: "198F0C42A683F08B"
+			rewards: [{
+				count: 2
+				id: "77F496D933E5B387"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27B4E888A8068A91"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["198F0C42A683F08B"]
+			id: "2CFD6B6013369009"
+			rewards: [{
+				id: "085C686912DE3832"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "547F6005D8CBA412"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["218E2E68B07DDA2F"]
+			id: "601670B7C9FAAB2A"
+			rewards: [{
+				count: 2
+				id: "73F43604BE8CBC06"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E9E6A3284C82641"
+				item: "thermal:iron_gear"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79F52FF6D229D098"]
+			id: "2C3A72ACB07F6D86"
+			tasks: [{
+				count: 3L
+				id: "6DAAFC630C563D40"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["601670B7C9FAAB2A"]
+			id: "40223E95D89C2070"
+			rewards: [{
+				count: 2
+				id: "0720408C59F36DE3"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ACE277844CD41DE"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["037D60CBC406E586"]
+			id: "5CB8175A0ABCFC2B"
+			tasks: [{
+				count: 8L
+				id: "3CF518E2FC99CB4C"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"EN - We strongly recommend installing add-on "
+				"Thermal Dynamics and Jei"
+				""
+				"RU - Настоятельно рекомендуем установить дополнение  "
+				"Thermal Dynamics и Jei"
+				""
+				"JEI"
+				""
+				"EN - Hover over the item and press R to view its crafting"
+				"Jei (Left Click) - How to make an item"
+				"Jei (Right Click) - See what you can do with this item"
+				""
+				"RU - Наведитесь на предмет и нажмите R чтобы посмотреть его крафт"
+				"Jei (Left Click) - Как сделать предмет"
+				"Jei (Right Click) - Посмотреть что можно сделать из этого предмета"
+			]
+			id: "037D60CBC406E586"
+			rewards: [
+				{
+					id: "0F7AFE358A98E8A6"
+					item: "ftbquests:book"
+					type: "item"
+				}
+				{
+					id: "693E12CCBA7A6F41"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "thermal:guidebook"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B7A1B0CA064737C"
+				title: "Guide"
+				type: "checkmark"
+			}]
+			title: "Guide, Обучение"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2CFD6B6013369009"]
+			id: "6D8A9A157D59DEBA"
+			rewards: [{
+				id: "712CE99CD17643DA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "491F1B88F8525529"
+				item: "thermal:lead_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C3A72ACB07F6D86"]
+			id: "698881AF21561722"
+			rewards: [{
+				id: "06A5A82B2A341100"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C2F890538EE5A4F"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["218E2E68B07DDA2F"]
+			description: [
+				"EN - Hold down Shift and click on the generator to insert the pipe"
+				""
+				"RU - Зажмите Shift и кликните на генератор, чтобы вставить трубу"
+			]
+			id: "2AB28F74F5388D7E"
+			rewards: [{
+				count: 4
+				id: "6CDC4F6096969DF6"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "499352EBFFEF1178"
+				item: "thermal:energy_duct"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D8A9A157D59DEBA"]
+			id: "5075C282589D7138"
+			rewards: [{
+				count: 2
+				id: "1634077F00EBAF68"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "567A33EEE4EE71BC"
+				item: "thermal:tin_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5075C282589D7138"]
+			id: "2D44D98EE0E0129B"
+			rewards: [{
+				count: 8
+				id: "499FB2DDC2BEEA7A"
+				item: "thermal:copper_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "51CC4265273F5372"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["40223E95D89C2070"]
+			description: [
+				"EN - You can get more profit when you grind ore"
+				""
+				"RU - Вы можете получить больше прибыли, когда будете измельчать руду"
+			]
+			id: "3CC3E768659F5790"
+			rewards: [{
+				id: "7ACED7B1890543DE"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5590A87478E4EF70"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CC3E768659F5790"]
+			id: "50854BEB61C2C9CA"
+			rewards: [
+				{
+					count: 2
+					id: "5D2E9426E9D4AEC3"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "41A84663F66E157A"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "365D1BA8E5DF9A24"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50854BEB61C2C9CA"]
+			id: "0E5EEC75D69ABF3E"
+			rewards: [{
+				count: 4
+				id: "0497642B38AD94F8"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "766F86E3831990CA"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3CC3E768659F5790"]
+			id: "25029A02C13709B6"
+			rewards: [{
+				id: "55A8827CCAB620D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "330797DDE2E481BF"
+				item: "thermal:nickel_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3CC3E768659F5790"]
+			id: "250CE99087FB695B"
+			rewards: [{
+				id: "175E87232272722D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4740D95C16404D82"
+				item: "thermal:copper_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["25029A02C13709B6"]
+			id: "404C82236CBBE8C1"
+			rewards: [
+				{
+					id: "223E455259F8C11D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "060F8A56F69F9A49"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "487928A84CAF00E4"
+				item: "thermal:constantan_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E5EEC75D69ABF3E"]
+			id: "64932F82E1C5DFBA"
+			rewards: [{
+				count: 2
+				id: "71532E7B70A32C14"
+				item: "thermal:constantan_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "542C50293B1D3767"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["64932F82E1C5DFBA"]
+			id: "6BC1E5B3C651188E"
+			rewards: [
+				{
+					count: 2
+					id: "2AE05FB465B34C81"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4285524AEB69C6E7"
+					item: "thermal:raw_tin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F104310ECC44A9F"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["25029A02C13709B6"]
+			id: "32D403AE77081396"
+			rewards: [{
+				id: "0C526133E3738010"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 4L
+				id: "318290B41952D712"
+				item: "thermal:tin_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["32D403AE77081396"]
+			id: "592C4F286C5A93C0"
+			rewards: [{
+				id: "34D4A292DE835771"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 4L
+				id: "4EF8EE569D64F0BD"
+				item: "thermal:silver_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["404C82236CBBE8C1"]
+			id: "54FBB97810C52732"
+			rewards: [
+				{
+					id: "443897F9EE55CE4A"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "718599FCE5044A2E"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "051D52259166890A"
+				item: "thermal:silver_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["592C4F286C5A93C0"]
+			id: "51A3FB45CE237BA0"
+			rewards: [{
+				id: "70FC3BACCCF2FD32"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "77FB328C372AB31C"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["51A3FB45CE237BA0"]
+			description: [
+				"EN - Kill Blaze in Hell"
+				""
+				"RU - Убейте Ифрита в Аду"
+			]
+			id: "4A6F8532B69138F5"
+			rewards: [{
+				id: "234BC9E18E4CD9C6"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "2E9C539FD396A1CA"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6BC1E5B3C651188E"]
+			id: "7686660E1803E5F1"
+			rewards: [
+				{
+					id: "1A31FF548A9CE299"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "2FF3C77B1D850A46"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22733B974960B2BA"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["63809F4FA784ED66"]
+			id: "724AD3F51E623155"
+			rewards: [
+				{
+					id: "57D575CE56A6381E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "57DC964BC521EE06"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "48C4F0DA92066BEC"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["54FBB97810C52732"]
+			id: "63809F4FA784ED66"
+			rewards: [
+				{
+					id: "1F1D189DD0EB0121"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "6F92729F3F3D34E0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "6EF5A55239A36862"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4A6F8532B69138F5"]
+			id: "5F5240330FA54C0B"
+			rewards: [
+				{
+					id: "739EFB4921CBDE41"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "73CFC25E015130F5"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "613A631842AE1BBC"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "704DDA4773AC490E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "461CAABC6D9D76BE"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "623A1A9AD124DCE5"
+				item: "minecraft:fire_charge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7686660E1803E5F1"]
+			id: "32DC113D67A9807B"
+			rewards: [{
+				count: 12
+				id: "704DDC6523B74877"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5737B59EF1E6A368"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["724AD3F51E623155"]
+			id: "7E85955047529926"
+			rewards: [{
+				id: "018B8F21CEAAF660"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1A17B04283A11919"
+				item: "thermal:bronze_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["32DC113D67A9807B"]
+			id: "0EA58789E83B2E00"
+			rewards: [{
+				id: "2CC33A8ADBEDB456"
+				item: "thermal:lumium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02A345A253FBE3A8"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7E85955047529926"]
+			id: "0EAA7BF4AC4BBF88"
+			rewards: [
+				{
+					id: "2053B4C907FDCD73"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 12
+					id: "49C5B075A61BDE68"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B54DD719D8E9976"
+				item: "thermal:lumium_plate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["404C82236CBBE8C1"]
+			id: "7BBBFBBBF37A49A6"
+			rewards: [
+				{
+					count: 2
+					id: "5879EAA770B26192"
+					item: "thermal:nickel_dust"
+					type: "item"
+				}
+				{
+					id: "6900DD69ACB3C921"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "1F0DA514EC644586"
+				item: "thermal:nickel_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["32DC113D67A9807B"]
+			id: "02EBAD4B5EE7DD0B"
+			rewards: [
+				{
+					id: "51C58E44D81891AF"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "18162F78F80130A3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "61AEB028DA8C5D1A"
+				item: "thermal:machine_efficiency_augment"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["32DC113D67A9807B"]
+			id: "7976BFAA8569684D"
+			rewards: [{
+				id: "19409CFF248617BA"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63201F9283152626"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7976BFAA8569684D"]
+			id: "1D028C3982C5BDF8"
+			rewards: [
+				{
+					id: "736C6749021BD3B2"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "00AE7019BC2FCF5B"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7030CB18477A093A"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0EAA7BF4AC4BBF88"]
+			id: "0C3B24EDC5A87034"
+			rewards: [{
+				id: "43B27E179396D049"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44F20AECA3D71019"
+				item: "thermal:bronze_plate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5F5240330FA54C0B"]
+			id: "0C3D2261D177D279"
+			rewards: [{
+				id: "12EA1E5638518453"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2ADDE171CC191EA7"
+				item: "thermal:chiller_ball_cast"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1D028C3982C5BDF8"]
+			id: "7F904CBF0B0DD47B"
+			rewards: [{
+				count: 18
+				id: "0E4840BC0A710C74"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6036CDEADA289A91"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7F904CBF0B0DD47B"]
+			id: "0E88874201D9ED2D"
+			rewards: [
+				{
+					id: "23B6DCD186B82229"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "499C038B1B5786CF"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "215DF830B3FF7D72"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "67CEE569BCB552DC"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0E88874201D9ED2D"]
+			id: "32938EF3E99CEACB"
+			rewards: [
+				{
+					id: "78B70576124EFE80"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "49B2B12E67235C00"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "54C2D7E324F66957"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["32938EF3E99CEACB"]
+			id: "7613017C5F2E245F"
+			rewards: [
+				{
+					id: "11A6B7BD1DE28919"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "3093DD2512251F77"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4726861FC683CC7A"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["0C3D2261D177D279"]
+			id: "55366EA4ADB0BD52"
+			rewards: [{
+				id: "0AE64EDB30A4AFA3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "18923F1AA7447598"
+				item: "thermal:rubber"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["55366EA4ADB0BD52"]
+			id: "11C201BE74718831"
+			tasks: [{
+				id: "01D9A721DBFFEB99"
+				item: "thermal:cured_rubber"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["11C201BE74718831"]
+			id: "3334D2A343BE2373"
+			rewards: [
+				{
+					count: 4
+					id: "586F9E3799FF73DC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3182FD2AFBE70519"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "7F5486A4066106B9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1DFE8B6629A392FF"
+					item: {
+						Count: 1b
+						id: "thermal:xp_crystal"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A4881FE25600AD9"
+				item: "thermal:obsidian_glass"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["32938EF3E99CEACB"]
+			id: "0D6EAD7FDBB7C624"
+			rewards: [
+				{
+					count: 4
+					id: "1EA0C90578D324E0"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2EA53EA5ACB39384"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 18
+					id: "415425C0A98B60A2"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "43D905295FEB65CA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "6A0E159C0C07470D"
+				item: "thermal:fluid_tank_augment"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["3CC3E768659F5790"]
+			id: "170CCF231B29AB48"
+			rewards: [{
+				id: "1B61A9566E9871B4"
+				item: {
+					Count: 1b
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5593ECB2AF68FD25"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7686660E1803E5F1"]
+			id: "5D3A6CB6D6597DB2"
+			rewards: [{
+				count: 12
+				id: "3951A627A1F57BCF"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ACA79DD65D52908"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["170CCF231B29AB48"]
+			id: "6E19F854DC0B0AFD"
+			rewards: [{
+				id: "0E82947E9B77D9FB"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47CA9659CCEE788D"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E19F854DC0B0AFD"]
+			id: "54CE16A661D954F5"
+			rewards: [{
+				id: "1F6697F83C750E73"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "266A1BA424931EE3"
+				item: "thermal:device_nullifier"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54CE16A661D954F5"]
+			id: "56763609A95DBDF8"
+			rewards: [{
+				id: "57B608211E166D30"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "61972365ACCD5176"
+				item: "thermal:device_collector"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56763609A95DBDF8"]
+			id: "5EBD624BDF5519E5"
+			rewards: [{
+				id: "5ADCBC08E3D8AA7A"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "016A0257CDD1BC43"
+				item: "thermal:device_potion_diffuser"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5EBD624BDF5519E5"]
+			id: "67A181C006EF3E9B"
+			rewards: [{
+				id: "06BA904C311D1DC4"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48DCB06AF5599CB3"
+				item: "thermal:tinker_bench"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D3A6CB6D6597DB2"]
+			id: "5D173D440B56372A"
+			rewards: [{
+				id: "3C8F63C37C80FFF8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "70C394370F98EFED"
+				item: "thermal:device_fisher"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0EA58789E83B2E00"]
+			id: "430F03E2D0ACE74A"
+			rewards: [
+				{
+					count: 6
+					id: "3918032649DE9204"
+					item: "thermal:copper_dust"
+					type: "item"
+				}
+				{
+					id: "20DBAA645246F5C4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "1B3432579F8CB3EF"
+				item: "thermal:press_coin_die"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0C3B24EDC5A87034"]
+			id: "3D9DF7A1E0474B2B"
+			tasks: [{
+				count: 4L
+				id: "3E3E006D5B71905C"
+				item: "thermal:invar_plate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["430F03E2D0ACE74A"]
+			id: "6E1014F7E4500805"
+			rewards: [
+				{
+					id: "269D7AF8803F56CF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "687036947DC35078"
+					item: "thermal:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74BF9CF1FB7BDD9A"
+				item: "thermal:dynamo_numismatic"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6E1014F7E4500805"]
+			id: "01D8956E2F223962"
+			rewards: [
+				{
+					count: 3
+					id: "0AA175B7FFD6654D"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "316E823A77B0B3F3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "20B48386EEAAB083"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["01D8956E2F223962"]
+			id: "48AEE1F92BA1594A"
+			rewards: [
+				{
+					id: "54A4EB4A9256BD6F"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "7E9E0CD3DDC21601"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "10142ABD42D37F29"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "20FB62A0B314208B"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["48AEE1F92BA1594A"]
+			id: "6CE1226D2290110C"
+			rewards: [
+				{
+					id: "41318B0410927FE6"
+					item: "thermal:carrot_block"
+					type: "item"
+				}
+				{
+					id: "4EFAA9210EC3EF5B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "5A3200163AE9B24A"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["50854BEB61C2C9CA"]
+			id: "798BB39C3419AF3F"
+			rewards: [{
+				id: "0C5EB5173B5B3789"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "531ABE6AE6D54955"
+				item: "thermal:machine_speed_augment"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["40223E95D89C2070"]
+			id: "712119DAA6611A37"
+			rewards: [{
+				id: "22E04A9753B88703"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1AC2C95E74A273D4"
+				item: "thermal:rf_coil_augment"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["712119DAA6611A37"]
+			id: "3D71A620B7E1CEB9"
+			rewards: [{
+				id: "7915D0595C83AFB5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4F1DDEC1F5AAF907"
+				item: "thermal:rf_coil_storage_augment"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D71A620B7E1CEB9"]
+			id: "469EC747C130CB06"
+			rewards: [
+				{
+					count: 3
+					id: "5BE326407F5FAA6E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "55A80A0E262A81C0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "6F0B6B37E8635CED"
+				item: "thermal:rf_coil_xfer_augment"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D6EAD7FDBB7C624"]
+			id: "7E999A0D8264F8FC"
+			rewards: [
+				{
+					id: "30A50C7F1B890BD9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "18343C9FDFD1FE41"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "272F77539DB9848C"
+				item: "thermal:fluid_filter_augment"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6BC1E5B3C651188E"]
+			id: "04BAC8D3EF6EC974"
+			rewards: [
+				{
+					id: "1DB76184CAAAB865"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "3742AD044D9E0973"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "749554C0D64D6D47"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26F992EC06F40BA4"
+				item: "thermal:item_filter_augment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7686660E1803E5F1"]
+			id: "0F0ABF99D5D43EC7"
+			rewards: [{
+				id: "6B92F7B2BC3881F5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "334E3766FD564945"
+				item: "thermal:machine_output_augment"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3CC3E768659F5790"]
+			id: "7C75F8C071D4B8D8"
+			rewards: [
+				{
+					count: 4
+					id: "1B003020D8BC05AE"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "6E484D5AAA0DF875"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "7E5ED7DDDC3F8C09"
+				item: "thermal:machine_catalyst_augment"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7976BFAA8569684D"]
+			id: "0711F279872C4656"
+			rewards: [{
+				id: "4CC370C1FB0B6202"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "19BEB6A62B307A23"
+				item: "thermal:dynamo_output_augment"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0711F279872C4656"]
+			id: "58C3694BA7F103C0"
+			rewards: [{
+				id: "0A0192A584E1BCF0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7A897EBCF674AA44"
+				item: "thermal:dynamo_fuel_augment"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7613017C5F2E245F"]
+			id: "0797127DE9664B38"
+			rewards: [
+				{
+					id: "298CE604E87B1604"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "777ECC3008C7318C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07B106E3F75C953E"
+				item: "thermal:dynamo_throttle_augment"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["5EBD624BDF5519E5"]
+			id: "73D097A0CBA256C3"
+			rewards: [{
+				id: "62DE50CAFB704227"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2109C403064DA887"
+				item: "thermal:area_radius_augment"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["798BB39C3419AF3F"]
+			id: "2D954C53A60CAEF3"
+			rewards: [{
+				id: "18526D8E895ED5EC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4F718BADB8EAB324"
+				item: "thermal:machine_cycle_augment"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0E5EEC75D69ABF3E"]
+			id: "5E4FDF98DA71C2BA"
+			tasks: [{
+				id: "0B25CBB05C41F0AC"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2C3A72ACB07F6D86"]
+			id: "38C5C5D4253A1EA9"
+			rewards: [{
+				id: "3DFAE72D2BFF1A2D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38E95BF1A5D3B4EE"
+				item: "thermal:redstone_servo"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["601670B7C9FAAB2A"]
+			id: "63D4179906231255"
+			rewards: [{
+				id: "1B0D2068D441F13C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "79D425F795236841"
+				item: "thermal:wrench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D173D440B56372A"]
+			id: "38CC1AE10B197D7E"
+			rewards: [{
+				id: "31F926E89F79BF99"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0A3BB3A4C5BF7C11"
+				item: "thermal:junk_net"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2AB28F74F5388D7E"]
+			id: "4849429004591F26"
+			rewards: [
+				{
+					id: "7D7F448D099AD0B3"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "522C1E3D27DAD6C3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "20684C62F2D69142"
+				item: "thermal:fluid_duct"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4849429004591F26"]
+			id: "293C1756A06A31FD"
+			rewards: [
+				{
+					id: "1D54DED720955781"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6B9117D12B4E81CA"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "2B563D18410CA76F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "757B2D2CB6259B95"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "0C82E7F0E38B6785"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "74BC4DEF8B4514DC"
+				item: "thermal:fluid_duct_windowed"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04BAC8D3EF6EC974"]
+			id: "35111B67B3C6A2F0"
+			rewards: [{
+				id: "6654C5CB9D7F61BD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4D12EFDD3A1E1249"
+				item: "thermal:item_buffer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["250CE99087FB695B"]
+			id: "2AF1C8D0D94DBC47"
+			rewards: [{
+				count: 5
+				id: "18BE87C238639714"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "065D28B5CDA80DE1"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["35111B67B3C6A2F0"]
+			id: "317F1772B5DB6D6E"
+			rewards: [{
+				id: "17509FC4673904E6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4A96E4D71A42CA7E"
+				item: "thermal:energy_limiter_attachment"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["317F1772B5DB6D6E"]
+			id: "1D9CC390E6AE8A44"
+			rewards: [{
+				id: "4216B1B145A1AFF7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "602D8BCD0F22CDBF"
+				item: "thermal:filter_attachment"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1D9CC390E6AE8A44"]
+			id: "5226336D7177E45E"
+			rewards: [{
+				id: "1680FAA864ADC643"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "588722351DF9920E"
+				item: "thermal:servo_attachment"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5226336D7177E45E"]
+			id: "257416B444EC3F42"
+			rewards: [
+				{
+					id: "16B5B182155CFD0C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1C27414246F178A7"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DC0CD77A1715E93"
+				item: "thermal:turbo_servo_attachment"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5075C282589D7138"]
+			id: "379779B446499314"
+			rewards: [{
+				id: "0C8B4AC08DD46B5E"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C6F037F4040484F"
+				item: "thermal:satchel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2AF1C8D0D94DBC47"]
+			id: "5140465330AD867E"
+			rewards: [{
+				id: "17A280B1D65DB4AE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "06DE6496E56A29BC"
+				item: "thermal:detonator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0E5EEC75D69ABF3E"]
+			id: "6DA53766E03D2E6B"
+			rewards: [
+				{
+					count: 5
+					id: "492AE44C08C6195F"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "3218095CB1A2EDA4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "3C75E51E01850622"
+				item: "thermal:gold_gear"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6DA53766E03D2E6B"]
+			id: "1B87E60857329D0E"
+			rewards: [{
+				id: "681D7A7DEA0DCBCA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "357DB1FB18FD8088"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1B87E60857329D0E"]
+			id: "019838A0E1FDADA8"
+			rewards: [
+				{
+					id: "5019E23EA1FFE0DE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 18
+					id: "7FDEB234972531E0"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F577F502F69958E"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["019838A0E1FDADA8"]
+			id: "5C4D1642746BF7EC"
+			rewards: [
+				{
+					count: 4
+					id: "5FCBAABCB0B5016F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "580E57BDA126BB66"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7A87E4F7DB187D86"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "5D455549811782A9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "416D39ADBC1EDEEC"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3D9DF7A1E0474B2B"]
+			id: "38A32C9B24DA70E4"
+			rewards: [
+				{
+					id: "4E5485620AE1C87B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "1D5D0525D31B731F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "3E8A59AB78498B26"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -14.0d
+		}
+		{
+			id: "14B1E6B37F3065FF"
+			rewards: [{
+				id: "562923EF643B924B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "774F7726E7A14CB3"
+				item: "thermal:redprint"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -15.0d
+		}
+		{
+			id: "501C65F10BFABC5A"
+			rewards: [{
+				id: "5D7F7CD33BE14383"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7197396C437B7AF4"
+				item: {
+					Count: 1b
+					id: "thermal:rf_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["7613017C5F2E245F"]
+			id: "461C121914F90D3E"
+			rewards: [
+				{
+					id: "27DEA9AD18F3E1E2"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					id: "6F7A5B5A5350D39A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "65B77ED1B228EBCB"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -16.0d
+		}
+	]
+	title: "Thermal Expansion"
+}
