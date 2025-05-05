@@ -45,7 +45,7 @@
 			image: "ftbquests:textures/item/mana_infuser.png"
 			rotation: 0.0d
 			width: 4.5d
-			x: 24.0d
+			x: 27.5d
 			y: 1.5d
 		}
 		{
@@ -58,7 +58,7 @@
 			rotation: 0.0d
 			width: 4.5d
 			x: 19.0d
-			y: 8.5d
+			y: 10.0d
 		}
 		{
 			click: ""
@@ -297,7 +297,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["00B8C79C4553F433"]
@@ -456,7 +456,7 @@
 				item: "botania:rune_spring"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 26.5d
 			y: -1.0d
 		}
 		{
@@ -470,7 +470,7 @@
 				item: "botania:rune_summer"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 26.0d
 			y: 0.0d
 		}
 		{
@@ -484,7 +484,7 @@
 				item: "botania:rune_autumn"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 28.5d
 			y: -1.0d
 		}
 		{
@@ -498,7 +498,7 @@
 				item: "botania:rune_winter"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 27.5d
 			y: -1.5d
 		}
 		{
@@ -512,7 +512,7 @@
 				item: "botania:rune_lust"
 				type: "item"
 			}]
-			x: 30.0d
+			x: 33.0d
 			y: -1.0d
 		}
 		{
@@ -526,7 +526,7 @@
 				item: "botania:rune_gluttony"
 				type: "item"
 			}]
-			x: 28.0d
+			x: 31.0d
 			y: 0.0d
 		}
 		{
@@ -540,7 +540,7 @@
 				item: "botania:rune_greed"
 				type: "item"
 			}]
-			x: 29.0d
+			x: 32.0d
 			y: 0.0d
 		}
 		{
@@ -554,7 +554,7 @@
 				item: "botania:rune_sloth"
 				type: "item"
 			}]
-			x: 29.0d
+			x: 32.0d
 			y: -2.0d
 		}
 		{
@@ -568,7 +568,7 @@
 				item: "botania:rune_wrath"
 				type: "item"
 			}]
-			x: 28.0d
+			x: 31.0d
 			y: -1.0d
 		}
 		{
@@ -582,7 +582,7 @@
 				item: "botania:rune_envy"
 				type: "item"
 			}]
-			x: 30.0d
+			x: 33.0d
 			y: -2.0d
 		}
 		{
@@ -596,7 +596,7 @@
 				item: "botania:rune_pride"
 				type: "item"
 			}]
-			x: 28.0d
+			x: 31.0d
 			y: -2.0d
 		}
 		{
@@ -649,7 +649,7 @@
 					type: "item"
 				}
 			]
-			x: 24.0d
+			x: 27.5d
 			y: 0.0d
 		}
 		{
@@ -664,7 +664,7 @@
 				item: "mythicbotany:asgard_rune"
 				type: "item"
 			}]
-			x: 25.5d
+			x: 29.0d
 			y: 0.0d
 		}
 		{
@@ -675,7 +675,7 @@
 				item: "mythicbotany:alfsteel_ingot"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 27.5d
 			y: 3.5d
 		}
 		{
@@ -727,7 +727,7 @@
 			]
 			title: "Портал в Эльфхейм"
 			x: 19.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["60E53E8E03525581"]
@@ -737,8 +737,8 @@
 				item: "botania:elementium_ingot"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 5.5d
+			x: 22.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["60E53E8E03525581"]
@@ -748,8 +748,8 @@
 				item: "botania:dragonstone"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 6.5d
+			x: 22.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["60E53E8E03525581"]
@@ -759,8 +759,8 @@
 				item: "botania:pixie_dust"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 7.5d
+			x: 22.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -774,7 +774,7 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -788,7 +788,7 @@
 				type: "item"
 			}]
 			x: 19.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -802,7 +802,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4667DE47B4447AEB"]
@@ -812,33 +812,35 @@
 				item: "botania:gaia_pylon"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 4.5d
+			x: 21.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["1C0D7A45A8A1F07F"]
+			dependencies: ["35FAF591C5DDCB8C"]
 			id: "0626601491D4C027"
 			tasks: [{
 				id: "582104FC09BB005B"
 				item: "botania:life_essence"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 4.5d
+			x: 24.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0626601491D4C027"]
+			description: [" С помощью этого предмета можно переносить спавнера куда вам только угодно."]
 			id: "452CC0577D57CA29"
 			tasks: [{
 				id: "613CC3306188FDF3"
 				item: "botania:spawner_mover"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 5.0d
+			x: 27.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0626601491D4C027"]
+			description: [" Позволяет вам летать, используя ману."]
 			id: "179A335A6EFE43EB"
 			tasks: [{
 				id: "0CACFA19787D8608"
@@ -851,8 +853,338 @@
 				}
 				type: "item"
 			}]
-			x: 24.5d
+			x: 27.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5587C6E508CE916C"
+				"60C081B51E2CF6B8"
+				"1FE8E3031230DFED"
+			]
+			description: [" Хранилище &bманы&r."]
+			id: "67953E8ACD48198E"
+			tasks: [{
+				id: "5E3355856CCD6E00"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"67953E8ACD48198E"
+				"5F59015733461CCB"
+			]
+			id: "3F61A38F8A47628E"
+			tasks: [{
+				id: "7EDB9222EAD1E57B"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0D342AAAB62AC0CA"
+				"3F61A38F8A47628E"
+			]
+			id: "2D32CDB40F2BC1B5"
+			tasks: [{
+				id: "204527A8B4EFB796"
+				item: "botania:mana_ring_greater"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1C0D7A45A8A1F07F"
+				"6A9B7190D685F953"
+			]
+			description: [" Чтобы призвать &4Стража Гайи&r, необходимо построить конструкцию, которую можно визуализировать с помощью &2лексикона Botania&r."]
+			id: "35FAF591C5DDCB8C"
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "1AFD44C4291DAB59"
+				title: "Убить стража Гайи"
+				type: "kill"
+				value: 1L
+			}]
+			x: 23.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["6A9B7190D685F953"]
+			id: "1A11A70905997205"
+			shape: "diamond"
+			tasks: [{
+				id: "7DC26559BE25318B"
+				item: {
+					Count: 1b
+					id: "botania:terra_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A9B7190D685F953"]
+			id: "06141146704F359C"
+			shape: "diamond"
+			tasks: [{
+				id: "1D3AAD2D02C3D7C4"
+				item: {
+					Count: 1b
+					id: "botania:terra_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6A9B7190D685F953"]
+			id: "496E42853EE40D75"
+			shape: "diamond"
+			tasks: [{
+				id: "441C83821B76B322"
+				item: {
+					Count: 1b
+					id: "botania:terra_pick"
+					tag: {
+						Damage: 0
+						mana: 9999
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6A9B7190D685F953"]
+			id: "35048ABC15A8C3FB"
+			shape: "diamond"
+			tasks: [{
+				id: "463D66733B0332C1"
+				item: {
+					Count: 1b
+					id: "botania:terrasteel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6A9B7190D685F953"]
+			id: "431A2EE54FC2F873"
+			shape: "diamond"
+			tasks: [{
+				id: "2FFC0CCF95653BFD"
+				item: {
+					Count: 1b
+					id: "botania:terrasteel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6A9B7190D685F953"]
+			id: "3A595E4CC8483DBA"
+			shape: "diamond"
+			tasks: [{
+				id: "246E7A7A7B500B10"
+				item: {
+					Count: 1b
+					id: "botania:terrasteel_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A9B7190D685F953"]
+			id: "755554D9B9B343A2"
+			shape: "diamond"
+			tasks: [{
+				id: "1039CF274948EAFD"
+				item: {
+					Count: 1b
+					id: "botania:terrasteel_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47143C7AECF067A3"]
+			id: "1EE70D99F419BCD8"
+			shape: "diamond"
+			tasks: [{
+				id: "5E5B7BEF6F4649DB"
+				item: {
+					Count: 1b
+					id: "mythicbotany:alfsteel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 30.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47143C7AECF067A3"]
+			id: "583CEB0CD113320C"
+			shape: "diamond"
+			tasks: [{
+				id: "577E5B2FAC580268"
+				item: {
+					Count: 1b
+					id: "mythicbotany:alfsteel_pick"
+					tag: {
+						Damage: 0
+						mana: 9999
+					}
+				}
+				type: "item"
+			}]
+			x: 30.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["47143C7AECF067A3"]
+			id: "591E3FCEE70B73D6"
+			shape: "diamond"
+			tasks: [{
+				id: "37D9DB3FCD8F4E71"
+				item: {
+					Count: 1b
+					id: "mythicbotany:alfsteel_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 30.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["47143C7AECF067A3"]
+			id: "4931945F935583BA"
+			shape: "diamond"
+			tasks: [{
+				id: "46DA1CF6B25C8E58"
+				item: {
+					Count: 1b
+					id: "mythicbotany:alfsteel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["47143C7AECF067A3"]
+			id: "10557D6CBA7CE000"
+			shape: "diamond"
+			tasks: [{
+				id: "6B1CC9609E313CB2"
+				item: {
+					Count: 1b
+					id: "mythicbotany:alfsteel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 31.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47143C7AECF067A3"]
+			id: "009B57AACC24D248"
+			shape: "diamond"
+			tasks: [{
+				id: "2648B42AE543A35A"
+				item: {
+					Count: 1b
+					id: "mythicbotany:alfsteel_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 32.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47143C7AECF067A3"]
+			id: "69E21D87DC0016F0"
+			shape: "diamond"
+			tasks: [{
+				id: "46C4B36509653DE5"
+				item: {
+					Count: 1b
+					id: "mythicbotany:alfsteel_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2D32CDB40F2BC1B5"
+				"2AE94FBBABC967DF"
+			]
+			id: "540CD5CCBEE1840D"
+			tasks: [{
+				id: "62E6D461D3CDF2D5"
+				item: "mythicbotany:mana_ring_greatest"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
 		}
 	]
 	title: "&bBotania"
