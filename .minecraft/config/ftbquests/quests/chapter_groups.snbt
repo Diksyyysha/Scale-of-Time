@@ -2,6 +2,7 @@
 	chapter_groups: [
 		{ id: "54209D604C333018", title: "Tech" }
 		{ id: "786039148FECCFBA", title: "Magic" }
+		{ id: "5697CD3A44EB2256", title: "Разное" }
 		{ id: "59F4B31CF7D0D74F", title: "Концовка" }
 	]
 }

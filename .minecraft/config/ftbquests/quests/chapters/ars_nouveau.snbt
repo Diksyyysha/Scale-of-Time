@@ -5,6 +5,18 @@
 	group: "786039148FECCFBA"
 	icon: "ars_nouveau:creative_spell_book"
 	id: "3CEF855BE1798414"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "ars_nouveau:blocks/manabloom/stage4"
+		rotation: 0.0d
+		width: 1.0d
+		x: 18.0d
+		y: 1.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
