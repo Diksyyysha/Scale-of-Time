@@ -67,7 +67,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "createaddition:block/tesla_coil/lightning_new"
+			image: "biomesoplenty:block/blood_flow"
 			rotation: 45.0d
 			width: 1.0d
 			x: -0.5d
@@ -265,11 +265,11 @@
 	quests: [
 		{
 			description: [
-				"&cEvilCraft&r is a magic mod based on somewhat evil things. Collect the blood of your enemies and harness the power of an ancient source of evil!"
+				"&cEvilCraft&r — магический мод, основанный на довольно злых вещах. Собирайте кровь своих врагов и используйте силу древнего источника зла!"
 				""
-				"Everything in this mod can be found in the guidebook, the &aOrigins of Darkness&r. "
+				"Все в этом моде можно найти в путеводителе, &aИстоки Тьмы&r."
 				""
-				"To get started, find yourself some &9Dark Gems&r. "
+				"Для начала найдите себе &9Тёмные камни&r."
 			]
 			id: "31FD9EA513E0D010"
 			rewards: [
@@ -291,22 +291,22 @@
 				item: "evilcraft:dark_gem"
 				type: "item"
 			}]
-			title: "&aWelcome to &r&cEvilCraft&r!"
+			title: "&aДобро пожаловать в &r&cEvilCraft&r!"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["31FD9EA513E0D010"]
 			description: [
-				"To start collecting blood, we need to craft the &cBlood Extractor&r. "
+				"Чтобы начать собирать кровь, нам нужно создать &cЭкстрактор крови&r."
 				""
-				"As long as you have this in your inventory, killing mobs will collect blood into the extractor. &cBlood&r is an important resouce in EvilCraft."
+				"Пока он у вас в инвентаре, убийство мобов будет собирать кровь в экстрактор. &cКровь&r — важный ресурс в EvilCraft."
 				""
-				"Need to increase the storage of the Extractor? Simply make another, and then combine them in a crafting grid!"
+				"Нужно увеличить хранилище экстрактора? Просто создайте еще один, а затем объедините их в сетке крафта!"
 				""
-				"These can also be used to extract blood from &cBlood Stains&r you find (or create) on the ground."
+				"Их также можно использовать для извлечения крови из &cBlood Stains&r, которые вы найдете (или создадите) на земле."
 				""
-				"Lastly, with enough blood stored, you can sneak-right click on the ground to place a bucket of blood down."
+				"Наконец, при наличии достаточного количества крови вы можете скрытно щелкнуть правой кнопкой мыши по земле, чтобы поставить ведро с кровью."
 			]
 			id: "7E79F52147B606F9"
 			min_width: 250
@@ -367,32 +367,25 @@
 				}
 				type: "item"
 			}]
-			title: "&aCollecting&r &cBlood&r"
+			title: "&aСбор&r &cКрови&r"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["31FD9EA513E0D010"]
 			description: [
-				"These are hard to miss, considering they have a massive beam coming from the center."
+				"Трудно не заметить подобные структуры, из их центра светит яркий луч в небо."
 				""
-				"In the center of the &9Dark Temple&r is a &aEnvironmental Accumulator&r. "
+				"В центре &9темного храма&r есть &aПогодный аккумулятор&r. "
 				""
-				"We can use this to empower and create several items that we'll need along the way, including &dLightning Bombs&r!"
+				"Мы можем улучшить его и исплользовать для создания некоторых предметов которые понядобятся нам по пути, включая &dГромовых бомб&r!"
 			]
 			id: "2CB69634F6A6E53E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "274FD83268B97D3F"
-					type: "loot"
-				}
-				{
-					id: "1D2A6BD57767B921"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "1D2A6BD57767B921"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -415,7 +408,7 @@
 					type: "item"
 				}
 			]
-			title: "&9Dark Temples&r"
+			title: "&9Тёмные храмы&r"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -460,18 +453,11 @@
 				"This will turn back into blood in the rain, or by breaking it with regular tools. If you break it with &9Flint and Steel&r, you'll get &dBlood Shards&r instead."
 			]
 			id: "1E3471513C75CC54"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3A1E48D068175183"
-					type: "loot"
-				}
-				{
-					id: "0459B93C052F519B"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "0459B93C052F519B"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				count: 8L
 				id: "3EB33B838372C035"
@@ -1809,9 +1795,9 @@
 		{
 			dependencies: ["2CB69634F6A6E53E"]
 			description: [
-				"When it's raining, throwing in a &aWeather Container&r will harness the power of the rain."
+				"Когда идет дождь, бросьте &aПогодный контейнер&r, чтобы использовать силу дождя."
 				""
-				"With this, you can create an &9Infinite Water Bucket&r, or an &9Infinite Water Source Block&r. These are both incredibly useful items to have!"
+				"С его помощью вы можете создать &9Бесконечное ведро воды&r или &9Бесконечный источник воды&r. Это оба невероятно полезные предметы!"
 			]
 			id: "7A93F07BE2E6EC97"
 			rewards: [
@@ -1851,7 +1837,7 @@
 					type: "item"
 				}
 			]
-			title: "&aLet it&r &9Rain&r"
+			title: "&aПусть будет&r &9Дождь&r"
 			x: 0.5d
 			y: -3.0d
 		}
@@ -1900,7 +1886,7 @@
 					type: "item"
 				}
 			]
-			title: "&aYou've Been&r &9Thunderstruck&r"
+			title: "&aВы были&r &9поражены громом&r"
 			x: -0.5d
 			y: -3.0d
 		}

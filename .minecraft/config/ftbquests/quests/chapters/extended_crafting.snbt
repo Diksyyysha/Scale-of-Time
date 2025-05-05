@@ -5,6 +5,116 @@
 	group: "5697CD3A44EB2256"
 	icon: "extendedcrafting:ultimate_table"
 	id: "1F2A542674D99AE4"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "extendedcrafting:block/advanced_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "extendedcrafting:block/basic_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "extendedcrafting:block/crafting_core_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "extendedcrafting:block/ultimate_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "extendedcrafting:block/basic_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "extendedcrafting:item/black_iron_slate"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "extendedcrafting:block/advanced_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "extendedcrafting:block/crafting_core_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "extendedcrafting:block/ultimate_table_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -0.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -197,13 +307,14 @@
 		}
 		{
 			dependencies: ["359952868FFD8DA5"]
+			hide_dependency_lines: true
 			id: "40D60083FCAEF18D"
 			tasks: [{
 				id: "4C948C720AEF2BF8"
 				item: "extendedcrafting:crystaltine_ingot"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.0d
 			y: 0.5d
 		}
 		{
@@ -214,7 +325,7 @@
 				item: "extendedcrafting:crystaltine_component"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.0d
 			y: -1.5d
 		}
 		{
@@ -236,7 +347,7 @@
 				item: "extendedcrafting:redstone_component"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.0d
 			y: -2.5d
 		}
 		{
@@ -250,7 +361,7 @@
 				item: "extendedcrafting:advanced_auto_table"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.5d
 			y: -2.5d
 		}
 		{
@@ -264,7 +375,7 @@
 				item: "extendedcrafting:basic_auto_table"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.5d
 			y: -3.5d
 		}
 		{
@@ -278,7 +389,7 @@
 				item: "extendedcrafting:elite_auto_table"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.5d
 			y: -1.5d
 		}
 		{
@@ -292,7 +403,7 @@
 				item: "extendedcrafting:ultimate_auto_table"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.5d
 			y: -0.5d
 		}
 	]

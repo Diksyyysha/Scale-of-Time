@@ -67,8 +67,8 @@
 			image: "enigmaticlegacy:items/iron_ring"
 			rotation: 0.0d
 			width: 2.0d
-			x: -6.0d
-			y: -12.5d
+			x: -4.5d
+			y: -9.5d
 		}
 		{
 			click: ""
@@ -82,6 +82,58 @@
 			width: 2.0d
 			x: 1.5d
 			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "655D52905B760B9B"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "enigmaticlegacy:textures/unused/crying_helmet.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "655D52905B760B9B"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "enigmaticlegacy:textures/items/crying_chestplate.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -17.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2DD0A6A988C9917D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "enigmaticlegacy:items/cosmic_scroll"
+			rotation: 20.0d
+			width: 1.0d
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "2DD0A6A988C9917D"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "enigmaticlegacy:items/cosmic_scroll"
+			rotation: 120.0d
+			width: 1.0d
+			x: 11.0d
+			y: 4.0d
 		}
 	]
 	order_index: 2
@@ -671,25 +723,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2DD0A6A988C9917D"]
-			description: ["Благодаря новому искаженному сердцу у вас появилась возможность создавать новые уникальные предметы для уменьшения действия проклятий кольца. Изучите свойства каждого из них и создайте наиболее полезные из них"]
-			icon: "enigmaticlegacy:berserk_charm"
-			id: "0A841B2A40591ADB"
-			rewards: [{
-				id: "434F46831094CA15"
-				type: "xp"
-				xp: 15
-			}]
-			tasks: [{
-				id: "7FBA5D4311AA549E"
-				title: "Проклятые амулеты"
-				type: "checkmark"
-			}]
-			title: "Проклятые предметы"
-			x: 11.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["24BA09ABE6005D4A"]
 			description: ["Чистое сердце? Может ли оно помочь с проклятьями?"]
 			hide: true
@@ -1043,12 +1076,25 @@
 				title: "Экипировка"
 				type: "checkmark"
 			}]
-			x: -14.0d
-			y: 8.5d
+			x: -13.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["757655744EFD61C2"]
 			id: "47EE150F9ECA556D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48E287D7A73110FD"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+				{
+					id: "23E51419D28D5154"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				id: "7198950249B71E6F"
 				item: {
@@ -1060,12 +1106,25 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
+			x: -11.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["757655744EFD61C2"]
 			id: "12D8D6146B08BB31"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D9CA2889F620EDF"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+				{
+					id: "7FF338590C3E6565"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				id: "72F6F24B52EAF921"
 				item: {
@@ -1077,12 +1136,25 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -10.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["757655744EFD61C2"]
 			id: "7CA2477E8E30CE97"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7148FB93FA47B665"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+				{
+					id: "2D62A5F59F1125BC"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				id: "0FDA26F6226196FE"
 				item: {
@@ -1094,12 +1166,25 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
+			x: -9.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["757655744EFD61C2"]
 			id: "267910CE264B309E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0233812188EF40F2"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+				{
+					id: "2E738F03E62C8297"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				id: "6A0D543C638DF642"
 				item: {
@@ -1111,7 +1196,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
+			x: -8.5d
 			y: 3.5d
 		}
 		{
@@ -1142,7 +1227,7 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
+			x: -7.5d
 			y: 4.5d
 		}
 		{
@@ -1173,18 +1258,26 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
+			x: -7.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["757655744EFD61C2"]
 			description: ["Срубает деревья и листья 3x3x3. Можно отключить эту функцию"]
 			id: "70BAE1316F901EC2"
-			rewards: [{
-				id: "7D9D6740A5528710"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "7D9D6740A5528710"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F355F3544A99AE0"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "75C317DC9C321358"
 				item: {
@@ -1196,7 +1289,7 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
+			x: -7.5d
 			y: 6.5d
 		}
 		{
@@ -1227,7 +1320,7 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
+			x: -7.5d
 			y: 7.5d
 		}
 		{
@@ -1258,7 +1351,7 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
+			x: -7.5d
 			y: 8.5d
 		}
 		{
@@ -1270,7 +1363,7 @@
 				item: "enigmaticlegacy:etherium_ore"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -13.5d
 			y: 6.0d
 		}
 		{
@@ -1281,8 +1374,376 @@
 				item: "enigmaticlegacy:etherium_ingot"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -9.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["001AE81227DAF5C5"]
+			description: ["Позволяет самопроизвольно ускорятся на кнопку прыжка. Тратит прочность во время этого ускорения"]
+			id: "3A75C6427D62A967"
+			rewards: [
+				{
+					id: "2C91029179C41FA1"
+					type: "xp"
+					xp: 225
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F74A5A24045742C"
+					table_id: 2994924812343091255L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "141C2941ED28F425"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["001AE81227DAF5C5"]
+			description: ["Только для &5проклятых&r"]
+			id: "730CE84F669768CD"
+			rewards: [
+				{
+					id: "7E9A43E754CC3239"
+					type: "xp"
+					xp: 125
+				}
+				{
+					exclude_from_claim_all: true
+					id: "080AF223C5953906"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "44CDD2D38C56126C"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:ender_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["001AE81227DAF5C5"]
+			description: [
+				"На &aПКМ&r можно бросить клинки. Клинки проклинают жертву нанося критический урон"
+				""
+				""
+				"Только для &5проклятых&r"
+			]
+			id: "4B9875CEC3393F0E"
+			rewards: [
+				{
+					id: "4FC51CC8DEBE4004"
+					type: "xp"
+					xp: 255
+				}
+				{
+					exclude_from_claim_all: true
+					id: "198CD71495189283"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1F5B893CB3DCA30A"
+				item: {
+					Count: 1b
+					id: "enigmaticaddons:evil_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["001AE81227DAF5C5"]
+			id: "70700609D19D0AD9"
+			rewards: [
+				{
+					id: "7DBD6ACFB7439D4D"
+					type: "xp"
+					xp: 175
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55CCDFDC328E10CD"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "337763EDC2B29883"
+				item: {
+					Count: 1b
+					id: "enigmaticaddons:astral_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["001AE81227DAF5C5"]
+			description: ["Эффект &6плохого знамения&r увеличивает урон на 15%(+15% за каждый уровень эффекта). На ПКМ можно блокировать удар, в случае удачной блокировки &cусиливает&r следующий удар"]
+			id: "225DD1879D09E1D0"
+			rewards: [
+				{
+					id: "002DBFA967E49899"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "788E48632F0BA061"
+					table_id: 2994924812343091255L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "07C8A1A03358A0E7"
+				item: {
+					Count: 1b
+					id: "enigmaticaddons:disaster_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["001AE81227DAF5C5"]
+			description: ["Только для &5проклятых&r"]
+			id: "2EB2A4C7A1121061"
+			tasks: [{
+				id: "303155DFB7352AA8"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["001AE81227DAF5C5"]
+			id: "48805E6ABC15B067"
+			rewards: [
+				{
+					id: "7BF42C7FCAF8F1CA"
+					type: "xp"
+					xp: 155
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7438CE695687C6A7"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "54308816E434979F"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:astral_breaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["001AE81227DAF5C5"]
+			id: "25616C4260F9DFBE"
+			rewards: [
+				{
+					id: "31E2DBD75E15A8CD"
+					type: "xp"
+					xp: 155
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F7494045C798F98"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "518257A690E9706E"
+				item: "enigmaticaddons:ichor_spear"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["001AE81227DAF5C5"]
+			description: ["Можно комбинировать с &9зельями&r"]
+			id: "568ECD27F37FAD36"
+			rewards: [
+				{
+					id: "6E18988446B19003"
+					type: "xp"
+					xp: 555
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D9CBB8D48EF4B78"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0B318FA4DA3E5795"
+				item: {
+					Count: 1b
+					id: "enigmaticaddons:dragon_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2DD0A6A988C9917D"]
+			description: ["Искаженное сердце открывает доступ к новым &3свиткам&r которые могут быть полезны "]
+			id: "080B5CD84BBBE085"
+			rewards: [{
+				id: "47B98CADF6B84E69"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "685D0002D2DB40A7"
+				item: "enigmaticlegacy:darkest_scroll"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["080B5CD84BBBE085"]
+			id: "4CEFC0B31305D8C6"
+			rewards: [
+				{
+					id: "1F0E729E3B10F51F"
+					type: "xp"
+					xp: 155
+				}
+				{
+					exclude_from_claim_all: true
+					id: "113EDBA130061B5C"
+					table_id: 2994924812343091255L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "4BE82FC8B3DEC47A"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["080B5CD84BBBE085"]
+			id: "7C01C87C2A697A37"
+			rewards: [
+				{
+					id: "2CC2FAB021AD5996"
+					type: "xp"
+					xp: 155
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52FD98A93F5C2E27"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "64BD781CC1D6CF3D"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["080B5CD84BBBE085"]
+			id: "5D9387FB7A693E22"
+			rewards: [
+				{
+					id: "0F53A3502CFBEA7E"
+					type: "xp"
+					xp: 155
+				}
+				{
+					exclude_from_claim_all: true
+					id: "445B9A2D8B7D348E"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4D629DA450A95A2D"
+				item: "enigmaticaddons:night_scroll"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2DD0A6A988C9917D"]
+			description: ["&8Я бы не советовал...&r"]
+			id: "3621D379AD715164"
+			rewards: [{
+				id: "4769A4D3B4381837"
+				type: "xp"
+				xp: 255
+			}]
+			tasks: [{
+				id: "5C9D6D12419BB3AD"
+				item: "enigmaticlegacy:cursed_stone"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
 		}
 	]
 	title: "Enigmatic Legacy"
