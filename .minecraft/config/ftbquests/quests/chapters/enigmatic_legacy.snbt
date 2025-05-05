@@ -21,6 +21,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "422A36EEB6675EE7"
 			dev: false
 			height: 3.0d
 			hover: [ ]
@@ -29,6 +30,58 @@
 			width: 3.0d
 			x: -12.5d
 			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "655D52905B760B9B"
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "enigmaticlegacy:items/enigmatic_item"
+			rotation: 0.0d
+			width: 3.0d
+			x: 11.0d
+			y: -17.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "655D52905B760B9B"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "enigmaticaddons:item/earth_heart_fragment"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "655D52905B760B9B"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "enigmaticlegacy:items/iron_ring"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: -12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "655D52905B760B9B"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "enigmaticlegacy:items/golden_ring"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -11.0d
 		}
 	]
 	order_index: 2
@@ -44,11 +97,19 @@
 				}
 			}
 			id: "293B314B23F4B0AC"
-			rewards: [{
-				id: "708C04D567315221"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "708C04D567315221"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D2B62377D4E2966"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
@@ -64,6 +125,7 @@
 			dependencies: ["293B314B23F4B0AC"]
 			description: ["Странно, но это кольцо вы не брали с собой во время ритуала. Похоже, оно само нашло вас когда ваш амулет пробудился. От этого кольца исходит зловещяя аура, но при этом манящая, как-будто скрывает в себе невоображаемые силы... &7Вы не уверены, стоит ли его надевать, и как это обернётся для вас в дальнейшем.&r"]
 			hide: false
+			icon: "enigmaticlegacy:cursed_ring"
 			id: "26C290F0EA33D11C"
 			rewards: [{
 				id: "236A1E2E678978FC"
@@ -71,15 +133,15 @@
 				xp: 5
 			}]
 			tasks: [{
-				id: "3471140B00FD5C5E"
-				item: "enigmaticlegacy:cursed_ring"
-				type: "item"
+				id: "3D4B791A0B8CBA96"
+				title: "Кольцо семи проклятий"
+				type: "checkmark"
 			}]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["3471140B00FD5C5E"]
+			dependencies: ["26C290F0EA33D11C"]
 			description: ["Похоже вы всё таки осмелились экипировать данное кольцо. Чтож, возможно, всё не так уж и плохо если вы, конечно, не надели его в самом начале своего пути. В таком случае придётся вам не сладко... Но и без плюсов не обойтись, кольцо даёт доступ к новым, ранее неизвестным знаниям, которые помогут вам пережить бремя ношения этого кольца, пока вы не найдёте способ избавится от кольца, либо ослабить его действие."]
 			hide: true
 			hide_dependency_lines: true
@@ -110,6 +172,7 @@
 				icon: "enigmaticlegacy:cursed_ring"
 				id: "5A11B16F91313690"
 				stat: "enigmaticlegacy:play_time_with_seven_curses"
+				title: "Наденьте кольцо семи проклятий"
 				type: "stat"
 				value: 1
 			}]
@@ -151,6 +214,7 @@
 		{
 			dependencies: ["655D52905B760B9B"]
 			description: ["Это кольцо может быть полезно как для крафта, так и для боевой экипировки"]
+			hide: true
 			hide_dependency_lines: true
 			id: "64F7C9AFD4BBB7E9"
 			rewards: [{
@@ -163,8 +227,8 @@
 				item: "enigmaticlegacy:iron_ring"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -10.0d
+			x: -4.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["64F7C9AFD4BBB7E9"]
@@ -180,8 +244,8 @@
 				item: "enigmaticlegacy:golden_ring"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -10.0d
+			x: -0.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["64F7C9AFD4BBB7E9"]
@@ -196,8 +260,8 @@
 				item: "enigmaticlegacy:ender_ring"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -12.5d
+			x: -7.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["64F7C9AFD4BBB7E9"]
@@ -213,8 +277,8 @@
 				item: "enigmaticlegacy:magnet_ring"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -12.5d
+			x: -4.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["043568080A07BD71"]
@@ -230,29 +294,8 @@
 				item: "enigmaticlegacy:super_magnet_ring"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -15.0d
-		}
-		{
-			dependencies: [
-				"71F7E249332D65B3"
-				"73688A1DCDB791FA"
-			]
-			hide: true
-			hide_dependent_lines: true
-			id: "215F314FF4F4C25D"
-			rewards: [{
-				id: "44306E4F26603C2F"
-				type: "xp"
-				xp: 25
-			}]
-			tasks: [{
-				id: "0CF8BB80A90CAAD7"
-				item: "enigmaticaddons:quartz_ring"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -12.5d
+			x: -4.5d
+			y: -16.0d
 		}
 		{
 			dependencies: [
@@ -370,10 +413,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"422A36EEB6675EE7"
-				"4096F4A501AB0261"
-			]
+			dependencies: ["422A36EEB6675EE7"]
 			id: "189003B4D057A1AA"
 			rewards: [
 				{
@@ -418,10 +458,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"422A36EEB6675EE7"
-				"4096F4A501AB0261"
-			]
+			dependencies: ["422A36EEB6675EE7"]
 			id: "368AF2BDF9BD379C"
 			rewards: [
 				{
@@ -462,13 +499,9 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"422A36EEB6675EE7"
-				"215F314FF4F4C25D"
-			]
+			dependencies: ["422A36EEB6675EE7"]
 			dependency_requirement: "one_completed"
 			description: ["Слишком дешевый для такого"]
-			hide: true
 			id: "35F5A04AB524413A"
 			rewards: [{
 				id: "035B9131CD48C334"
@@ -576,8 +609,12 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["655D52905B760B9B"]
+			dependencies: [
+				"15A3B04F538788B1"
+				"655D52905B760B9B"
+			]
 			description: ["Довольно редкий артефакт, используется в многих крафтах."]
+			hide: true
 			hide_dependency_lines: true
 			id: "24BA09ABE6005D4A"
 			rewards: [
@@ -695,8 +732,8 @@
 				item: "enigmaticlegacy:avarice_scroll"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -12.5d
+			x: -1.5d
+			y: -13.5d
 		}
 		{
 			dependencies: [
@@ -728,13 +765,12 @@
 				item: "enigmaticlegacy:desolation_ring"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -12.5d
+			x: -1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: [
 				"73688A1DCDB791FA"
-				"601A9DF1B2D01E4F"
 				"4096F4A501AB0261"
 			]
 			id: "130AB3A0E346844A"
@@ -762,8 +798,491 @@
 				item: "enigmaticaddons:earth_promise"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -10.0d
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["655D52905B760B9B"]
+			description: ["Камни стихий нельзя скрафтить, только найти &8(но есть исключения)&r"]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "enigmaticlegacy:extradimensional_eye"
+				tag: { }
+			}
+			id: "1D0966690CE9B6AD"
+			rewards: [{
+				id: "22326A31323B8A6D"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "371F40A649D43A99"
+				title: "Камни стихий"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1D0966690CE9B6AD"]
+			description: ["Даёт временную неуязвимость от огня"]
+			id: "3ED3FFEB3DECCB26"
+			rewards: [{
+				id: "507CB8A23AC571DA"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "41C21CD25CD91AC8"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1D0966690CE9B6AD"]
+			id: "69C20FABEFF369FF"
+			tasks: [{
+				id: "35DA13C0EA58E421"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1D0966690CE9B6AD"]
+			id: "3A7D549AA8D79570"
+			tasks: [{
+				id: "3C310CA0691B6D68"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1D0966690CE9B6AD"]
+			id: "4F0FBE6AF0B0976E"
+			tasks: [{
+				id: "74B8A266489BF3BA"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1D0966690CE9B6AD"]
+			description: ["Эффект иссушения при атаке и иммунитет к негативным эффектам"]
+			id: "0B41B979AAFB0B34"
+			tasks: [{
+				id: "4D9E2F18048B06A8"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			title: "Жемчуг бездны"
+			x: 13.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1D0966690CE9B6AD"]
+			description: ["Крайне полезный камень стихий, идеально поможет в начале пути"]
+			id: "4A34355DCC0E40AE"
+			rewards: [{
+				id: "214A8D9751C1D46D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "379DBF35E35DA2F7"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1D0966690CE9B6AD"]
+			id: "0149A1AC7C7108BD"
+			tasks: [{
+				id: "61B9D1D5BAA8293E"
+				item: "enigmaticaddons:revival_leaf"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1D0966690CE9B6AD"]
+			description: ["Большая мобильность и неуязвимость к урону от падения"]
+			id: "1A36998263FFF6C9"
+			rewards: [{
+				id: "41DEE8BD8F582D34"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F50AC8F4EC03CF1"
+				item: "enigmaticaddons:lost_engine"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1D0966690CE9B6AD"]
+			description: ["Неуязвимость к заморозке + заморозка противника при атаке"]
+			id: "4E2ADDCDC5DF12BB"
+			tasks: [{
+				id: "0E9AE7F3E0FA8B4D"
+				item: "enigmaticaddons:forgotten_ice"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1D0966690CE9B6AD"]
+			description: ["Огромный + к защите и другие преимущества"]
+			id: "64D4A7EA9D2881BE"
+			rewards: [{
+				id: "58A7553FC0EFF8B4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "17E07AA7EE2523BF"
+				item: "enigmaticaddons:etherium_core"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"1D0966690CE9B6AD"
+				"3A7D549AA8D79570"
+				"69C20FABEFF369FF"
+				"0B41B979AAFB0B34"
+				"4A34355DCC0E40AE"
+				"4F0FBE6AF0B0976E"
+			]
+			description: ["Один из самых сильнейших камней стихий"]
+			id: "68295385731298E6"
+			rewards: [
+				{
+					id: "1CC34D79A34D9AD6"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B8AB8CFE7D2981F"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4778049EE71962B7"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "34CCB056B129CD09"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1D0966690CE9B6AD"]
+			description: ["Неизвестно как получить"]
+			id: "59F24080ABF20FFD"
+			tasks: [{
+				id: "61F4FE252B2798AF"
+				item: "enigmaticlegacy:enigmatic_item"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["73688A1DCDB791FA"]
+			id: "7CC7D7A9705443DD"
+			rewards: [{
+				id: "144B7C502256F159"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "35C4F1CBDE5E4593"
+				item: "enigmaticaddons:quartz_ring"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["655D52905B760B9B"]
+			description: ["Броня, оружие и инстурменты"]
+			hide_dependency_lines: true
+			id: "001AE81227DAF5C5"
+			rewards: [{
+				id: "0AF3B0ED46CE5AE1"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "1B2C20409AC96532"
+				title: "Экипировка"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["757655744EFD61C2"]
+			id: "47EE150F9ECA556D"
+			tasks: [{
+				id: "7198950249B71E6F"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["757655744EFD61C2"]
+			id: "12D8D6146B08BB31"
+			tasks: [{
+				id: "72F6F24B52EAF921"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["757655744EFD61C2"]
+			id: "7CA2477E8E30CE97"
+			tasks: [{
+				id: "0FDA26F6226196FE"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["757655744EFD61C2"]
+			id: "267910CE264B309E"
+			tasks: [{
+				id: "6A0D543C638DF642"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["757655744EFD61C2"]
+			description: ["Нажмите ПКМ с мечом в руках чтобы отскочить назад"]
+			id: "42F62FA0AC5A1ADB"
+			rewards: [
+				{
+					id: "50E6E3B67567F97E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B36611C1FD1C938"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "06B83DDDD4D378C1"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["757655744EFD61C2"]
+			description: ["Копает 3x3x1. Можно отключить эту функцию"]
+			id: "31459C83C36E5A63"
+			rewards: [
+				{
+					id: "37110D81F2AF44DE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28103EF585AD887E"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5DC23AF01DB111FC"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["757655744EFD61C2"]
+			description: ["Срубает деревья и листья 3x3x3. Можно отключить эту функцию"]
+			id: "70BAE1316F901EC2"
+			rewards: [{
+				id: "7D9D6740A5528710"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "75C317DC9C321358"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["757655744EFD61C2"]
+			description: ["Копает 3x3x1. Можно отключить эту функцию"]
+			id: "3A213D0F8808A603"
+			rewards: [
+				{
+					id: "790083D5B684729E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B40676F6EF97CCF"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "22A4B0EC7DF0AF8D"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["757655744EFD61C2"]
+			description: ["Собирает урожай в области 3x3x3, вспахивает землю областью 3x3x1. Можно отключить эту функцию"]
+			id: "3046C0365AE04F88"
+			rewards: [
+				{
+					id: "148C6D3B8AAB5352"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1872C4DDD00D5B70"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "647B5DC637954264"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:etherium_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["001AE81227DAF5C5"]
+			description: ["Можно найти только в Энде&8&m(или если вам очень повезло)&r&r"]
+			id: "66992D4545E6918D"
+			tasks: [{
+				id: "5C22F6B696D0537E"
+				item: "enigmaticlegacy:etherium_ore"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66992D4545E6918D"]
+			id: "757655744EFD61C2"
+			tasks: [{
+				id: "4C84A95263DF6A7D"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
 		}
 	]
 	title: "Enigmatic Legacy"
