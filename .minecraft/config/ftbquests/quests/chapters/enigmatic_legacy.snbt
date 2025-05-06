@@ -21,7 +21,7 @@
 		{
 			click: ""
 			corner: false
-			dependency: "422A36EEB6675EE7"
+			dependency: "0424BD7E78D3CA8F"
 			dev: false
 			height: 3.0d
 			hover: [ ]
@@ -30,19 +30,6 @@
 			width: 3.0d
 			x: -12.5d
 			y: -7.0d
-		}
-		{
-			click: ""
-			corner: false
-			dependency: "655D52905B760B9B"
-			dev: false
-			height: 3.0d
-			hover: [ ]
-			image: "enigmaticlegacy:items/enigmatic_item"
-			rotation: 0.0d
-			width: 3.0d
-			x: 11.0d
-			y: -17.0d
 		}
 		{
 			click: ""
@@ -80,8 +67,8 @@
 			image: "enigmaticlegacy:items/golden_ring"
 			rotation: 0.0d
 			width: 2.0d
-			x: 1.5d
-			y: -11.0d
+			x: -2.0d
+			y: -12.5d
 		}
 		{
 			click: ""
@@ -134,6 +121,58 @@
 			width: 1.0d
 			x: 11.0d
 			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "655D52905B760B9B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "enigmaticlegacy:items/fabulous_scroll"
+			rotation: 155.0d
+			width: 1.0d
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "655D52905B760B9B"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "enigmaticaddons:item/cursed_xp_scroll"
+			rotation: -25.0d
+			width: 1.0d
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "422A36EEB6675EE7"
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.5d
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "1D0966690CE9B6AD"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "botania:block/bifrost"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.0d
+			y: -15.0d
 		}
 	]
 	order_index: 2
@@ -254,6 +293,11 @@
 			description: ["Похоже, книга не имеет всех знаний без самостоятельного изучения и прямого взаимодействия с предметами "]
 			hide: true
 			id: "655D52905B760B9B"
+			rewards: [{
+				id: "4BFBEC2B5E567C81"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "15A3B04F538788B1"
@@ -666,7 +710,6 @@
 				"655D52905B760B9B"
 			]
 			description: ["Довольно редкий артефакт, используется в многих крафтах."]
-			hide: true
 			hide_dependency_lines: true
 			id: "24BA09ABE6005D4A"
 			rewards: [
@@ -746,33 +789,7 @@
 				"73688A1DCDB791FA"
 				"4096F4A501AB0261"
 			]
-			id: "415D28A42060B7AE"
-			rewards: [
-				{
-					id: "4552B921E0D13215"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "20AB43109F5E3F66"
-					table_id: 2994924812343091255L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "090913D1E0667582"
-				item: "enigmaticlegacy:avarice_scroll"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -13.5d
-		}
-		{
-			dependencies: [
-				"73688A1DCDB791FA"
-				"4096F4A501AB0261"
-			]
+			hide: true
 			id: "7678D2492099FA9F"
 			rewards: [
 				{
@@ -798,14 +815,12 @@
 				item: "enigmaticlegacy:desolation_ring"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -8.5d
+			x: 2.0d
+			y: -11.0d
 		}
 		{
-			dependencies: [
-				"73688A1DCDB791FA"
-				"4096F4A501AB0261"
-			]
+			dependencies: ["73688A1DCDB791FA"]
+			hide: true
 			id: "130AB3A0E346844A"
 			rewards: [
 				{
@@ -1025,6 +1040,7 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
 				id: "34CCB056B129CD09"
 				item: "enigmaticlegacy:the_cube"
@@ -1037,6 +1053,7 @@
 			dependencies: ["1D0966690CE9B6AD"]
 			description: ["Неизвестно как получить"]
 			id: "59F24080ABF20FFD"
+			shape: "octagon"
 			tasks: [{
 				id: "61F4FE252B2798AF"
 				item: "enigmaticlegacy:enigmatic_item"
@@ -1062,8 +1079,12 @@
 			y: -13.5d
 		}
 		{
-			dependencies: ["655D52905B760B9B"]
+			dependencies: [
+				"655D52905B760B9B"
+				"15A3B04F538788B1"
+			]
 			description: ["Броня, оружие и инстурменты"]
+			hide: true
 			hide_dependency_lines: true
 			id: "001AE81227DAF5C5"
 			rewards: [{
@@ -1405,8 +1426,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: 11.5d
+			x: -15.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
@@ -1436,7 +1457,7 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
+			x: -14.5d
 			y: 11.5d
 		}
 		{
@@ -1472,8 +1493,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: 10.0d
+			x: -13.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
@@ -1503,7 +1524,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 10.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
@@ -1533,8 +1554,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: 7.0d
+			x: -12.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
@@ -1581,8 +1602,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.0d
-			y: 8.5d
+			x: -14.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
@@ -1636,8 +1657,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 12.5d
+			x: -12.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["2DD0A6A988C9917D"]
@@ -1742,8 +1763,105 @@
 				item: "enigmaticlegacy:cursed_stone"
 				type: "item"
 			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"655D52905B760B9B"
+				"15A3B04F538788B1"
+			]
+			description: ["Основа свитков доступных с самого начала"]
+			hide: true
+			hide_dependency_lines: true
+			id: "31C2EE3D0B9F33C9"
+			rewards: [{
+				id: "43904D793453A04D"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "18D1C0ECBD94ED72"
+				item: "enigmaticlegacy:thicc_scroll"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["31C2EE3D0B9F33C9"]
+			id: "174438ADACB503E2"
+			tasks: [{
+				id: "1E5C6F34A6DB2E88"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["31C2EE3D0B9F33C9"]
+			id: "11072F3C4805062D"
+			tasks: [{
+				id: "394E3CAEC3DBB04E"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["31C2EE3D0B9F33C9"]
+			id: "56404AEAE44047E3"
+			tasks: [{
+				id: "0BB65211DB7FF887"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["174438ADACB503E2"]
+			id: "1B96B03DB8FCAA36"
+			shape: "circle"
+			tasks: [{
+				id: "22E762D89EDB7BA2"
+				item: {
+					Count: 1b
+					id: "enigmaticaddons:cursed_xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["11072F3C4805062D"]
+			id: "6F3FE4C7DB6320D4"
+			shape: "circle"
+			tasks: [{
+				id: "65F7C1E8E9799874"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			id: "7344A2C37E70F0B3"
+			tasks: [{
+				id: "3E515ACC5A7A8DBD"
+				item: "enigmaticaddons:earth_heart_fragment"
+				type: "item"
+			}]
 			x: 8.5d
-			y: 1.0d
+			y: -3.0d
 		}
 	]
 	title: "Enigmatic Legacy"
