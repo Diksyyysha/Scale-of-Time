@@ -21,19 +21,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "0424BD7E78D3CA8F"
-			dev: false
-			height: 3.0d
-			hover: [ ]
-			image: "enigmaticaddons:item/etherium_frame"
-			rotation: 0.0d
-			width: 3.0d
-			x: -12.5d
-			y: -7.0d
-		}
-		{
-			click: ""
-			corner: false
 			dependency: "655D52905B760B9B"
 			dev: false
 			height: 2.0d
@@ -228,8 +215,8 @@
 				title: "Кольцо семи проклятий"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["26C290F0EA33D11C"]
@@ -268,7 +255,7 @@
 				value: 1
 			}]
 			title: "Первородный грех"
-			x: 7.5d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -510,6 +497,7 @@
 		}
 		{
 			dependencies: ["422A36EEB6675EE7"]
+			description: ["Только для носящих кольцо семи проклятий"]
 			id: "189003B4D057A1AA"
 			rewards: [
 				{
@@ -555,6 +543,7 @@
 		}
 		{
 			dependencies: ["422A36EEB6675EE7"]
+			description: ["Только для носящих кольцо семи проклятий"]
 			id: "368AF2BDF9BD379C"
 			rewards: [
 				{
@@ -631,7 +620,7 @@
 		}
 		{
 			dependencies: ["422A36EEB6675EE7"]
-			description: ["&m&8его МОЖНО скрафтить&r&r"]
+			description: ["Неизвестно как получить"]
 			id: "0424BD7E78D3CA8F"
 			rewards: [
 				{
@@ -666,10 +655,10 @@
 		}
 		{
 			dependencies: [
-				"422A36EEB6675EE7"
-				"0424BD7E78D3CA8F"
 				"4096F4A501AB0261"
+				"79C8FE83542AF275"
 			]
+			description: [""]
 			hide: true
 			id: "6C26BAFEE7EE70C3"
 			rewards: [
@@ -701,14 +690,10 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: -7.0d
+			x: 21.5d
+			y: 5.5d
 		}
 		{
-			dependencies: [
-				"15A3B04F538788B1"
-				"655D52905B760B9B"
-			]
 			description: ["Довольно редкий артефакт, используется в многих крафтах."]
 			hide_dependency_lines: true
 			id: "24BA09ABE6005D4A"
@@ -769,7 +754,6 @@
 			dependencies: ["24BA09ABE6005D4A"]
 			description: ["Чистое сердце? Может ли оно помочь с проклятьями?"]
 			hide: true
-			hide_dependent_lines: true
 			id: "601A9DF1B2D01E4F"
 			rewards: [{
 				id: "1C5ACC66BCC67E39"
@@ -781,13 +765,13 @@
 				item: "enigmaticaddons:pure_heart"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.5d
 			y: -2.0d
 		}
 		{
 			dependencies: [
-				"73688A1DCDB791FA"
 				"4096F4A501AB0261"
+				"79C8FE83542AF275"
 			]
 			hide: true
 			id: "7678D2492099FA9F"
@@ -810,16 +794,17 @@
 					type: "random"
 				}
 			]
+			shape: "octagon"
 			tasks: [{
 				id: "778DF5D5DBE778CC"
 				item: "enigmaticlegacy:desolation_ring"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -11.0d
+			x: 17.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["73688A1DCDB791FA"]
+			dependencies: ["601A9DF1B2D01E4F"]
 			hide: true
 			id: "130AB3A0E346844A"
 			rewards: [
@@ -846,8 +831,8 @@
 				item: "enigmaticaddons:earth_promise"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -8.5d
+			x: 12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["655D52905B760B9B"]
@@ -1764,7 +1749,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1862,6 +1847,207 @@
 			}]
 			x: 8.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["4096F4A501AB0261"]
+			description: ["Выпадает с &5иссушителя&r, используется в крафтах проклятых предметов"]
+			id: "26F4CE907ABE8FDC"
+			rewards: [
+				{
+					id: "5249C949CE97AC47"
+					type: "xp"
+					xp: 225
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7564C56470648D75"
+					table_id: 2994924812343091255L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "15532BE58A0722F1"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26F4CE907ABE8FDC"]
+			id: "4B4255C848F4AA0B"
+			rewards: [{
+				id: "5F0D28728C52DFDE"
+				type: "xp"
+				xp: 255
+			}]
+			tasks: [{
+				id: "120B9131F608D446"
+				item: "enigmaticlegacy:twisted_mirror"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26F4CE907ABE8FDC"]
+			description: ["Используется для создания чего-то..."]
+			id: "3A627B23650EDF95"
+			tasks: [{
+				id: "6C7104709BA4AD39"
+				item: "enigmaticlegacy:evil_ingot"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3A627B23650EDF95"]
+			id: "2A691F7103A12F30"
+			rewards: [
+				{
+					id: "6C06528EDBD8855B"
+					type: "xp"
+					xp: 666
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6973BF3EFDAB13FF"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "011933B86071D37B"
+				item: {
+					Count: 1b
+					id: "enigmaticaddons:evil_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26F4CE907ABE8FDC"]
+			id: "18F9926C21141A80"
+			tasks: [{
+				id: "7D2F44546FB42408"
+				item: "enigmaticaddons:false_justice"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26F4CE907ABE8FDC"]
+			id: "321516F9FB0F5793"
+			tasks: [{
+				id: "4696ACEB1A04AB4F"
+				item: "enigmaticlegacy:the_twist"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"321516F9FB0F5793"
+				"79C8FE83542AF275"
+			]
+			id: "4EE4F7FE3B8095BF"
+			rewards: [
+				{
+					id: "21855935915B0BC7"
+					type: "xp"
+					xp: 666
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74A65FADA70BFD11"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "040E6E0EAF56200B"
+					table_id: 2856130773300716246L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "651333C71ED72368"
+				item: "enigmaticlegacy:the_infinitum"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4096F4A501AB0261"]
+			id: "79C8FE83542AF275"
+			shape: "hexagon"
+			tasks: [{
+				id: "471F2A9D93C39FD7"
+				item: "enigmaticlegacy:abyssal_heart"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["601A9DF1B2D01E4F"]
+			id: "51DD317C37546466"
+			tasks: [{
+				id: "6E48959C6553E8B8"
+				item: "enigmaticaddons:bless_stone"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["601A9DF1B2D01E4F"]
+			id: "0BF5BE823D77321C"
+			tasks: [{
+				id: "7DEFA10E5F9468E2"
+				item: "enigmaticaddons:bless_amplifier"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["601A9DF1B2D01E4F"]
+			id: "61163C3A8CAD949A"
+			tasks: [{
+				id: "2EE20C283E814DBA"
+				item: "enigmaticaddons:the_bless"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26F4CE907ABE8FDC"]
+			id: "62884C9595B63406"
+			tasks: [{
+				id: "2168CF6C170E7573"
+				item: {
+					Count: 1b
+					id: "enigmaticaddons:totem_of_malice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
 		}
 	]
 	title: "Enigmatic Legacy"
