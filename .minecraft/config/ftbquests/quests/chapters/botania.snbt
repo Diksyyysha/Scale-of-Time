@@ -57,8 +57,8 @@
 			image: "ftbquests:textures/item/alfheim_portal.png"
 			rotation: 0.0d
 			width: 4.5d
-			x: 19.0d
-			y: 10.0d
+			x: 16.0d
+			y: 8.0d
 		}
 		{
 			click: ""
@@ -69,8 +69,8 @@
 			image: "botania:item/spark_upgrade_rune_dispersive"
 			rotation: 0.0d
 			width: 1.0d
-			x: 14.5d
-			y: -4.5d
+			x: 14.0d
+			y: -5.0d
 		}
 		{
 			click: ""
@@ -81,8 +81,8 @@
 			image: "botania:item/spark_upgrade_rune_dominant"
 			rotation: 0.0d
 			width: 1.0d
-			x: 15.5d
-			y: -3.5d
+			x: 15.0d
+			y: -4.0d
 		}
 		{
 			click: ""
@@ -93,8 +93,8 @@
 			image: "botania:item/spark_upgrade_rune_isolated"
 			rotation: 0.0d
 			width: 1.0d
-			x: 14.5d
-			y: -2.5d
+			x: 14.0d
+			y: -3.0d
 		}
 		{
 			click: ""
@@ -105,8 +105,8 @@
 			image: "botania:item/spark_upgrade_rune_recessive"
 			rotation: 0.0d
 			width: 1.0d
-			x: 13.5d
-			y: -3.5d
+			x: 13.0d
+			y: -4.0d
 		}
 	]
 	order_index: 0
@@ -617,6 +617,7 @@
 				"68B346C497251723"
 				"4195BB168BDF8989"
 				"7504AC903E72E28F"
+				"56CE83650BA2AFB1"
 			]
 			icon: "mythicbotany:mana_infuser"
 			id: "79F53177796AE62D"
@@ -668,15 +669,20 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["00F9E3B2ACC2FA5A"]
+			dependencies: [
+				"00F9E3B2ACC2FA5A"
+				"3120A82B72E1CB68"
+				"0FEEC08D1314C232"
+				"1F516F2D191FA5BB"
+			]
 			id: "47143C7AECF067A3"
 			tasks: [{
 				id: "2AE94FBBABC967DF"
 				item: "mythicbotany:alfsteel_ingot"
 				type: "item"
 			}]
-			x: 27.5d
-			y: 3.5d
+			x: 24.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0D92BA6CC88506E3"]
@@ -687,8 +693,8 @@
 				item: "botania:spark"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -3.5d
+			x: 14.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["16CF62ACB876C7E3"]
@@ -825,36 +831,6 @@
 			}]
 			x: 24.5d
 			y: 6.0d
-		}
-		{
-			dependencies: ["0626601491D4C027"]
-			description: [" С помощью этого предмета можно переносить спавнера куда вам только угодно."]
-			id: "452CC0577D57CA29"
-			tasks: [{
-				id: "613CC3306188FDF3"
-				item: "botania:spawner_mover"
-				type: "item"
-			}]
-			x: 27.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["0626601491D4C027"]
-			description: [" Позволяет вам летать, используя ману."]
-			id: "179A335A6EFE43EB"
-			tasks: [{
-				id: "0CACFA19787D8608"
-				item: {
-					Count: 1b
-					id: "botania:flight_tiara"
-					tag: {
-						variant: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 27.0d
-			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -1060,8 +1036,8 @@
 				}
 				type: "item"
 			}]
-			x: 30.5d
-			y: 3.5d
+			x: 27.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["47143C7AECF067A3"]
@@ -1079,8 +1055,8 @@
 				}
 				type: "item"
 			}]
-			x: 30.0d
-			y: 3.0d
+			x: 27.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["47143C7AECF067A3"]
@@ -1097,8 +1073,8 @@
 				}
 				type: "item"
 			}]
-			x: 30.0d
-			y: 4.0d
+			x: 27.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["47143C7AECF067A3"]
@@ -1115,8 +1091,8 @@
 				}
 				type: "item"
 			}]
-			x: 32.0d
-			y: 3.0d
+			x: 29.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["47143C7AECF067A3"]
@@ -1133,8 +1109,8 @@
 				}
 				type: "item"
 			}]
-			x: 31.5d
-			y: 3.5d
+			x: 28.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["47143C7AECF067A3"]
@@ -1151,8 +1127,8 @@
 				}
 				type: "item"
 			}]
-			x: 32.5d
-			y: 3.5d
+			x: 29.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["47143C7AECF067A3"]
@@ -1169,8 +1145,8 @@
 				}
 				type: "item"
 			}]
-			x: 32.0d
-			y: 4.0d
+			x: 29.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -1185,6 +1161,413 @@
 			}]
 			x: 11.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["29843E4006D1FB03"]
+			id: "073DAAF7935ECDB5"
+			tasks: [{
+				id: "5D414BF5267F0691"
+				item: "botania:aura_ring"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["073DAAF7935ECDB5"]
+			id: "0ED96A71A85A4333"
+			tasks: [{
+				id: "7E8636C78FAB9F36"
+				item: "botania:aura_ring_greater"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0ED96A71A85A4333"]
+			id: "16E4025AD46D5CBA"
+			tasks: [{
+				id: "0111A450774E2046"
+				item: "mythicbotany:aura_ring_greatest"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6EDAE04B380C0512"]
+			id: "0B7D17E18ECE78C1"
+			tasks: [{
+				id: "76DA94BA8EFDB0AA"
+				item: "botania:water_ring"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6EDAE04B380C0512"]
+			id: "0CB314A71A3CE9C0"
+			tasks: [{
+				id: "0C9098E3ADA2286F"
+				item: "botania:water_rod"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14BCD5A23E427E8A"]
+			id: "1BFE0D5B833D6B90"
+			tasks: [{
+				id: "59B7B1DAD7EA9464"
+				item: "botania:mining_ring"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["14BCD5A23E427E8A"]
+			id: "50AFD45EE6CE4FE3"
+			tasks: [{
+				id: "3FBB1FBF450B5AED"
+				item: {
+					Count: 1b
+					id: "botania:knockback_belt"
+					tag: {
+						baubleUUID: [I;
+							1673559632
+							1247037259
+							-1141786485
+							-489817850
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["14BCD5A23E427E8A"]
+			id: "45CA1686F6EAC819"
+			tasks: [{
+				id: "645C588EBB7C6E21"
+				item: "botania:travel_belt"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["585468B690E2C7EF"]
+			id: "6CA3F8974C08734A"
+			tasks: [{
+				id: "01E05541DE787641"
+				item: "botania:smelt_rod"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["585468B690E2C7EF"]
+			id: "730C9C75ACE33D95"
+			tasks: [{
+				id: "00748BBCAFE9D008"
+				item: "botania:fire_rod"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1972798BAA8205E4"]
+			id: "156EBB63BB87F3A9"
+			tasks: [{
+				id: "4DB742C7C5B45A25"
+				item: "botania:dodge_ring"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1972798BAA8205E4"
+				"7704F363946F047A"
+			]
+			id: "5045D8043026FCF0"
+			tasks: [{
+				id: "347D603549FACA82"
+				item: "botania:skydirt_rod"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"582104FC09BB005B"
+				"56CE83650BA2AFB1"
+				"134E73ADB51CB8E2"
+			]
+			id: "008E0C16E1348CC1"
+			shape: "diamond"
+			tasks: [{
+				id: "0B6D2395521D4B02"
+				item: "botania:spawner_mover"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"582104FC09BB005B"
+				"56CE83650BA2AFB1"
+				"421DD2A6F2D682D3"
+			]
+			id: "26EDB56857EEE35E"
+			shape: "diamond"
+			tasks: [{
+				id: "2DCD52811D203AFD"
+				item: {
+					Count: 1b
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7704F363946F047A"]
+			id: "4D37D77EFA4BE729"
+			shape: "diamond"
+			tasks: [{
+				id: "5172C52BD6ED9253"
+				item: "botania:keep_ivy"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"56CE83650BA2AFB1"
+				"645C588EBB7C6E21"
+				"582104FC09BB005B"
+			]
+			id: "61A2D7FC4AED9560"
+			shape: "diamond"
+			tasks: [{
+				id: "13457D68B14F1914"
+				item: "botania:super_travel_belt"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"56CE83650BA2AFB1"
+				"7E8636C78FAB9F36"
+			]
+			id: "4EDCBA45BF651549"
+			shape: "diamond"
+			tasks: [{
+				id: "3B6DBC8EB4F8500F"
+				item: "botanicalmachinery:mechanical_apothecary"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"56CE83650BA2AFB1"
+				"7E8636C78FAB9F36"
+			]
+			id: "1A67526725A1BC3C"
+			shape: "diamond"
+			tasks: [{
+				id: "48156ACF4E8F9159"
+				item: "botanicalmachinery:mechanical_brewery"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"56CE83650BA2AFB1"
+				"7E8636C78FAB9F36"
+			]
+			id: "0D8E008C2E7E58F7"
+			shape: "diamond"
+			tasks: [{
+				id: "26E079C841F2885A"
+				item: "botanicalmachinery:mechanical_daisy"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"56CE83650BA2AFB1"
+				"7E8636C78FAB9F36"
+			]
+			id: "2CD8AB9AA91786AD"
+			shape: "diamond"
+			tasks: [{
+				id: "509398DEC52DBFFC"
+				item: "botanicalmachinery:mechanical_runic_altar"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"56CE83650BA2AFB1"
+				"7E8636C78FAB9F36"
+			]
+			id: "1C31022EC0B2B264"
+			shape: "diamond"
+			tasks: [{
+				id: "1DBA78D0686B1272"
+				item: "botanicalmachinery:mechanical_mana_pool"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"56CE83650BA2AFB1"
+				"7E8636C78FAB9F36"
+			]
+			id: "34410C1BF427C656"
+			shape: "diamond"
+			tasks: [{
+				id: "6E25F903591E094F"
+				item: "botanicalmachinery:industrial_agglomeration_factory"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"351BEDE573765D9C"
+				"204527A8B4EFB796"
+				"134E73ADB51CB8E2"
+			]
+			id: "76E2BF55114DDECA"
+			shape: "diamond"
+			tasks: [{
+				id: "5C0DCA3649FFD897"
+				item: "botanicalmachinery:mana_battery"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"56CE83650BA2AFB1"
+				"7E8636C78FAB9F36"
+			]
+			id: "2E5466BC0FEC9008"
+			shape: "diamond"
+			tasks: [{
+				id: "7EB8F784F5C44940"
+				item: "botanicalmachinery:alfheim_market"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"582104FC09BB005B"
+				"7704F363946F047A"
+			]
+			id: "1D5FC811BCA59F97"
+			shape: "diamond"
+			tasks: [{
+				id: "658D9B61FF827CF3"
+				item: "mythicbotany:mana_collector"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"7704F363946F047A"
+				"134E73ADB51CB8E2"
+				"56CE83650BA2AFB1"
+			]
+			id: "5B91678891569BFD"
+			shape: "diamond"
+			tasks: [{
+				id: "23A98D878DA77D24"
+				item: "botania:rainbow_rod"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["56CE83650BA2AFB1"]
+			id: "1B55DF16E4EF7CF1"
+			shape: "diamond"
+			tasks: [{
+				id: "4CB0B4179C8C9E22"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"134E73ADB51CB8E2"
+				"582104FC09BB005B"
+				"4CB0B4179C8C9E22"
+			]
+			id: "51BB5E7BE9DE352C"
+			shape: "diamond"
+			tasks: [{
+				id: "3853340E8F48015E"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"0626601491D4C027"
+				"6A9B7190D685F953"
+			]
+			description: [" Гайя 2 уровня. С него падают кости судьбы, а с костей падают &4мощные &rреликвии."]
+			id: "50E91BE96A69487A"
+			tasks: [{
+				id: "351BEDE573765D9C"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 6.0d
 		}
 	]
 	title: "&bBotania"
