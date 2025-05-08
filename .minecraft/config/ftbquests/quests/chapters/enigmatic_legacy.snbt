@@ -10,18 +10,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 5.0d
-			hover: [ ]
-			image: "minecraft:textures/particle/sculk_charge_pop_1.png"
-			rotation: 0.0d
-			width: 5.0d
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 2.0d
 			hover: [ ]
 			image: "enigmaticaddons:item/earth_heart_fragment"
@@ -41,7 +29,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: -4.5d
-			y: -9.5d
+			y: -10.0d
 		}
 		{
 			click: ""
@@ -53,8 +41,8 @@
 			image: "enigmaticlegacy:items/golden_ring"
 			rotation: 0.0d
 			width: 2.0d
-			x: -2.0d
-			y: -12.5d
+			x: -0.5d
+			y: -10.0d
 		}
 		{
 			click: ""
@@ -155,7 +143,7 @@
 			height: 2.0d
 			hover: [ ]
 			image: "botania:block/bifrost"
-			rotation: 0.0d
+			rotation: 45.0d
 			width: 2.0d
 			x: 11.0d
 			y: -15.0d
@@ -184,20 +172,100 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: 24.5d
-			y: 4.5d
+			y: 2.5d
+		}
+		{
+			alpha: 127
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "botania:block/enchanter"
+			rotation: 45.0d
+			width: 1.75d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			alpha: 128
+			click: ""
+			corner: false
+			dev: false
+			height: 1.75d
+			hover: [ ]
+			image: "thermal:block/devices/device_collector_underlay"
+			rotation: 45.0d
+			width: 1.75d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			click: ""
 			corner: false
-			dependency: "4096F4A501AB0261"
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "thermal:textures/block/cells/item_cell_bottom.png"
+			rotation: 45.0d
+			width: 3.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			alpha: 125
+			click: ""
+			corner: false
+			dependency: "1D0966690CE9B6AD"
+			dev: false
+			height: 1.6d
+			hover: [ ]
+			image: "sophisticatedcore:fluids/xp_flowing"
+			rotation: 45.0d
+			width: 1.6d
+			x: 11.0d
+			y: -15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "001AE81227DAF5C5"
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enigmaticlegacy:textures/slots/empty_unknown_slot.png"
+			image: "enigmaticlegacy:blocks/etherium_block"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.5d
-			y: -5.0d
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			click: ""
+			color: 7356080
+			corner: false
+			dependency: "21EF9A40FB01EADC"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "megacells:block/crafting/monitor_light_medium"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			click: ""
+			color: 7356080
+			corner: false
+			dependency: "21EF9A40FB01EADC"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "megacells:block/crafting/monitor_light_medium"
+			rotation: 45.0d
+			width: 2.0d
+			x: -3.5d
+			y: -6.5d
 		}
 	]
 	order_index: 2
@@ -205,13 +273,7 @@
 	quests: [
 		{
 			description: ["Вместе со снаряжением&7(которого у вас более нет)&r вам дали по загадочному амулету который должен был помочь в поисках потерянных артефактов. Однако, с перемещением в это время артефакты преобразились и стали обладать новыми свойствами которых не бывало ранге. Вместе с этим амулеты стали неким оберегом для вас и вашей души, так, что даже не надевая их можно почувствовать всю мощь что таится в них"]
-			icon: {
-				Count: 1b
-				id: "enigmaticlegacy:enigmatic_amulet"
-				tag: {
-					AssignedColor: 0.1f
-				}
-			}
+			icon: "enigmaticlegacy:unwitnessed_amulet"
 			id: "293B314B23F4B0AC"
 			rewards: [
 				{
@@ -226,7 +288,7 @@
 					type: "random"
 				}
 			]
-			shape: "pentagon"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "50BBA8188E832D7D"
@@ -282,7 +344,7 @@
 					type: "random"
 				}
 			]
-			shape: "diamond"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				icon: "enigmaticlegacy:cursed_ring"
@@ -293,7 +355,7 @@
 				value: 1
 			}]
 			title: "Первородный грех"
-			x: 6.0d
+			x: 15.75d
 			y: 0.0d
 		}
 		{
@@ -305,18 +367,20 @@
 				type: "xp"
 				xp: 15
 			}]
+			shape: "circle"
 			tasks: [{
 				id: "3CA4C21687FD3A92"
 				item: "enigmaticlegacy:the_acknowledgment"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["530A234C2B93EF5F"]
 			description: ["Похоже, книга не имеет всех знаний без самостоятельного изучения и прямого взаимодействия с предметами "]
 			hide: true
+			icon: "rftoolsbase:manual"
 			id: "655D52905B760B9B"
 			rewards: [{
 				id: "4BFBEC2B5E567C81"
@@ -329,8 +393,8 @@
 				title: "Исследование"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["655D52905B760B9B"]
@@ -427,11 +491,7 @@
 			hide: true
 			hide_dependency_lines: true
 			hide_text_until_complete: true
-			icon: {
-				Count: 1b
-				id: "enigmaticlegacy:void_stone"
-				tag: { }
-			}
+			icon: "rftoolsbase:manual"
 			id: "422A36EEB6675EE7"
 			rewards: [{
 				id: "3DCE6DF65CB9A35F"
@@ -748,6 +808,7 @@
 					type: "item"
 				}
 			]
+			shape: "circle"
 			tasks: [{
 				id: "30E47C615069D4C8"
 				item: {
@@ -842,7 +903,11 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["601A9DF1B2D01E4F"]
+			dependencies: [
+				"601A9DF1B2D01E4F"
+				"2DD0A6A988C9917D"
+			]
+			dependency_requirement: "all_started"
 			hide: true
 			id: "130AB3A0E346844A"
 			rewards: [
@@ -869,19 +934,15 @@
 				item: "enigmaticaddons:earth_promise"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 3.5d
+			x: 11.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["655D52905B760B9B"]
 			description: ["Камни стихий нельзя скрафтить, только найти &8(но есть исключения)&r"]
 			hide: true
 			hide_dependency_lines: true
-			icon: {
-				Count: 1b
-				id: "enigmaticlegacy:extradimensional_eye"
-				tag: { }
-			}
+			icon: "rftoolsbase:manual"
 			id: "1D0966690CE9B6AD"
 			rewards: [{
 				id: "22326A31323B8A6D"
@@ -1098,8 +1159,8 @@
 				item: "enigmaticaddons:quartz_ring"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -13.5d
+			x: 3.0d
+			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -1109,12 +1170,14 @@
 			description: ["Броня, оружие и инстурменты"]
 			hide: true
 			hide_dependency_lines: true
+			icon: "rftoolsbase:manual"
 			id: "001AE81227DAF5C5"
 			rewards: [{
 				id: "0AF3B0ED46CE5AE1"
 				type: "xp"
 				xp: 15
 			}]
+			shape: "circle"
 			tasks: [{
 				id: "1B2C20409AC96532"
 				title: "Экипировка"
@@ -1786,8 +1849,8 @@
 				item: "enigmaticlegacy:cursed_stone"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -4.0d
+			x: 9.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1861,7 +1924,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 7.0d
 		}
 		{
@@ -1873,11 +1936,18 @@
 				item: "enigmaticlegacy:fabulous_scroll"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.5d
 			y: 7.0d
 		}
 		{
+			description: ["Нужен для крафта Сердца Земли"]
 			id: "7344A2C37E70F0B3"
+			rewards: [{
+				id: "5B74DD78EC7FFBDA"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "circle"
 			tasks: [{
 				id: "3E515ACC5A7A8DBD"
 				item: "enigmaticaddons:earth_heart_fragment"
@@ -1903,6 +1973,7 @@
 					type: "choice"
 				}
 			]
+			shape: "pentagon"
 			tasks: [{
 				id: "15532BE58A0722F1"
 				item: "enigmaticlegacy:evil_essence"
@@ -2038,15 +2109,21 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["601A9DF1B2D01E4F"]
+			dependencies: [
+				"601A9DF1B2D01E4F"
+				"2DD0A6A988C9917D"
+				"3621D379AD715164"
+			]
+			dependency_requirement: "all_started"
+			hide: true
 			id: "51DD317C37546466"
 			tasks: [{
 				id: "6E48959C6553E8B8"
 				item: "enigmaticaddons:bless_stone"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.0d
+			x: 11.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["601A9DF1B2D01E4F"]
@@ -2056,8 +2133,8 @@
 				item: "enigmaticaddons:bless_amplifier"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 2.5d
+			x: 13.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["601A9DF1B2D01E4F"]
@@ -2067,8 +2144,8 @@
 				item: "enigmaticaddons:the_bless"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 2.5d
+			x: 15.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["26F4CE907ABE8FDC"]
@@ -2086,6 +2163,110 @@
 			}]
 			x: 17.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["51DD317C37546466"]
+			id: "309F66872E0ADA22"
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "358DE071E79684AC"
+				item: "enigmaticaddons:bless_ring"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["21EF9A40FB01EADC"]
+			id: "3AEEFD0FD84ACD51"
+			shape: "circle"
+			tasks: [{
+				id: "1B542A4E58FEF428"
+				item: "enigmaticlegacy:animal_guidebook"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["21EF9A40FB01EADC"]
+			id: "4659E3BEFF2C683C"
+			shape: "circle"
+			tasks: [{
+				id: "62E68A5DDCA56307"
+				item: "enigmaticlegacy:hunter_guidebook"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4659E3BEFF2C683C"
+				"21EF9A40FB01EADC"
+			]
+			id: "43E0F077DA351EFA"
+			shape: "circle"
+			tasks: [{
+				id: "5CCB1419F4917EF4"
+				item: "enigmaticaddons:sanguinary_handbook"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["21EF9A40FB01EADC"]
+			id: "2E589FC7B33090B7"
+			shape: "gear"
+			tasks: [{
+				id: "63582ADEC93C5DC5"
+				item: "enigmaticaddons:false_justice"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3AEEFD0FD84ACD51"
+				"21EF9A40FB01EADC"
+			]
+			id: "131BE0E07C5CFFCE"
+			shape: "circle"
+			tasks: [{
+				id: "7DC2677E239F32C0"
+				item: "enigmaticaddons:ode_to_living"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["21EF9A40FB01EADC"]
+			id: "3DFD0DE7F6E49FAF"
+			shape: "pentagon"
+			tasks: [{
+				id: "066FE42B9A277C31"
+				item: "enigmaticaddons:antique_bag"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["655D52905B760B9B"]
+			hide_dependency_lines: true
+			icon: "minecraft:written_book"
+			id: "21EF9A40FB01EADC"
+			tasks: [{
+				id: "67CD06242E0C8681"
+				title: "Книги"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -3.0d
 		}
 	]
 	title: "Enigmatic Legacy"

@@ -152,6 +152,7 @@
 			y: 1.0d
 		}
 		{
+			icon: "rftoolsbase:manual"
 			id: "367A66657E66B88C"
 			tasks: [{
 				id: "3DA764165C02351B"

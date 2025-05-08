@@ -152,6 +152,7 @@
 				"Jei (Left Click) - Как сделать предмет"
 				"Jei (Right Click) - Посмотреть что можно сделать из этого предмета"
 			]
+			icon: "rftoolsbase:manual"
 			id: "037D60CBC406E586"
 			rewards: [
 				{

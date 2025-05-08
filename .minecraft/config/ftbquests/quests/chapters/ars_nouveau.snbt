@@ -168,6 +168,7 @@
 		}
 		{
 			dependencies: ["1B841CE97AF31255"]
+			icon: "rftoolsbase:manual"
 			id: "61525979D9C0AED8"
 			tasks: [{
 				id: "2F423A6DA86E409D"
@@ -723,6 +724,7 @@
 		}
 		{
 			dependencies: ["1B841CE97AF31255"]
+			icon: "rftoolsbase:manual"
 			id: "18F3C50DAAD55E64"
 			tasks: [{
 				id: "2AE56532511CAF67"
@@ -1380,6 +1382,7 @@
 		}
 		{
 			dependencies: ["1B841CE97AF31255"]
+			icon: "rftoolsbase:manual"
 			id: "0568DBFE5E2A119D"
 			tasks: [{
 				id: "56B539332C5883D1"
@@ -2242,6 +2245,7 @@
 				"2E2B1F298EE407DA"
 			]
 			description: [" Комплекты брони 2 и 3 уровня делаются на чародейском аппарате, подробный рецепт находится в JEI."]
+			icon: "rftoolsbase:manual"
 			id: "523BCDA7CA265EEF"
 			rewards: [{
 				exclude_from_claim_all: true

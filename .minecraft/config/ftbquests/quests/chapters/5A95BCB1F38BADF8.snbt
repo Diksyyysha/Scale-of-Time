@@ -578,6 +578,7 @@
 				"&4D1kyyysha&f: Dev, Quests, Translator, Custom crafts."
 				"&4X1kkan&f: Dev, Quests, Resource Pack."
 			]
+			icon: "rftoolsbase:manual"
 			id: "171CE43D7C1A2B03"
 			rewards: [
 				{
