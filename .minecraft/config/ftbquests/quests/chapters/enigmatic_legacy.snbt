@@ -21,15 +21,14 @@
 		{
 			click: ""
 			corner: false
-			dependency: "655D52905B760B9B"
 			dev: false
 			height: 2.0d
 			hover: [ ]
 			image: "enigmaticaddons:item/earth_heart_fragment"
 			rotation: 0.0d
 			width: 2.0d
-			x: 10.5d
-			y: -1.0d
+			x: 11.5d
+			y: -1.5d
 		}
 		{
 			click: ""
@@ -161,6 +160,45 @@
 			x: 11.0d
 			y: -15.0d
 		}
+		{
+			click: ""
+			corner: false
+			dependency: "4096F4A501AB0261"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "enigmaticlegacy:items/evil_essence"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4096F4A501AB0261"
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "enigmaticlegacy:items/abyssal_heart"
+			rotation: 0.0d
+			width: 3.0d
+			x: 24.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "4096F4A501AB0261"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "enigmaticlegacy:textures/slots/empty_unknown_slot.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -5.0d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -255,7 +293,7 @@
 				value: 1
 			}]
 			title: "Первородный грех"
-			x: 12.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -690,8 +728,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.5d
-			y: 5.5d
+			x: 26.5d
+			y: 4.0d
 		}
 		{
 			description: ["Довольно редкий артефакт, используется в многих крафтах."]
@@ -719,8 +757,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.0d
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -766,7 +804,7 @@
 				type: "item"
 			}]
 			x: 13.5d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -800,8 +838,8 @@
 				item: "enigmaticlegacy:desolation_ring"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 5.5d
+			x: 22.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["601A9DF1B2D01E4F"]
@@ -831,8 +869,8 @@
 				item: "enigmaticaddons:earth_promise"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -3.0d
+			x: 13.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["655D52905B760B9B"]
@@ -1748,8 +1786,8 @@
 				item: "enigmaticlegacy:cursed_stone"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 11.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1845,8 +1883,8 @@
 				item: "enigmaticaddons:earth_heart_fragment"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.0d
+			x: 11.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4096F4A501AB0261"]
@@ -1870,8 +1908,8 @@
 				item: "enigmaticlegacy:evil_essence"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 0.0d
+			x: 19.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["26F4CE907ABE8FDC"]
@@ -1886,8 +1924,8 @@
 				item: "enigmaticlegacy:twisted_mirror"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 0.0d
+			x: 23.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["26F4CE907ABE8FDC"]
@@ -1898,8 +1936,8 @@
 				item: "enigmaticlegacy:evil_ingot"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -2.0d
+			x: 22.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3A627B23650EDF95"]
@@ -1928,8 +1966,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: -2.0d
+			x: 24.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["26F4CE907ABE8FDC"]
@@ -1939,8 +1977,8 @@
 				item: "enigmaticaddons:false_justice"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 2.0d
+			x: 19.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["26F4CE907ABE8FDC"]
@@ -1950,8 +1988,8 @@
 				item: "enigmaticlegacy:the_twist"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 2.0d
+			x: 21.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -1984,8 +2022,8 @@
 				item: "enigmaticlegacy:the_infinitum"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 2.0d
+			x: 24.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4096F4A501AB0261"]
@@ -1996,8 +2034,8 @@
 				item: "enigmaticlegacy:abyssal_heart"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 4.0d
+			x: 24.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["601A9DF1B2D01E4F"]
@@ -2007,7 +2045,7 @@
 				item: "enigmaticaddons:bless_stone"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: -4.0d
 		}
 		{
@@ -2018,8 +2056,8 @@
 				item: "enigmaticaddons:bless_amplifier"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -3.0d
+			x: 14.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["601A9DF1B2D01E4F"]
@@ -2029,8 +2067,8 @@
 				item: "enigmaticaddons:the_bless"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -4.0d
+			x: 12.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["26F4CE907ABE8FDC"]
@@ -2046,8 +2084,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
-			y: 2.0d
+			x: 17.5d
+			y: 0.5d
 		}
 	]
 	title: "Enigmatic Legacy"
