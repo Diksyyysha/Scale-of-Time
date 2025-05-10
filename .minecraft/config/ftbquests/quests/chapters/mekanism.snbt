@@ -5,6 +5,188 @@
 	group: "54209D604C333018"
 	icon: "mekanism:ultimate_enriching_factory"
 	id: "3316E8849AF2133E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/enrichment_chamber/front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/factory/advanced/enriching/front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/factory/basic/enriching/front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/factory/elite/enriching/front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/factory/ultimate/enriching/front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: -12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/crusher/front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/factory/basic/crushing/front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/factory/advanced/crushing/front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/factory/elite/crushing/front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/factory/ultimate/crushing/front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: -9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/energized_smelter/front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/factory/advanced/smelting/front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/factory/basic/smelting/front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/factory/elite/smelting/front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/factory/ultimate/smelting/front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: -7.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -16,6 +198,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "gear"
 			size: 2.0d
 			subtitle: "Mekanism - технический мод."
 			tasks: [{
@@ -194,8 +377,8 @@
 				item: "mekanism:crusher"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -6.5d
+			x: 10.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["76722BE98E0B5F42"]
@@ -212,8 +395,8 @@
 				item: "mekanism:enrichment_chamber"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -7.5d
+			x: 10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["76722BE98E0B5F42"]
@@ -230,8 +413,8 @@
 				item: "mekanism:energized_smelter"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -8.5d
+			x: 10.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5329EC9BD9E981E1"]
@@ -248,7 +431,7 @@
 				item: "mekanism:basic_control_circuit"
 				type: "item"
 			}]
-			x: 7.25d
+			x: 6.0d
 			y: -4.5d
 		}
 		{
@@ -269,7 +452,7 @@
 				item: "mekanism:advanced_control_circuit"
 				type: "item"
 			}]
-			x: 7.25d
+			x: 6.0d
 			y: -3.0d
 		}
 		{
@@ -290,7 +473,7 @@
 				item: "mekanism:elite_control_circuit"
 				type: "item"
 			}]
-			x: 8.75d
+			x: 7.5d
 			y: -4.5d
 		}
 		{
@@ -305,7 +488,7 @@
 				item: "mekanism:ultimate_control_circuit"
 				type: "item"
 			}]
-			x: 8.75d
+			x: 7.5d
 			y: -3.0d
 		}
 		{
@@ -325,8 +508,8 @@
 				item: "mekanism:basic_smelting_factory"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -8.5d
+			x: 11.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -345,8 +528,8 @@
 				item: "mekanism:basic_crushing_factory"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -6.5d
+			x: 11.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -365,8 +548,8 @@
 				item: "mekanism:basic_enriching_factory"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -7.5d
+			x: 11.0d
+			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -385,8 +568,8 @@
 				item: "mekanism:advanced_smelting_factory"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -8.5d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -405,8 +588,8 @@
 				item: "mekanism:elite_smelting_factory"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -8.5d
+			x: 13.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -425,8 +608,8 @@
 				item: "mekanism:ultimate_smelting_factory"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -8.5d
+			x: 14.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -445,8 +628,8 @@
 				item: "mekanism:advanced_crushing_factory"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -6.5d
+			x: 12.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -465,8 +648,8 @@
 				item: "mekanism:elite_crushing_factory"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -6.5d
+			x: 13.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -485,8 +668,8 @@
 				item: "mekanism:ultimate_crushing_factory"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -6.5d
+			x: 14.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -505,8 +688,8 @@
 				item: "mekanism:advanced_enriching_factory"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -7.5d
+			x: 12.0d
+			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -525,8 +708,8 @@
 				item: "mekanism:elite_enriching_factory"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -7.5d
+			x: 13.0d
+			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -545,8 +728,8 @@
 				item: "mekanism:ultimate_enriching_factory"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -7.5d
+			x: 14.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["140576223C365E4A"]
@@ -652,7 +835,6 @@
 				"2958B9165F6C25DC"
 				"48ABA494CA8A47AC"
 			]
-			hide: true
 			hide_dependency_lines: true
 			id: "7160E63819B366F4"
 			tasks: [{
@@ -660,7 +842,7 @@
 				item: "mekaevolution:absolute_control_circuit"
 				type: "item"
 			}]
-			x: 10.25d
+			x: 9.0d
 			y: -3.75d
 		}
 		{
@@ -668,14 +850,13 @@
 				"7160E63819B366F4"
 				"17E7B9DAA37D73DA"
 			]
-			hide_dependency_lines: true
 			id: "296D4A1D278F4880"
 			tasks: [{
 				id: "59487E8BC0EF2C3A"
 				item: "mekaevolution:supreme_control_circuit"
 				type: "item"
 			}]
-			x: 11.75d
+			x: 10.5d
 			y: -3.75d
 		}
 		{
@@ -683,14 +864,27 @@
 				"296D4A1D278F4880"
 				"59487E8BC0EF2C3A"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "6E1A26223D9017B0"
+			rewards: [
+				{
+					id: "46BBF59054156363"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D51BCFB464A6773"
+					table_id: 573058633436694511L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0FE65DA497F9070D"
 				item: "mekaevolution:cosmic_control_circuit"
 				type: "item"
 			}]
-			x: 13.25d
+			x: 12.0d
 			y: -3.75d
 		}
 		{
@@ -698,7 +892,6 @@
 				"6E1A26223D9017B0"
 				"0FE65DA497F9070D"
 			]
-			hide_dependency_lines: true
 			id: "3F02EE91EB315A4C"
 			optional: true
 			rewards: [
@@ -726,44 +919,16 @@
 					type: "choice"
 				}
 			]
-			shape: "octagon"
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "4CCAC1C3AC17D819"
 				item: "mekaevolution:infinite_control_circuit"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -3.75d
-		}
-		{
-			dependencies: [
-				"479A57E065D461E5"
-				"14243BD7D0BE3269"
-			]
-			hide_dependency_lines: true
-			id: "12C54F353852BF02"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "24734AB04399A55A"
-					table_id: 573058633436694511L
-					type: "random"
-				}
-				{
-					id: "119290604A3654DA"
-					item: "mekanism:enriched_refined_obsidian"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6E43CEBFA43BE3DE"
-				item: "mekanism:alloy_atomic"
-				type: "item"
-			}]
-			x: 5.75d
+			x: 14.25d
 			y: -3.75d
 		}
 	]
-	title: "Mekanism"
+	title: "&#22FF1F&nM&#2CDB3F&ne&#35B65F&nk&#3F927F&na&#496D9F&nn&#5349BF&ni&#5C24DF&ns&#6600FF&nm"
 }

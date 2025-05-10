@@ -280,6 +280,7 @@
 				table_id: 7992819604570304882L
 				type: "random"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "5C9ABC6234BDF06F"
 				item: "solarpanels:photonic_solar_panel"
@@ -348,6 +349,7 @@
 				table_id: 573058633436694511L
 				type: "random"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "19866E0891B52397"
 				item: "solarpanels:photonic_energy_tablet"
@@ -357,5 +359,5 @@
 			y: 2.0d
 		}
 	]
-	title: "&dMekanism: Солнечные панели"
+	title: "&#62699F&nM&#6B67A3&ne&#7364A8&nk&#7C62AC&na&#8460B0&nn&#8D5EB5&ni&#955BB9&ns&#9E59BD&nm&#A657C1&n: &#B752CA&nС&#AB5EBE&nо&#9F69B3&nл&#9275A7&nн&#86809C&nе&#7A8C90&nч&#6E9784&nн&#62A379&nы&#55AE6D&nе &#3DC556&nп&#31D14A&nа&#25DC3F&nн&#18E833&nе&#0CF328&nл&#00FF1C&nи"
 }

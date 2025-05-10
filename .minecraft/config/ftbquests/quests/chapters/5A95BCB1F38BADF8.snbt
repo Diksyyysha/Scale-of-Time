@@ -511,6 +511,18 @@
 			x: -6.0d
 			y: 1.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "alexsmobs:textures/entity/rainbow_jelly_overlays/glint_weezer.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: 41.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -637,5 +649,5 @@
 			y: 1.525d
 		}
 	]
-	title: "Добро пожаловать"
+	title: "&#8A54F4Д&#8C50EAо&#8E4DE1б&#9149D7р&#9346CDо &#973FBAп&#993BB0о&#9C38A7ж&#9E349Dа&#A03193л&#A22D8Aо&#A42A80в&#A72676а&#A9236Dт&#AB1F63ь"
 }

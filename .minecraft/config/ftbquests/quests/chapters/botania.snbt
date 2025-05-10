@@ -114,6 +114,7 @@
 	quests: [
 		{
 			description: [" Блуждаю по миру вы можете наткнуться на магические цветы. &aОщущение будто я коснулся чего-то мистического?.."]
+			icon: "rftoolsbase:manual"
 			id: "3B59A583494E7FD9"
 			tasks: [{
 				id: "0D92BA6CC88506E3"
@@ -260,6 +261,7 @@
 		{
 			dependencies: ["66CD3ED3E3E73CB7"]
 			description: [" В это время была &bмана&f?.. Звучит сложно, но на деле оказалось все проще."]
+			icon: "rftoolsbase:manual"
 			id: "00B8C79C4553F433"
 			tasks: [{
 				id: "74BD072BCE434F1B"
@@ -1570,5 +1572,5 @@
 			y: 6.0d
 		}
 	]
-	title: "&bBotania"
+	title: "&n&#80FF00B&#76E608o&#6BCD0Ft&#61B417a&#579B1En&#4C8226i&#42692Da"
 }

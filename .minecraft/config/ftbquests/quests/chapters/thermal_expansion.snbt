@@ -136,18 +136,6 @@
 		}
 		{
 			description: [
-				"EN - We strongly recommend installing add-on "
-				"Thermal Dynamics and Jei"
-				""
-				"RU - Настоятельно рекомендуем установить дополнение  "
-				"Thermal Dynamics и Jei"
-				""
-				"JEI"
-				""
-				"EN - Hover over the item and press R to view its crafting"
-				"Jei (Left Click) - How to make an item"
-				"Jei (Right Click) - See what you can do with this item"
-				""
 				"RU - Наведитесь на предмет и нажмите R чтобы посмотреть его крафт"
 				"Jei (Left Click) - Как сделать предмет"
 				"Jei (Right Click) - Посмотреть что можно сделать из этого предмета"
@@ -170,6 +158,11 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					id: "3FC6EA9DBC96DD02"
+					type: "xp"
+					xp: 15
 				}
 			]
 			tasks: [{
@@ -2000,5 +1993,5 @@
 			y: -16.0d
 		}
 	]
-	title: "Thermal Expansion"
+	title: "&nThermal Expansion"
 }

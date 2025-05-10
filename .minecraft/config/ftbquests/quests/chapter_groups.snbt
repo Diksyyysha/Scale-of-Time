@@ -1,8 +1,8 @@
 {
 	chapter_groups: [
-		{ id: "54209D604C333018", title: "Tech" }
-		{ id: "786039148FECCFBA", title: "Magic" }
-		{ id: "5697CD3A44EB2256", title: "Разное" }
-		{ id: "59F4B31CF7D0D74F", title: "Концовка" }
+		{ id: "54209D604C333018", title: "&#5FE2C5&nT&#3FEC8D&ne&#20F554&nc&#00FF1C&nh" }
+		{ id: "786039148FECCFBA", title: "&#B65FE2&nM&#B953B5&na&#BD4688&ng&#C03A5A&ni&#C32D2D&nc" }
+		{ id: "5697CD3A44EB2256", title: "&#FFFFFF&nР&#F4DDD5&nа&#EABBAC&nз&#DF9882&nн&#D57659&nо&#CA542F&nе" }
+		{ id: "59F4B31CF7D0D74F", title: "&#FFFFFF&kf&r&#A29DCD&nК&#AFABD4&nо&#BDB9DB&nн&#CAC7E2&nц&#D7D5EA&nо&#E4E3F1&nв&#F2F1F8&nк&#FFFFFF&nа&r&#FFFFFF&kf" }
 	]
 }

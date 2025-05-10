@@ -41,7 +41,7 @@
 			image: "enigmaticlegacy:items/golden_ring"
 			rotation: 0.0d
 			width: 2.0d
-			x: -0.5d
+			x: -1.0d
 			y: -10.0d
 		}
 		{
@@ -106,7 +106,7 @@
 			image: "enigmaticlegacy:items/fabulous_scroll"
 			rotation: 155.0d
 			width: 1.0d
-			x: 12.5d
+			x: 13.0d
 			y: 8.0d
 		}
 		{
@@ -119,7 +119,7 @@
 			image: "enigmaticaddons:item/cursed_xp_scroll"
 			rotation: -25.0d
 			width: 1.0d
-			x: 6.5d
+			x: 6.0d
 			y: 8.0d
 		}
 		{
@@ -213,7 +213,7 @@
 			y: 0.0d
 		}
 		{
-			alpha: 125
+			alpha: 85
 			click: ""
 			corner: false
 			dependency: "1D0966690CE9B6AD"
@@ -250,8 +250,8 @@
 			image: "megacells:block/crafting/monitor_light_medium"
 			rotation: 0.0d
 			width: 2.0d
-			x: -3.5d
-			y: -6.5d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			click: ""
@@ -264,8 +264,8 @@
 			image: "megacells:block/crafting/monitor_light_medium"
 			rotation: 45.0d
 			width: 2.0d
-			x: -3.5d
-			y: -6.5d
+			x: 0.0d
+			y: 7.0d
 		}
 	]
 	order_index: 2
@@ -310,13 +310,14 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "circle"
 			tasks: [{
 				id: "3D4B791A0B8CBA96"
 				title: "Кольцо семи проклятий"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["26C290F0EA33D11C"]
@@ -374,7 +375,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["530A234C2B93EF5F"]
@@ -387,14 +388,14 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			tasks: [{
 				id: "15A3B04F538788B1"
 				title: "Исследование"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: -3.0d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["655D52905B760B9B"]
@@ -429,7 +430,7 @@
 				item: "enigmaticlegacy:golden_ring"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -11.0d
 		}
 		{
@@ -1159,7 +1160,7 @@
 				item: "enigmaticaddons:quartz_ring"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: -11.0d
 		}
 		{
@@ -1924,7 +1925,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 7.0d
 		}
 		{
@@ -1936,7 +1937,7 @@
 				item: "enigmaticlegacy:fabulous_scroll"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: 7.0d
 		}
 		{
@@ -2186,8 +2187,8 @@
 				item: "enigmaticlegacy:animal_guidebook"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.0d
+			x: 1.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["21EF9A40FB01EADC"]
@@ -2198,8 +2199,8 @@
 				item: "enigmaticlegacy:hunter_guidebook"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.0d
+			x: -1.5d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -2213,8 +2214,8 @@
 				item: "enigmaticaddons:sanguinary_handbook"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.5d
+			x: 1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["21EF9A40FB01EADC"]
@@ -2225,8 +2226,8 @@
 				item: "enigmaticaddons:false_justice"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -6.5d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -2240,8 +2241,8 @@
 				item: "enigmaticaddons:ode_to_living"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -6.5d
+			x: -1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["21EF9A40FB01EADC"]
@@ -2252,22 +2253,28 @@
 				item: "enigmaticaddons:antique_bag"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -4.5d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["655D52905B760B9B"]
+			description: ["Доступные для создания книги из мода Enigmatic помочь вам как и в сопротивлении с проклятиями, так и без таковых"]
 			hide_dependency_lines: true
 			icon: "minecraft:written_book"
 			id: "21EF9A40FB01EADC"
+			rewards: [{
+				id: "09543E25F34A8D22"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				id: "67CD06242E0C8681"
 				title: "Книги"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: -3.0d
+			x: 0.0d
+			y: 10.5d
 		}
 	]
-	title: "Enigmatic Legacy"
+	title: "&n&#FF00F8E&#F912DBn&#F423BDi&#EE35A0g&#E94682m&#E35865a&#DD6947t&#D87B2Ai&#D28C0Cc &#A6A546L&#90B163e&#7ABE7Fg&#64CA9Ca&#4ED7B9c&#38E3D6y"
 }
