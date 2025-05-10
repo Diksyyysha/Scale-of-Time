@@ -76,7 +76,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 3.0d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			click: ""
@@ -316,7 +316,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["40D60083FCAEF18D"]

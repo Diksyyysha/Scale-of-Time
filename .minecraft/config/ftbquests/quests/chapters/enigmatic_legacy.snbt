@@ -395,7 +395,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["655D52905B760B9B"]
@@ -441,13 +441,14 @@
 				type: "xp"
 				xp: 30
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "4E64F8E2F0038F05"
 				item: "enigmaticlegacy:ender_ring"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -11.0d
+			x: -6.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["64F7C9AFD4BBB7E9"]
@@ -458,13 +459,14 @@
 				type: "xp"
 				xp: 30
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "66C21154A45130B6"
 				item: "enigmaticlegacy:magnet_ring"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -13.5d
+			x: -6.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["043568080A07BD71"]
@@ -475,13 +477,14 @@
 				type: "xp"
 				xp: 45
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "114592CF3C775119"
 				item: "enigmaticlegacy:super_magnet_ring"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -16.0d
+			x: -7.0d
+			y: -11.0d
 		}
 		{
 			dependencies: [
