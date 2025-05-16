@@ -81,7 +81,7 @@
 			rotation: 20.0d
 			width: 1.0d
 			x: 8.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			click: ""
@@ -94,7 +94,7 @@
 			rotation: 120.0d
 			width: 1.0d
 			x: 11.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			click: ""
@@ -106,8 +106,8 @@
 			image: "enigmaticlegacy:items/fabulous_scroll"
 			rotation: 155.0d
 			width: 1.0d
-			x: 13.0d
-			y: 8.0d
+			x: 12.5d
+			y: 9.0d
 		}
 		{
 			click: ""
@@ -119,8 +119,8 @@
 			image: "enigmaticaddons:item/cursed_xp_scroll"
 			rotation: -25.0d
 			width: 1.0d
-			x: 6.0d
-			y: 8.0d
+			x: 6.5d
+			y: 9.0d
 		}
 		{
 			click: ""
@@ -267,6 +267,32 @@
 			x: 0.0d
 			y: 7.0d
 		}
+		{
+			click: ""
+			corner: false
+			dependency: "001AE81227DAF5C5"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "enigmaticlegacy:blocks/etherium_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "001AE81227DAF5C5"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "enigmaticlegacy:blocks/etherium_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: 3.5d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -388,7 +414,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			shape: "hexagon"
+			shape: "octagon"
 			tasks: [{
 				id: "15A3B04F538788B1"
 				title: "Исследование"
@@ -585,6 +611,11 @@
 			dependencies: ["422A36EEB6675EE7"]
 			description: ["&m&8Бесполезен&r&r"]
 			id: "2FEA30467DFED421"
+			rewards: [{
+				id: "163B1545E9FCE4C4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "240BF716CD0BB25F"
 				item: {
@@ -594,7 +625,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
+			x: -14.5d
 			y: -2.5d
 		}
 		{
@@ -640,7 +671,7 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
+			x: -10.5d
 			y: -2.5d
 		}
 		{
@@ -688,7 +719,7 @@
 		{
 			dependencies: ["422A36EEB6675EE7"]
 			dependency_requirement: "one_completed"
-			description: ["Слишком дешевый для такого"]
+			description: ["Крайне полезный амулет"]
 			id: "35F5A04AB524413A"
 			rewards: [{
 				id: "035B9131CD48C334"
@@ -705,7 +736,7 @@
 		}
 		{
 			dependencies: ["422A36EEB6675EE7"]
-			description: ["Очень полезен и очень дешёвый"]
+			description: ["Отличный полезный амулет"]
 			id: "4948A9A9D269213F"
 			rewards: [{
 				id: "04AB25863CE1FAB1"
@@ -727,20 +758,20 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "03808E19411807AD"
+					id: "226BAD598EF8A4D0"
 					table_id: 2994924812343091255L
-					type: "choice"
+					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "27CA5D416927F224"
+					id: "68EC00B626E91577"
 					table_id: 2994924812343091255L
-					type: "choice"
+					type: "random"
 				}
 				{
-					id: "0E1145B401AFD79F"
+					id: "6345C0B15B338435"
 					type: "xp"
-					xp: 333
+					xp: 777
 				}
 			]
 			tasks: [{
@@ -1765,7 +1796,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["080B5CD84BBBE085"]
@@ -1789,7 +1820,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["080B5CD84BBBE085"]
@@ -1813,7 +1844,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["080B5CD84BBBE085"]
@@ -1837,7 +1868,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2DD0A6A988C9917D"]
@@ -1876,7 +1907,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 10.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["31C2EE3D0B9F33C9"]
@@ -1891,7 +1922,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["31C2EE3D0B9F33C9"]
@@ -1902,7 +1933,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["31C2EE3D0B9F33C9"]
@@ -1913,7 +1944,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["174438ADACB503E2"]
@@ -1928,8 +1959,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.0d
+			x: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["11072F3C4805062D"]
@@ -1940,8 +1971,8 @@
 				item: "enigmaticlegacy:fabulous_scroll"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 7.0d
+			x: 11.5d
+			y: 9.0d
 		}
 		{
 			description: ["Нужен для крафта Сердца Земли"]
@@ -2102,7 +2133,27 @@
 		}
 		{
 			dependencies: ["4096F4A501AB0261"]
+			description: ["Вам явно пришлось пройти через многое чтобы заполучить &o&5его&r&r"]
 			id: "79C8FE83542AF275"
+			rewards: [
+				{
+					id: "3BB50E1F190384F1"
+					type: "xp"
+					xp: 666
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D932E9C0FCD7025"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "443FB6735EF3096F"
+					table_id: 2856130773300716246L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "471F2A9D93C39FD7"
@@ -2171,6 +2222,25 @@
 		{
 			dependencies: ["51DD317C37546466"]
 			id: "309F66872E0ADA22"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E8CCD7CE3CD588B"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70CFEBCA31653C46"
+					table_id: 2856130773300716246L
+					type: "random"
+				}
+				{
+					id: "131FB6329392382C"
+					type: "xp"
+					xp: 777
+				}
+			]
 			shape: "heart"
 			size: 1.5d
 			tasks: [{
@@ -2261,7 +2331,7 @@
 		}
 		{
 			dependencies: ["655D52905B760B9B"]
-			description: ["Доступные для создания книги из мода Enigmatic помочь вам как и в сопротивлении с проклятиями, так и без таковых"]
+			description: ["Доступные для создания книги из мода &5Enigmatic Legacy&r могут помочь вам как и в выживании с проклятиями, так и без таковых"]
 			hide_dependency_lines: true
 			icon: "minecraft:written_book"
 			id: "21EF9A40FB01EADC"
@@ -2277,6 +2347,209 @@
 			}]
 			x: 0.0d
 			y: 10.5d
+		}
+		{
+			dependencies: ["20D208B606F6F81E"]
+			id: "4504F50AD140E8A0"
+			tasks: [{
+				id: "5B32D67753449A9C"
+				item: "enigmaticlegacy:guardian_heart"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -11.0d
+		}
+		{
+			description: ["Артефакты, которые можно случайно найти в &eсундуках&r или &aскрафтить&r"]
+			id: "20D208B606F6F81E"
+			tasks: [{
+				id: "5285B5062B6A5C74"
+				title: "Полезные артефакты"
+				type: "checkmark"
+			}]
+			title: "Артефакты"
+			x: 20.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["20D208B606F6F81E"]
+			id: "53DECBE242028920"
+			tasks: [{
+				id: "47BD666F23B50542"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:void_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["20D208B606F6F81E"]
+			id: "275E4495F1973AB0"
+			tasks: [{
+				id: "786193120C4F3EDF"
+				item: "enigmaticlegacy:forbidden_fruit"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["20D208B606F6F81E"]
+			id: "2BF31AC159D85420"
+			tasks: [{
+				id: "595E1CFF76E493F7"
+				item: "enigmaticlegacy:lore_inscriber"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["20D208B606F6F81E"]
+			id: "5E9262B8486AC23D"
+			tasks: [{
+				id: "66C8EB58429779AB"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:extradimensional_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: -11.0d
+		}
+		{
+			description: ["&8Возможно всё же полезен чем-то&r"]
+			id: "526B7AC2941CD257"
+			rewards: [
+				{
+					id: "487182CC2A8CAB42"
+					type: "xp"
+					xp: 1250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17B4EA759D8F23D9"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55000166B12647CE"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6D96A89708FAE4C5"
+				item: "enigmaticaddons:primeval_cube"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["275E4495F1973AB0"]
+			id: "3EF139D3B56B1C54"
+			tasks: [{
+				id: "5F19D78E768C2A72"
+				item: "enigmaticlegacy:redemption_potion"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2BF31AC159D85420"]
+			id: "1385F3C4CADB518D"
+			tasks: [{
+				id: "1F0325C48EC51A56"
+				item: {
+					Count: 1b
+					id: "enigmaticlegacy:lore_fragment"
+					tag: {
+						display: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["20D208B606F6F81E"]
+			id: "6AB77E19482D5A1F"
+			tasks: [{
+				id: "2285BB5E0398FF81"
+				item: "enigmaticlegacy:mending_mixture"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -12.0d
+		}
+		{
+			id: "675B411EFAA5C60B"
+			tasks: [{
+				id: "4E92E990F09B74D8"
+				item: "enigmaticaddons:ichor_droplet"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20D208B606F6F81E"]
+			id: "2F1252C4360498D8"
+			tasks: [{
+				id: "115675A0154DA635"
+				item: "enigmaticlegacy:ichor_bottle"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["20D208B606F6F81E"]
+			id: "062798D0DC2BC51B"
+			tasks: [{
+				id: "7BD70494C2458B32"
+				item: "enigmaticlegacy:twisted_potion"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["20D208B606F6F81E"]
+			id: "5E5452E6F71654C9"
+			tasks: [{
+				id: "16105DD19CE8F666"
+				item: "enigmaticlegacy:recall_potion"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["20D208B606F6F81E"]
+			description: ["Бесполезен, не используется в крафтах"]
+			id: "63AE37C414B9B5C4"
+			tasks: [{
+				id: "64369F3264C7C4CB"
+				item: {
+					Count: 1b
+					id: "enigmaticaddons:astral_potion"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: -9.5d
 		}
 	]
 	title: "&n&#FF00F8E&#F912DBn&#F423BDi&#EE35A0g&#E94682m&#E35865a&#DD6947t&#D87B2Ai&#D28C0Cc &#A6A546L&#90B163e&#7ABE7Fg&#64CA9Ca&#4ED7B9c&#38E3D6y"

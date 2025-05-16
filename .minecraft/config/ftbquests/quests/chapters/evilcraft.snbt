@@ -84,7 +84,7 @@
 			image: "ftblibrary:icons/toggle_rain"
 			rotation: 0.0d
 			width: 2.0d
-			x: 0.5d
+			x: 0.0d
 			y: -4.0d
 		}
 		{
@@ -109,7 +109,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -1.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			click: ""
@@ -304,7 +304,7 @@
 				""
 				"Нужно увеличить хранилище экстрактора? Просто создайте еще один, а затем объедините их в сетке крафта!"
 				""
-				"Их также можно использовать для извлечения крови из &cBlood Stains&r, которые вы найдете (или создадите) на земле."
+				"Их также можно использовать для извлечения крови из &cЗастоев Крови&r, которые вы найдете (или создадите) на земле."
 				""
 				"Наконец, при наличии достаточного количества крови вы можете скрытно щелкнуть правой кнопкой мыши по земле, чтобы поставить ведро с кровью."
 			]
@@ -332,11 +332,6 @@
 						}
 					}
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1B1AC214CAAC35D0"
-					type: "loot"
 				}
 				{
 					id: "47C92745264ADA72"
@@ -415,11 +410,11 @@
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"To progress, we'll need to create our first &5Dark Power Gem&r."
+				"Для продвижения нам нужно будет создать наш первый &5Тёмный усиленный камень&r."
 				""
-				"To do this, you'll need to collect at least 5 buckets worth of blood in your &aBlood Extractor&r. Once collected, make a hole with at least 5 blocks of space, and then fill it with the blood."
+				"Для этого вам нужно будет собрать не менее 5 ведер крови в вашем &aЭкстрактор Крови&r. После того, как вы собрали, сделайте отверстие с не менее чем 5 блоками пространства, а затем заполните его кровью."
 				""
-				"Once you've created your pool of blood, toss in a &9Dark Gem&r to infuse it."
+				"После того, как вы создали свою лужу крови, бросьте в нее &9Тёмный камень&r, чтобы наполнить ее."
 			]
 			id: "64EC182B81BD8B86"
 			rewards: [
@@ -439,18 +434,18 @@
 				item: "evilcraft:dark_power_gem"
 				type: "item"
 			}]
-			title: "&dInfusing Gems with&r &cBlood&r"
+			title: "&dНаполнение Темных камней&r &cКровью&r"
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"If you leave a bucket of blood on the ground long enough, it will dry into &cHardened Blood&r."
+				"Если оставить ведро крови на земле достаточно долго, оно высохнет и превратится в &cЗатвердевшую кровь&r."
 				""
-				"Aside from being incredibly unsanitary, we need all kinds of blood for us to progress. Even dried blood."
+				"Помимо того, что это невероятно негигиенично, нам нужны все виды крови для нашего прогресса. Даже засохшая кровь."
 				""
-				"This will turn back into blood in the rain, or by breaking it with regular tools. If you break it with &9Flint and Steel&r, you'll get &dBlood Shards&r instead."
+				"Она снова превратится в кровь под дождем или при разбивании ее обычными инструментами. Если вы разобьете ее с помощью &9Огнива&r, то вместо этого получите &dОсколки крови&r."
 			]
 			id: "1E3471513C75CC54"
 			rewards: [{
@@ -464,18 +459,18 @@
 				item: "evilcraft:hardened_blood_shard"
 				type: "item"
 			}]
-			title: "Drying... &cBlood?&r"
+			title: "Сушка... &cКрови?&r"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["68318811CCC28320"]
 			description: [
-				"We won't be creating Dark Power Gems using pools of blood anymore."
+				"Мы больше не будем создавать Тёмные усиленные камни, используя лужи крови."
 				""
-				"Instead, we can make the &9Blood Infuser&r to do all of the messy work for us. This allows you to directly infuse items with blood!"
+				"Вместо этого мы можем заставить &9Кровавый наполнитель&r делать всю грязную работу за нас. Это позволит вам напрямую наполнять предметы кровью!"
 				""
-				"These can be upgraded using &6Promises&r as well. This is one of the main machines used for progression!"
+				"Их также можно улучшить с помощью &6Обещаний&r. Это одна из основных машин, используемых для прогресса!"
 			]
 			id: "62A262A706CFCAF0"
 			rewards: [
@@ -508,7 +503,7 @@
 				}
 				type: "item"
 			}]
-			title: "&aThe&r &cBlood Infuser&r"
+			title: "&cКровавый наполнитель&r"
 			x: 3.5d
 			y: 5.5d
 		}
@@ -518,23 +513,16 @@
 				"1E3471513C75CC54"
 			]
 			description: [
-				"Combining &aHardened Blood Shards&r with &9Dark Power Gems&r will make Blood Infusion Cores."
+				"Комбинация &aЗатвердевших осколков крови&r с &9Тёмным усиленным камнем&r создаст Кровавые Инфузионные Ядра."
 				""
-				"&9Blood Infusion Cores&r are the main crafting components of several machines in EvilCraft."
+				"&9Кровавые Инфузионные Ядра&r являются основными компонентами для крафта нескольких машин в EvilCraft."
 			]
 			id: "68318811CCC28320"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "11CC009B068D104B"
-					type: "loot"
-				}
-				{
-					id: "7E28A39E1447CF3A"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "7E28A39E1447CF3A"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
@@ -542,30 +530,23 @@
 				item: "evilcraft:blood_infusion_core"
 				type: "item"
 			}]
-			title: "&aInfusion Cores&r"
+			title: "&aИнфузионные ядра&r"
 			x: 2.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["62A262A706CFCAF0"]
 			description: [
-				"Using the Blood Infuser, you can create &cUndead Saplings&r that grow into &dUndead Trees&r."
+				"Используя Кровавый наполнитель, вы можете создавать &cСаженцы Дерева Мёртвых&r, которые вырастают в &dДеревья Мёртвых&r."
 				""
-				"The logs and planks are useful for creating several tools and items within EvilCraft."
+				"Бревна и доски полезны для создания нескольких инструментов и предметов в EvilCraft."
 			]
 			id: "40888A2C17D8FFF6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4B6E919276C8F1A2"
-					type: "loot"
-				}
-				{
-					id: "352AA0893B127276"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "352AA0893B127276"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -579,31 +560,24 @@
 					type: "item"
 				}
 			]
-			title: "Undead Trees"
+			title: "Деревья Мёртвых"
 			x: 3.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["62A262A706CFCAF0"]
 			description: [
-				"EvilCraft machines can be upgraded using &6Promises&r. Each Promise will have different effects, but first, we'll want to upgrade our Blood Infuser to unlock more recipes."
+				"Машины EvilCraft можно модернизировать с помощью &6Обещаний&r. Каждое Обещание будет иметь разные эффекты, но сначала нам нужно будет модернизировать наш Кровавый наполнитель, чтобы разблокировать больше рецептов."
 				""
-				"To do this, we need to create a &6Promise of Tenacity: Tier 1&r. Generally, this just increases the storage capacity of a machine. For the Blood Infuser, this will unlock more recipes!"
+				"Для этого нам нужно создать &6Promise of Tenacity: Tier 1&r. Обычно это просто увеличивает емкость хранилища машины. Для Кровавого Наполнителя это разблокирует больше рецептов!"
 			]
 			icon: "evilcraft:promise_tier_1"
 			id: "62CE0FFAF6352287"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "482322CBBA7FE9F3"
-					type: "loot"
-				}
-				{
-					id: "448851E30BF3A2D9"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "448851E30BF3A2D9"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -617,30 +591,23 @@
 					type: "item"
 				}
 			]
-			title: "&aUpgrading Our Machines&r"
+			title: "&aУлучшение наших машин&r"
 			x: 6.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["68318811CCC28320"]
 			description: [
-				"The &cBlood Chest&r can be used to repair items using &cBlood&r."
+				"&cКровавый сундук&r можно использовать для ремонта предметов с помощью &cКрови&r."
 				""
-				"However, items repaired might become &dCursed&r...."
+				"Однако отремонтированные предметы могут стать &dПроклятыми&r...."
 			]
 			id: "74B0308336F5E017"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3C0C54B87A03F1D2"
-					type: "loot"
-				}
-				{
-					id: "253E9653A75A538B"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "253E9653A75A538B"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "45053D11D2454483"
 				item: {
@@ -663,37 +630,25 @@
 				}
 				type: "item"
 			}]
-			title: "Repairing Tools with &cBlood&r"
+			title: "Ремонт инструментов с помощью &cКрови&r"
 			x: 1.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["62CE0FFAF6352287"]
 			description: [
-				"Need to remove &dEnchantments&r from an item you've found? Maybe you want to remove a Curse? This can be done using the &cPurifier&r."
+				"Нужно снять &dЧары&r с найденного предмета? Может быть, вы хотите снять проклятие? Это можно сделать с помощью &cОчистителя&r."
 				""
-				"To do this, first place at least 3 buckets worth of blood into the Purifier, then throw in the item you want to remove an enchantment from."
+				"Для этого сначала поместите не менее 3 ведер крови в Очиститель. затем бросьте туда предмет, с которого вы хотите снять чары."
 				""
-				"Next, add in the &cBlook&r. The Blook will absorb one of the enchants from the item, and convert it into a book of the enchant."
+				"Затем добавьте &cКровавую Книгу&r. Кровавая Книга поглотит одно из чар с предмета и превратит его в книгу чар."
 			]
 			id: "5A8F4CA0F09F4842"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "31A60FDFF8B5C6A0"
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0692DC80214837E5"
-					type: "loot"
-				}
-				{
-					id: "106290C6011C5430"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "106290C6011C5430"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [
 				{
 					id: "5C748C6F62DC11FF"
@@ -723,7 +678,7 @@
 					type: "item"
 				}
 			]
-			title: "Removing &dEnchantments&r and &dCurses&r"
+			title: "Удаление &dЧар&r и &dПроклятий&r"
 			x: 6.0d
 			y: 7.0d
 		}
@@ -778,25 +733,18 @@
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"Sometimes when you kill a mob, a &dVengeance Spirit&r will spawn."
+				"Иногда, когда вы убиваете моба, появляется &dДух Мести&r."
 				""
-				"Their &dEssence&r seems to be useful in crafting more advanced items within EvilCraft."
+				"Их &dСущность&r, похоже, полезна для создания более продвинутых предметов в EvilCraft."
 				""
-				"Not finding many Spirits? Make a &9Vengeance Ring&r and toggle it on to attract more Spirits during your battles."
+				"Не нашли много Духов? Сделайте &9Кольцо Мести&r и включите его, чтобы привлечь больше Духов во время сражений."
 			]
 			id: "51B24CC5E9332C1E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5ADA78F1C2C772ED"
-					type: "loot"
-				}
-				{
-					id: "32E1BD15DDDD99B6"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "32E1BD15DDDD99B6"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -810,7 +758,7 @@
 					type: "item"
 				}
 			]
-			title: "Revenge of the &dSpirit&r"
+			title: "Месть &dДухов&r"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -818,23 +766,11 @@
 			dependencies: ["62CE0FFAF6352287"]
 			icon: "evilcraft:promise_tier_2"
 			id: "4978A9B616362CCE"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "726B4CB73514DAD2"
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "13F444F987948EFB"
-					type: "loot"
-				}
-				{
-					id: "26B65922BE81B24E"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "26B65922BE81B24E"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "rsquare"
 			size: 1.25d
 			tasks: [
@@ -849,7 +785,7 @@
 					type: "item"
 				}
 			]
-			title: "&aRank 2&r: More &cBlood&r"
+			title: "&aРанг 2&r: Больше &cКрови&r"
 			x: 8.0d
 			y: 5.5d
 		}
@@ -898,18 +834,11 @@
 			]
 			description: ["Gives you a speed boost + step height!"]
 			id: "4D7B6842B9F53459"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "597BBA8C06982126"
-					type: "loot"
-				}
-				{
-					id: "2DE3C44CE6807BA9"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "2DE3C44CE6807BA9"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "octagon"
 			size: 1.25d
 			tasks: [{
@@ -923,25 +852,18 @@
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"Using the power of &9Dark Gems&r, we can create &aDark Tanks&r."
+				"Используя силу &9Темных камней&r, мы можем создавать &aТемные резервуары&r."
 				""
-				"These can store 16 buckets of any liquid you want, but you'll probably need this for all of the &cBlood&r you'll be collecting."
+				"Они могут вместить 16 ведер любой жидкости, которую вы захотите, но вам, вероятно, понадобится это для всей &cКрови&r, которую вы будете собирать."
 				""
-				"Need it to hold more? Just combine it in a crafting grid with another Dark Tank."
+				"Нужно, чтобы вмещалось больше? Просто объедините его в сетке крафта с другим Темным резервуаром."
 			]
 			id: "75CF9EAB75C3907E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "21261E43154D9972"
-					type: "loot"
-				}
-				{
-					id: "3D3EAE032673B96C"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "3D3EAE032673B96C"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7FAA4F7F27A63395"
@@ -972,9 +894,9 @@
 		{
 			dependencies: ["40888A2C17D8FFF6"]
 			description: [
-				"It's a pickaxe with Fortune V on it. That's all."
+				"Это кирка с надписью Fortune V. Вот и все."
 				""
-				"Definitely won't summon spirits when you are mining. &oDefinitely won't.&r"
+				"Она точно не призовет духов, когда вы копаете. &oОпределенно не призовет.&r"
 			]
 			id: "10EF30B919EBA5C6"
 			rewards: [
@@ -1012,6 +934,7 @@
 				}
 				type: "item"
 			}]
+			title: "Мстительная кирка"
 			x: 4.5d
 			y: 9.0d
 		}
@@ -1084,25 +1007,18 @@
 		{
 			dependencies: ["51B24CC5E9332C1E"]
 			description: [
-				"While their &dEssence&r is useful, we can also capture these Spirits for later use. That sounds evil, doesn't it?"
+				"Хотя их &dСущность&r полезна, мы также можем захватить этих Духов для дальнейшего использования. Звучит зловеще, не так ли?"
 				""
-				"To become a Spirit Hunter, you'll need to create the &dVengeance Focus&r first. This is used to &aFreeze Spirits&r in place, then you place a &9Box of Eternal Closure&r near the Spirit. This will then suck the Spirit in for later use."
+				"Чтобы стать Охотником на Духов, вам сначала нужно создать &dФокус Мести&r. Он используется для &aЗаморозки Духов&r на месте, затем вы размещаете &9Коробку Вечного Закрытия&r рядом с Духом. Затем он засосет Духа для дальнейшего использования."
 			]
 			icon: "evilcraft:box_of_eternal_closure"
 			id: "066438B01655D866"
 			min_width: 250
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5E0530F6FB4A5A7B"
-					type: "loot"
-				}
-				{
-					id: "4E246CAB1B584FB1"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "4E246CAB1B584FB1"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [
@@ -1117,7 +1033,7 @@
 					type: "item"
 				}
 			]
-			title: "Capturing &dSpirits&r"
+			title: "Захват &dДухов&r"
 			x: 4.5d
 			y: 1.5d
 		}
@@ -1135,23 +1051,11 @@
 			]
 			id: "0104C2E2E30B966B"
 			min_width: 250
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4EA306D7DB8079AB"
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7ECD4A2652185AB7"
-					type: "loot"
-				}
-				{
-					id: "2F653206D21841F4"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "2F653206D21841F4"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "rsquare"
 			size: 1.25d
 			subtitle: "Papa Blood Chest"
@@ -1193,25 +1097,18 @@
 		{
 			dependencies: ["1DA0A87C471A38AC"]
 			description: [
-				"Want to create a mob egg from the spirit you have trapped in that box?"
+				"Хотите создать яйцо призива из духа, которого вы поймали в этой коробке?"
 				""
-				"The &9Spirit Reanimator&r does exactly that. Give it a lot of &cBlood&r and an egg, and of course a &9Box of Eternal Closure&r with the Spirit you want to create the mob egg from, and it will attempt to create the mob egg!"
+				"&9Раниматор Духов&r делает именно это. Дайте ему много &cКрови&r и яйцо, и, конечно, &9Коробку Вечного Закрытия&r с Духом, из которого вы хотите создать яйцо призива, и он попытается создать яйцо призива!"
 				""
-				"Note: Some mobs cannot be used to create eggs."
+				"Примечание: некоторые мобы не могут быть использованы для создания яиц."
 			]
 			id: "59036A2741E7A8AA"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3D1C925F4CB7567F"
-					type: "loot"
-				}
-				{
-					id: "1FB5ED3DF7B6AC7B"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "1FB5ED3DF7B6AC7B"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "octagon"
 			size: 1.25d
 			tasks: [{
@@ -1230,7 +1127,7 @@
 				}
 				type: "item"
 			}]
-			title: "&aCreating&r &9Mob Eggs&r"
+			title: "&aСоздание&r &9Яиц Призива&r"
 			x: 8.0d
 			y: -0.125d
 		}
@@ -1642,24 +1539,17 @@
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"Have you ever wanted to be able to attack things with a Shovel, and it hurt? I would ask why, but this is EvilCraft."
+				"Вы когда-нибудь хотели иметь возможность атаковать мобов лопатой, и это было бы больно? Я бы спросил почему, но это EvilCraft."
 				""
-				"Well look no further! This serves as both a weapon, and a tool for breaking soft things!"
+				"Ну, не ищите дальше! Это служит и оружием, и инструментом для разрушения мягких вещей!"
 			]
 			id: "0B9F2B443813F43C"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6061CB7F7078B276"
-					type: "loot"
-				}
-				{
-					id: "066EF2005D17430C"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "066EF2005D17430C"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "743506EBB76A0B12"
@@ -1673,6 +1563,7 @@
 				match_nbt: false
 				type: "item"
 			}]
+			title: "&aОстрые &cКогти"
 			x: -2.0d
 			y: 2.5d
 		}
@@ -1893,27 +1784,20 @@
 		{
 			dependencies: ["7E79F52147B606F9"]
 			description: [
-				"Did a mob hit the floor too hard and get its &cBlood&r everywhere? Oh no!"
+				"Моб слишком сильно ударился об пол и разбрызгал свою &cКровь&r повсюду? О нет!"
 				""
-				"Anyway."
+				"В любом случае."
 				""
-				"You can use a &cSanguinary Pedestal&r to absorb that precious &cBlood&r for later use!"
+				"Вы можете использовать &cКровавый пьедестал&r, чтобы поглотить эту драгоценную &cКровь&r для дальнейшего использования!"
 				""
-				"Want to automate collecting blood? Place a &9Spiked Plate&r on top of the Pedestal, then have a mob stand on it."
+				"Хотите автоматизировать сбор крови? Поместите &9Шипованную пластину&r на вершину пьедестала, а затем поставьте на нее моба."
 			]
 			id: "525517F1625A9BCB"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "19D85646C2FCF95A"
-					type: "loot"
-				}
-				{
-					id: "288BC70DF47B76C4"
-					type: "xp"
-					xp: 25
-				}
-			]
+			rewards: [{
+				id: "288BC70DF47B76C4"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -1971,7 +1855,7 @@
 					type: "item"
 				}
 			]
-			title: "&aCollecting&r &cBlood Stains&r"
+			title: "&aСбор&r &cПятен крови&r"
 			x: -1.5d
 			y: 3.0d
 		}
@@ -2035,9 +1919,9 @@
 		{
 			dependencies: ["40888A2C17D8FFF6"]
 			description: [
-				"Need more blood from your enemies? Of course you do!"
+				"Нужно больше крови от врагов? Конечно, нужно!"
 				""
-				"The &dVein Sword&r allows you to collect more blood, as well as more drops with Looting attached to it!"
+				"&dВенозный мечь&r позволяет собирать больше крови, а также больше трофеев с прикрепленной к нему добычей!"
 			]
 			id: "7B524DAD8A33BF85"
 			rewards: [
@@ -2069,17 +1953,18 @@
 				}
 				type: "item"
 			}]
+			title: "Венозный мечь"
 			x: 2.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["40888A2C17D8FFF6"]
 			description: [
-				"&dBrooms&r can be made using Broom Parts. Every Broom is made up of 3 parts: a Rod, a Cap, and a Brush."
+				"&dМетлы&r можно сделать из частей метлы. Каждая метла состоит из 3 частей: стержня, колпачка и щетки."
 				""
-				"Each part can be crafted by combing the bare part with certain items to give them specific modifiers. As there are too many modifiers to type out, make sure to check the guide book for more info!"
+				"Каждую часть можно создать, комбинируя голую часть с определенными предметами, чтобы придать им определенные модификаторы. Поскольку модификаторов слишком много, чтобы их вводить, обязательно проверьте руководство для получения дополнительной информации!"
 				""
-				"To craft your Broom, simply place each part into the crafting table. The Broom will require Blood to function properly. "
+				"Чтобы создать метлу, просто поместите каждую часть на верстак. Для правильной работы метлы потребуется кровь."
 			]
 			icon: {
 				Count: 1b
@@ -2203,7 +2088,7 @@
 					type: "item"
 				}
 			]
-			title: "&cBlood&r &dBrooms&r"
+			title: "&cКровавые&r &dМётла&r"
 			x: 3.5d
 			y: 10.5d
 		}
