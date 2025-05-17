@@ -158,8 +158,8 @@
 			image: "enigmaticlegacy:items/evil_essence"
 			rotation: 0.0d
 			width: 2.0d
-			x: 18.5d
-			y: -2.5d
+			x: 19.5d
+			y: -3.5d
 		}
 		{
 			click: ""
@@ -293,6 +293,18 @@
 			x: -12.5d
 			y: 3.5d
 		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "enigmaticaddons:item/ichor_droplet"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.5d
+			y: 0.0d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -382,7 +394,7 @@
 				value: 1
 			}]
 			title: "Первородный грех"
-			x: 15.75d
+			x: 17.25d
 			y: 0.0d
 		}
 		{
@@ -885,7 +897,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["24BA09ABE6005D4A"]
+			dependencies: [
+				"24BA09ABE6005D4A"
+				"675B411EFAA5C60B"
+			]
 			description: ["Чистое сердце? Может ли оно помочь с проклятьями?"]
 			hide: true
 			id: "601A9DF1B2D01E4F"
@@ -2077,17 +2092,6 @@
 		}
 		{
 			dependencies: ["26F4CE907ABE8FDC"]
-			id: "18F9926C21141A80"
-			tasks: [{
-				id: "7D2F44546FB42408"
-				item: "enigmaticaddons:false_justice"
-				type: "item"
-			}]
-			x: 19.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["26F4CE907ABE8FDC"]
 			id: "321516F9FB0F5793"
 			tasks: [{
 				id: "4696ACEB1A04AB4F"
@@ -2205,6 +2209,19 @@
 		{
 			dependencies: ["26F4CE907ABE8FDC"]
 			id: "62884C9595B63406"
+			rewards: [
+				{
+					id: "545700FD51126DBA"
+					type: "xp"
+					xp: 125
+				}
+				{
+					exclude_from_claim_all: true
+					id: "502749D8414C5D8E"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2168CF6C170E7573"
 				item: {
@@ -2216,7 +2233,7 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
+			x: 19.5d
 			y: 0.5d
 		}
 		{
@@ -2360,7 +2377,10 @@
 			y: -11.0d
 		}
 		{
+			dependencies: ["655D52905B760B9B"]
+			dependency_requirement: "one_completed"
 			description: ["Артефакты, которые можно случайно найти в &eсундуках&r или &aскрафтить&r"]
+			hide_dependency_lines: true
 			id: "20D208B606F6F81E"
 			tasks: [{
 				id: "5285B5062B6A5C74"
@@ -2424,6 +2444,7 @@
 			y: -11.0d
 		}
 		{
+			dependencies: ["601A9DF1B2D01E4F"]
 			description: ["&8Возможно всё же полезен чем-то&r"]
 			id: "526B7AC2941CD257"
 			rewards: [
@@ -2450,7 +2471,7 @@
 				item: "enigmaticaddons:primeval_cube"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 15.5d
 			y: -2.0d
 		}
 		{
