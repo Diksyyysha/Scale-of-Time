@@ -436,31 +436,6 @@
 			x: 5.5d
 			y: 2.0d
 		}
-		{
-			dependencies: ["63809F4FA784ED66"]
-			id: "7A387CA77978B866"
-			rewards: [
-				{
-					id: "3B10F68DF2F973D2"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 3
-					id: "079E18FBB425A641"
-					item: "minecraft:raw_gold"
-					type: "item"
-				}
-			]
-			tasks: [{
-				count: 4L
-				id: "6E711A920F47CC59"
-				item: "thermal:invar_ingot"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -4.5d
-		}
 	]
 	title: "&#004F6E&nT&#144E66&nh&#274E5D&ne&#3B4D55&nr&#4E4D4C&nm&#624C44&na&#764C3B&nl &#9D4B2A&nS&#B14A22&ne&#C44A19&nr&#D84911&ni&#EB4908&ne&#FF4800&ns"
 }

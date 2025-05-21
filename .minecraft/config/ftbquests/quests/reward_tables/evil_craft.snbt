@@ -1,0 +1,36 @@
+{
+	icon: "evilcraft:condensed_blood"
+	id: "56AFCB54A493E1A3"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 8, item: "evilcraft:dark_gem", weight: 1.5f }
+		{ count: 2, item: "evilcraft:dark_power_gem" }
+		{ count: 4, item: "evilcraft:hardened_blood_shard" }
+		{ count: 4, item: "evilcraft:dark_gem_crushed", weight: 1.5f }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Amount: 0
+						FluidName: "minecraft:empty"
+						capacity: 16000
+					}
+				}
+				id: "evilcraft:dark_tank"
+				tag: {
+					Fluid: {
+						Amount: 0
+						FluidName: "minecraft:empty"
+					}
+					capacity: 16000
+				}
+			}
+		}
+		{ item: "evilcraft:blood_orb_empty" }
+		{ item: "evilcraft:garmonbozia", weight: 0.091f }
+		{ count: 8, item: "evilcraft:condensed_blood", weight: 2.0f }
+	]
+	title: "EvilCraft"
+}
