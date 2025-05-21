@@ -95,6 +95,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "57DF147D6B07B1A1"
+			rewards: [
+				{
+					id: "5BC4DB8D8087CB67"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33B70468C25E39BB"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "29C5B6D0C0E85543"
 				item: "sophisticatedbackpacks:pickup_upgrade"
@@ -117,6 +130,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "10D94D4C8A9D59FF"
+			rewards: [
+				{
+					id: "574A433F073BA096"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "197FAD0D83DA89BE"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "72B9720E5A47989E"
 				item: "sophisticatedbackpacks:filter_upgrade"
@@ -139,6 +165,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "53D3178304EDF618"
+			rewards: [
+				{
+					id: "66BCB03506DEFBE2"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11615D669AE25C87"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "047DFE44E1CFA2E0"
 				item: "sophisticatedbackpacks:magnet_upgrade"
@@ -161,6 +200,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "38C594BB4C1D4554"
+			rewards: [
+				{
+					id: "0EDB6BBE33B02B1D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A6F7678D6AA1860"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0A776D0AD401E4E6"
 				item: "sophisticatedbackpacks:compacting_upgrade"
@@ -183,6 +235,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "5B37402E0C797835"
+			rewards: [
+				{
+					id: "7CF99DA7F05D5942"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F5326D7F6C11900"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "41217BECDDF0EF76"
 				item: "sophisticatedbackpacks:void_upgrade"
@@ -205,6 +270,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "374DB63C5308338D"
+			rewards: [
+				{
+					id: "602255F30E815BC3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1993C2E599D1EDB5"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4E0C16AF33F4BF19"
 				item: "sophisticatedbackpacks:restock_upgrade"
@@ -227,6 +305,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "5C6E79A2B29A139B"
+			rewards: [
+				{
+					id: "33C3622431F6879A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C7B29C9D526599C"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "379F8D6528B9102C"
 				item: "sophisticatedbackpacks:deposit_upgrade"
@@ -249,6 +340,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "1EA9A99C0D71E17A"
+			rewards: [
+				{
+					id: "591AB5FDF597B111"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15EC9F0A284BE30D"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "289D79AC72FC361B"
 				item: "sophisticatedbackpacks:refill_upgrade"
@@ -271,6 +375,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "4D01A30AF65B7B82"
+			rewards: [
+				{
+					id: "61A435793E948620"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10691D587C403113"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "20B224D454F0C07D"
 				item: "sophisticatedbackpacks:crafting_upgrade"
@@ -282,6 +399,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "700113BA3332E99C"
+			rewards: [
+				{
+					id: "61CD5AB8C0324C88"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7846336D446916B9"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3E2B5A2CCDB1A6AB"
 				item: "sophisticatedbackpacks:stonecutter_upgrade"
@@ -348,6 +478,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "42B95ED663477D5D"
+			rewards: [
+				{
+					id: "1F22EEAD924DBD85"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "320913BDE3C792AD"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5334C12B91AD8B0F"
 				item: "sophisticatedbackpacks:smelting_upgrade"
@@ -370,6 +513,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "29EECB30B5D02D6D"
+			rewards: [
+				{
+					id: "6DD41C906802FD44"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C07DADC7E88E471"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5A6359C15239E7F9"
 				item: "sophisticatedbackpacks:tool_swapper_upgrade"
@@ -392,6 +548,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "50F89A84037FAEF4"
+			rewards: [
+				{
+					id: "3A5D918E3CF6B7CF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DE946CF98CC1277"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7C93D5162E1A9BBE"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
@@ -436,6 +605,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "43D8F8E2A6D24F7E"
+			rewards: [
+				{
+					id: "0A2AB361AD0CCAF1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66F813D185DAB60C"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0C0B4ABFD1533126"
 				item: "sophisticatedbackpacks:pump_upgrade"
@@ -469,6 +651,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "4ED0FBB9E378A6E5"
+			rewards: [
+				{
+					id: "5B61EA3B593F6725"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02FE4EC35C177ACF"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6209411A08DACF75"
 				item: "sophisticatedbackpacks:smoking_upgrade"
@@ -491,6 +686,19 @@
 		{
 			dependencies: ["2EE9E8EFB004C9BF"]
 			id: "0336552501062065"
+			rewards: [
+				{
+					id: "17FB1BDA104147EC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17C544CB05D41FA9"
+					table_id: 8278157768159951841L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "47E94D14D2A102D5"
 				item: "sophisticatedbackpacks:blasting_upgrade"

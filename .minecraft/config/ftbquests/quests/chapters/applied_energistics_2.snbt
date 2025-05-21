@@ -13,7 +13,7 @@
 		height: 3.0d
 		hover: [ ]
 		image: "ae2:block/mysterious_cube_core"
-		rotation: 0.0d
+		rotation: 45.0d
 		width: 3.0d
 		x: 0.0d
 		y: 0.0d
@@ -31,6 +31,7 @@
 			]
 			icon: "ae2:mysterious_cube"
 			id: "3E18770ED40D7F18"
+			shape: "diamond"
 			size: 2.0d
 			subtitle: "Найдите метеорит!"
 			tasks: [

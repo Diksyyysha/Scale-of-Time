@@ -63,7 +63,7 @@
 			dependency: "655D52905B760B9B"
 			dev: false
 			height: 2.0d
-			hover: [ ]
+			hover: ["такой брони нет в моде"]
 			image: "enigmaticlegacy:textures/items/crying_chestplate.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -77,7 +77,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enigmaticlegacy:items/cosmic_scroll"
+			image: "enigmaticlegacy:items/cursed_scroll"
 			rotation: 20.0d
 			width: 1.0d
 			x: 8.0d
@@ -90,7 +90,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enigmaticlegacy:items/cosmic_scroll"
+			image: "enigmaticlegacy:items/avarice_scroll"
 			rotation: 120.0d
 			width: 1.0d
 			x: 11.0d
@@ -158,8 +158,8 @@
 			image: "enigmaticlegacy:items/evil_essence"
 			rotation: 0.0d
 			width: 2.0d
-			x: 19.5d
-			y: -3.5d
+			x: 20.0d
+			y: -1.5d
 		}
 		{
 			click: ""
@@ -171,8 +171,8 @@
 			image: "enigmaticlegacy:items/abyssal_heart"
 			rotation: 0.0d
 			width: 3.0d
-			x: 24.5d
-			y: 2.5d
+			x: 27.0d
+			y: 3.0d
 		}
 		{
 			alpha: 127
@@ -305,6 +305,32 @@
 			x: 15.5d
 			y: 0.0d
 		}
+		{
+			click: ""
+			corner: false
+			dependency: "51DD317C37546466"
+			dev: false
+			height: 2.1d
+			hover: [ ]
+			image: "enigmaticlegacy:blocks/redstone_lamp"
+			rotation: 45.0d
+			width: 2.1d
+			x: 17.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7C75F8C071D4B8D8"
+			dev: false
+			height: 1.05d
+			hover: [ ]
+			image: "alexsmobs:block/rainbow_glass_all"
+			rotation: 45.0d
+			width: 1.05d
+			x: 9.5d
+			y: 9.0d
+		}
 	]
 	order_index: 2
 	quest_links: [ ]
@@ -359,7 +385,7 @@
 		}
 		{
 			dependencies: ["26C290F0EA33D11C"]
-			description: ["Похоже вы всё таки осмелились экипировать данное кольцо. Чтож, возможно, всё не так уж и плохо если вы, конечно, не надели его в самом начале своего пути. В таком случае придётся вам не сладко... Но и без плюсов не обойтись, кольцо даёт доступ к новым, ранее неизвестным знаниям, которые помогут вам пережить бремя ношения этого кольца, пока вы не найдёте способ избавится от кольца, либо ослабить его действие."]
+			description: ["Похоже вы всё таки осмелились экипировать данное &5кольцо&r. Чтож, возможно, всё не так уж и плохо если вы, конечно, не надели его &oв самом начале своего пути&r. В таком случае придётся вам не сладко... Но и без плюсов не обойтись, кольцо даёт доступ к новым, ранее неизвестным знаниям, которые помогут вам пережить бремя ношения этого кольца, пока вы не найдёте способ &cизбавится&r от кольца, либо &eослабить&r его действие."]
 			hide: true
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -394,7 +420,7 @@
 				value: 1
 			}]
 			title: "Первородный грех"
-			x: 17.25d
+			x: 18.75d
 			y: 0.0d
 		}
 		{
@@ -437,14 +463,14 @@
 		}
 		{
 			dependencies: ["655D52905B760B9B"]
-			description: ["Это кольцо может быть полезно как для крафта, так и для боевой экипировки"]
+			description: ["Основа для колец, также добавляет +1 к &aброне&r"]
 			hide: true
 			hide_dependency_lines: true
 			id: "64F7C9AFD4BBB7E9"
 			rewards: [{
 				id: "022A55941A12C69B"
 				type: "xp"
-				xp: 15
+				xp: 25
 			}]
 			tasks: [{
 				id: "237C9D2E24719B45"
@@ -456,12 +482,12 @@
 		}
 		{
 			dependencies: ["64F7C9AFD4BBB7E9"]
-			description: ["Это кольцо является основой большинства акссесуаров, при обычном ношении повышает удачу владельца"]
+			description: ["Это кольцо является основой большинства акссесуаров, при обычном ношении повышает &eудачу&r владельца"]
 			id: "73688A1DCDB791FA"
 			rewards: [{
 				id: "72499F9DFC71B56C"
 				type: "xp"
-				xp: 20
+				xp: 50
 			}]
 			tasks: [{
 				id: "71F7E249332D65B3"
@@ -473,11 +499,12 @@
 		}
 		{
 			dependencies: ["64F7C9AFD4BBB7E9"]
+			description: ["Даёт возможность открывать &dэндер-сундук&r из инвентаря и по горячей клавише. Не нужен тем, у кого надето &5Кольцо Семи Проклятий&r"]
 			id: "0D47AF5AE8AA4024"
 			rewards: [{
 				id: "7CEF49B45B8B0997"
 				type: "xp"
-				xp: 30
+				xp: 80
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -495,7 +522,7 @@
 			rewards: [{
 				id: "07D03328C73D4CEB"
 				type: "xp"
-				xp: 30
+				xp: 40
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -513,7 +540,7 @@
 			rewards: [{
 				id: "1661F5B3171F4F23"
 				type: "xp"
-				xp: 45
+				xp: 80
 			}]
 			shape: "diamond"
 			tasks: [{
@@ -642,7 +669,7 @@
 		}
 		{
 			dependencies: ["422A36EEB6675EE7"]
-			description: ["Только для носящих кольцо семи проклятий"]
+			description: ["Создаётся из &5Нечистивой сущности&r"]
 			id: "189003B4D057A1AA"
 			rewards: [
 				{
@@ -786,6 +813,7 @@
 					xp: 777
 				}
 			]
+			shape: "square"
 			tasks: [{
 				id: "53F185C0E0077108"
 				item: {
@@ -835,11 +863,11 @@
 				}
 				type: "item"
 			}]
-			x: 26.5d
-			y: 4.0d
+			x: 29.0d
+			y: 2.0d
 		}
 		{
-			description: ["Довольно редкий артефакт, используется в многих крафтах."]
+			description: ["Довольно редкий артефакт, используется во многих крафтах."]
 			hide_dependency_lines: true
 			id: "24BA09ABE6005D4A"
 			rewards: [
@@ -849,9 +877,12 @@
 					xp: 50
 				}
 				{
-					count: 4
-					id: "0B83A93F16C9B3FB"
-					item: "enigmaticaddons:earth_heart_fragment"
+					id: "34C1BF72A4C3B285"
+					item: {
+						Count: 1b
+						id: "enigmaticlegacy:earth_heart"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -873,6 +904,7 @@
 				"4096F4A501AB0261"
 				"24BA09ABE6005D4A"
 			]
+			description: ["Основа для крафта \\n\\nТолько для &5проклятых&r"]
 			hide: true
 			id: "2DD0A6A988C9917D"
 			rewards: [
@@ -949,8 +981,8 @@
 				item: "enigmaticlegacy:desolation_ring"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 4.0d
+			x: 25.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1009,12 +1041,12 @@
 		}
 		{
 			dependencies: ["1D0966690CE9B6AD"]
-			description: ["Даёт временную неуязвимость от огня"]
+			description: ["Даёт временную &aнеуязвимость&r от огня и не только"]
 			id: "3ED3FFEB3DECCB26"
 			rewards: [{
 				id: "507CB8A23AC571DA"
 				type: "xp"
-				xp: 50
+				xp: 100
 			}]
 			tasks: [{
 				id: "41C21CD25CD91AC8"
@@ -1026,7 +1058,13 @@
 		}
 		{
 			dependencies: ["1D0966690CE9B6AD"]
+			description: ["Чувствуйте себя как рыба в воде"]
 			id: "69C20FABEFF369FF"
+			rewards: [{
+				id: "3DC028D7C2EED8FF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "35DA13C0EA58E421"
 				item: "enigmaticlegacy:ocean_stone"
@@ -1038,6 +1076,11 @@
 		{
 			dependencies: ["1D0966690CE9B6AD"]
 			id: "3A7D549AA8D79570"
+			rewards: [{
+				id: "587A1B7C8DF31C9F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3C310CA0691B6D68"
 				item: "enigmaticlegacy:angel_blessing"
@@ -1059,8 +1102,13 @@
 		}
 		{
 			dependencies: ["1D0966690CE9B6AD"]
-			description: ["Эффект иссушения при атаке и иммунитет к негативным эффектам"]
+			description: ["Эффект &8иссушения&r при атаке и &aиммунитет&r к негативным эффектам"]
 			id: "0B41B979AAFB0B34"
+			rewards: [{
+				id: "73E3C14E99EEFAEE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4D9E2F18048B06A8"
 				item: "enigmaticlegacy:void_pearl"
@@ -1072,7 +1120,7 @@
 		}
 		{
 			dependencies: ["1D0966690CE9B6AD"]
-			description: ["Крайне полезный камень стихий, идеально поможет в начале пути"]
+			description: ["Рекомендуется носить данный камень без брони"]
 			id: "4A34355DCC0E40AE"
 			rewards: [{
 				id: "214A8D9751C1D46D"
@@ -1090,6 +1138,11 @@
 		{
 			dependencies: ["1D0966690CE9B6AD"]
 			id: "0149A1AC7C7108BD"
+			rewards: [{
+				id: "1D26386568B8E55C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "61B9D1D5BAA8293E"
 				item: "enigmaticaddons:revival_leaf"
@@ -1100,7 +1153,7 @@
 		}
 		{
 			dependencies: ["1D0966690CE9B6AD"]
-			description: ["Большая мобильность и неуязвимость к урону от падения"]
+			description: ["Большая &eмобильность&r и &aнеуязвимость&r к урону от падения"]
 			id: "1A36998263FFF6C9"
 			rewards: [{
 				id: "41DEE8BD8F582D34"
@@ -1119,6 +1172,11 @@
 			dependencies: ["1D0966690CE9B6AD"]
 			description: ["Неуязвимость к заморозке + заморозка противника при атаке"]
 			id: "4E2ADDCDC5DF12BB"
+			rewards: [{
+				id: "6ADF021FFEEC90B4"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0E9AE7F3E0FA8B4D"
 				item: "enigmaticaddons:forgotten_ice"
@@ -1134,7 +1192,7 @@
 			rewards: [{
 				id: "58A7553FC0EFF8B4"
 				type: "xp"
-				xp: 50
+				xp: 100
 			}]
 			tasks: [{
 				id: "17E07AA7EE2523BF"
@@ -1187,6 +1245,18 @@
 			dependencies: ["1D0966690CE9B6AD"]
 			description: ["Неизвестно как получить"]
 			id: "59F24080ABF20FFD"
+			rewards: [
+				{
+					id: "080F5C7F89DFD56A"
+					type: "xp"
+					xp: 7777
+				}
+				{
+					id: "0579D1265F4FD44B"
+					item: "enigmaticlegacy:loot_generator"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "61F4FE252B2798AF"
@@ -1198,11 +1268,12 @@
 		}
 		{
 			dependencies: ["73688A1DCDB791FA"]
+			description: ["Универсальное кольцо"]
 			id: "7CC7D7A9705443DD"
 			rewards: [{
 				id: "144B7C502256F159"
 				type: "xp"
-				xp: 25
+				xp: 100
 			}]
 			tasks: [{
 				id: "35C4F1CBDE5E4593"
@@ -1515,6 +1586,19 @@
 			dependencies: ["001AE81227DAF5C5"]
 			description: ["Можно найти только в Энде&8&m(или если вам очень повезло)&r&r"]
 			id: "66992D4545E6918D"
+			rewards: [
+				{
+					id: "1564095AE11284D3"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15FC6C04A37484D7"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5C22F6B696D0537E"
 				item: "enigmaticlegacy:etherium_ore"
@@ -1536,7 +1620,7 @@
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
-			description: ["Позволяет самопроизвольно ускорятся на кнопку прыжка. Тратит прочность во время этого ускорения"]
+			description: ["Позволяет самопроизвольно ускорятся на &aпробел&r. Тратит &cпрочность&r во время этого ускорения"]
 			id: "3A75C6427D62A967"
 			rewards: [
 				{
@@ -1598,18 +1682,13 @@
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
-			description: [
-				"На &aПКМ&r можно бросить клинки. Клинки проклинают жертву нанося критический урон"
-				""
-				""
-				"Только для &5проклятых&r"
-			]
+			description: ["На &aПКМ&r можно бросить клинки. Клинки проклинают жертву нанося &cкритический&r урон\\n\\nТолько для &5проклятых&r"]
 			id: "4B9875CEC3393F0E"
 			rewards: [
 				{
 					id: "4FC51CC8DEBE4004"
 					type: "xp"
-					xp: 255
+					xp: 666
 				}
 				{
 					exclude_from_claim_all: true
@@ -1634,6 +1713,7 @@
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
+			description: ["Бросок можно &eусилить&r после удерживания &aПКМ&r до трёх звуковых сигналов"]
 			id: "70700609D19D0AD9"
 			rewards: [
 				{
@@ -1664,7 +1744,7 @@
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
-			description: ["Эффект &6плохого знамения&r увеличивает урон на 15%(+15% за каждый уровень эффекта). На ПКМ можно блокировать удар, в случае удачной блокировки &cусиливает&r следующий удар"]
+			description: ["Эффект &4Дурное знамение&r увеличивает урон на 15%(+15% за каждый уровень эффекта). На ПКМ можно блокировать удар, в случае удачной блокировки &aусиливает&r следующий удар"]
 			id: "225DD1879D09E1D0"
 			rewards: [
 				{
@@ -1713,6 +1793,7 @@
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
+			description: ["Чуть лучше эфириумной кирки"]
 			id: "48805E6ABC15B067"
 			rewards: [
 				{
@@ -1743,6 +1824,7 @@
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
+			description: ["При попадании по противнику в броске &4не выпадает обратно&r"]
 			id: "25616C4260F9DFBE"
 			rewards: [
 				{
@@ -1758,6 +1840,7 @@
 				}
 			]
 			tasks: [{
+				count: 4L
 				id: "518257A690E9706E"
 				item: "enigmaticaddons:ichor_spear"
 				type: "item"
@@ -1815,6 +1898,7 @@
 		}
 		{
 			dependencies: ["080B5CD84BBBE085"]
+			description: ["Увеличивает ваши &eхарактеристики&r в зависимости от количества &5проклятий&r на вашем снаряжении"]
 			id: "4CEFC0B31305D8C6"
 			rewards: [
 				{
@@ -1839,6 +1923,7 @@
 		}
 		{
 			dependencies: ["080B5CD84BBBE085"]
+			description: ["+1 к зачарованию &eудачи&r и не только"]
 			id: "7C01C87C2A697A37"
 			rewards: [
 				{
@@ -1863,6 +1948,7 @@
 		}
 		{
 			dependencies: ["080B5CD84BBBE085"]
+			description: ["&4Фантомы&r больше не будут появлятся по близости. Ваши характеристики в темноте будут &eповышены&r"]
 			id: "5D9387FB7A693E22"
 			rewards: [
 				{
@@ -1911,11 +1997,18 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "31C2EE3D0B9F33C9"
-			rewards: [{
-				id: "43904D793453A04D"
-				type: "xp"
-				xp: 15
-			}]
+			rewards: [
+				{
+					id: "43904D793453A04D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "3CB1096D4F04D1B0"
+					item: "enigmaticlegacy:thicc_scroll"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "18D1C0ECBD94ED72"
 				item: "enigmaticlegacy:thicc_scroll"
@@ -1926,7 +2019,13 @@
 		}
 		{
 			dependencies: ["31C2EE3D0B9F33C9"]
+			description: ["Хранилище для накопленного &aОпыта&r"]
 			id: "174438ADACB503E2"
+			rewards: [{
+				id: "38404123CE18F16F"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "1E5C6F34A6DB2E88"
 				item: {
@@ -1941,7 +2040,27 @@
 		}
 		{
 			dependencies: ["31C2EE3D0B9F33C9"]
+			description: ["Полёт в пределах &bМаяка&r за счёт &aОпыта&r"]
 			id: "11072F3C4805062D"
+			rewards: [
+				{
+					id: "6A9488D1358FF387"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2503AE3995A41FE9"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5786195BA36AE7FB"
+					table_id: 2856130773300716246L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "394E3CAEC3DBB04E"
 				item: "enigmaticlegacy:heaven_scroll"
@@ -1952,7 +2071,27 @@
 		}
 		{
 			dependencies: ["31C2EE3D0B9F33C9"]
+			description: ["Предметы после смерти телепортируются к вам, но сам свиток остаётся на месте вашей смерти"]
 			id: "56404AEAE44047E3"
+			rewards: [
+				{
+					id: "56A85EC1B1D6DAA4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21FDC5855CEC9950"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2897F66402EB47C5"
+					table_id: 2856130773300716246L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "0BB65211DB7FF887"
 				item: "enigmaticlegacy:escape_scroll"
@@ -1963,7 +2102,21 @@
 		}
 		{
 			dependencies: ["174438ADACB503E2"]
+			description: ["Повышенный радиус подроба сфер &aОпыта&r, а также возможность совершенствовать свои &eспособности&r в зависимости от накопленного &aОпыта&r\\n\\nТолько для &5проклятых&r"]
 			id: "1B96B03DB8FCAA36"
+			rewards: [
+				{
+					id: "20BD7EF29E57A6AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39005AD5841A73FC"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
 			shape: "circle"
 			tasks: [{
 				id: "22E762D89EDB7BA2"
@@ -1979,6 +2132,7 @@
 		}
 		{
 			dependencies: ["11072F3C4805062D"]
+			description: ["Полёт в любом месте в обмен на большой объём &aОпыта&r. В пределах &bМаяка&r опыт не снимается"]
 			id: "6F3FE4C7DB6320D4"
 			shape: "circle"
 			tasks: [{
@@ -1990,13 +2144,21 @@
 			y: 9.0d
 		}
 		{
-			description: ["Нужен для крафта Сердца Земли"]
+			description: ["Часть Сердца Земли. Требуется 8 частей чтобы воссоздать &aСердце Земли&r"]
 			id: "7344A2C37E70F0B3"
-			rewards: [{
-				id: "5B74DD78EC7FFBDA"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					id: "5B74DD78EC7FFBDA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "60CD78369246A238"
+					item: "enigmaticaddons:earth_heart_fragment"
+					type: "item"
+				}
+			]
 			shape: "circle"
 			tasks: [{
 				id: "3E515ACC5A7A8DBD"
@@ -2029,29 +2191,51 @@
 				item: "enigmaticlegacy:evil_essence"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 22.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["26F4CE907ABE8FDC"]
+			dependencies: ["2DD0A6A988C9917D"]
 			id: "4B4255C848F4AA0B"
-			rewards: [{
-				id: "5F0D28728C52DFDE"
-				type: "xp"
-				xp: 255
-			}]
+			rewards: [
+				{
+					id: "5F0D28728C52DFDE"
+					type: "xp"
+					xp: 255
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AB6CC990B7A8528"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "120B9131F608D446"
 				item: "enigmaticlegacy:twisted_mirror"
 				type: "item"
 			}]
-			x: 23.0d
-			y: -1.5d
+			x: 8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["26F4CE907ABE8FDC"]
-			description: ["Используется для создания чего-то..."]
+			description: ["Используется для создания &5Злобного клинка&r"]
+			hide_dependent_lines: true
 			id: "3A627B23650EDF95"
+			rewards: [
+				{
+					id: "2B3814E5D1DC54D2"
+					type: "xp"
+					xp: 666
+				}
+				{
+					exclude_from_claim_all: true
+					id: "593D89EA98599C3F"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6C7104709BA4AD39"
 				item: "enigmaticlegacy:evil_ingot"
@@ -2061,51 +2245,35 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["3A627B23650EDF95"]
-			id: "2A691F7103A12F30"
+			dependencies: ["26F4CE907ABE8FDC"]
+			id: "321516F9FB0F5793"
 			rewards: [
 				{
-					id: "6C06528EDBD8855B"
+					id: "4D24D7A228557A7E"
 					type: "xp"
-					xp: 666
+					xp: 333
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6973BF3EFDAB13FF"
+					id: "0F70B6B40AE126E0"
 					table_id: 2994924812343091255L
 					type: "random"
 				}
 			]
 			tasks: [{
-				id: "011933B86071D37B"
-				item: {
-					Count: 1b
-					id: "enigmaticaddons:evil_dagger"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 24.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["26F4CE907ABE8FDC"]
-			id: "321516F9FB0F5793"
-			tasks: [{
 				id: "4696ACEB1A04AB4F"
 				item: "enigmaticlegacy:the_twist"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 0.5d
+			x: 24.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
 				"321516F9FB0F5793"
 				"79C8FE83542AF275"
 			]
+			description: ["&n&lОчень&r&r могущественный предмет"]
 			id: "4EE4F7FE3B8095BF"
 			rewards: [
 				{
@@ -2132,12 +2300,12 @@
 				item: "enigmaticlegacy:the_infinitum"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 0.5d
+			x: 27.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4096F4A501AB0261"]
-			description: ["Вам явно пришлось пройти через многое чтобы заполучить &o&5его&r&r"]
+			description: ["Вам явно пришлось пройти через многое чтобы заполучить &l&o&5его&r"]
 			id: "79C8FE83542AF275"
 			rewards: [
 				{
@@ -2164,8 +2332,8 @@
 				item: "enigmaticlegacy:abyssal_heart"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 2.5d
+			x: 27.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -2174,8 +2342,22 @@
 				"3621D379AD715164"
 			]
 			dependency_requirement: "all_started"
+			description: ["&8Пути назад нет...&r"]
 			hide: true
 			id: "51DD317C37546466"
+			rewards: [
+				{
+					id: "23D9D184F47D5435"
+					type: "xp"
+					xp: 222
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42DBB51E1B186A62"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6E48959C6553E8B8"
 				item: "enigmaticaddons:bless_stone"
@@ -2187,6 +2369,11 @@
 		{
 			dependencies: ["601A9DF1B2D01E4F"]
 			id: "0BF5BE823D77321C"
+			rewards: [{
+				id: "6CD7AA80E4CEF4B9"
+				type: "xp"
+				xp: 222
+			}]
 			tasks: [{
 				id: "7DEFA10E5F9468E2"
 				item: "enigmaticaddons:bless_amplifier"
@@ -2198,6 +2385,19 @@
 		{
 			dependencies: ["601A9DF1B2D01E4F"]
 			id: "61163C3A8CAD949A"
+			rewards: [
+				{
+					id: "6C5481B8EB206F8D"
+					type: "xp"
+					xp: 222
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4312F5AD61F36FEC"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2EE20C283E814DBA"
 				item: "enigmaticaddons:the_bless"
@@ -2208,6 +2408,7 @@
 		}
 		{
 			dependencies: ["26F4CE907ABE8FDC"]
+			description: ["Когда находится в инвентаре:\\n\\nУвеличивает в 1,5 раз &aурон &rпо &cРазбойникам&r\\nУменьшает в половину &aурон&r от &cРазбойников&r\\nОдин раз может уберечь от &4Смерти&r"]
 			id: "62884C9595B63406"
 			rewards: [
 				{
@@ -2233,11 +2434,12 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
+			x: 22.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["51DD317C37546466"]
+			hide_details_until_startable: true
 			id: "309F66872E0ADA22"
 			rewards: [
 				{
@@ -2258,19 +2460,25 @@
 					xp: 777
 				}
 			]
-			shape: "heart"
+			shape: "diamond"
 			size: 1.5d
 			tasks: [{
 				id: "358DE071E79684AC"
 				item: "enigmaticaddons:bless_ring"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 17.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["21EF9A40FB01EADC"]
+			description: ["Вы не сможете наносить &4урон&r мирным мобам с этой книгой в инвентаре. Хоглины становятся &oнейтральными&r\\n\\n&2Можно усовершенствовать&r"]
 			id: "3AEEFD0FD84ACD51"
+			rewards: [{
+				id: "6EFD55875BBCEE82"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "1B542A4E58FEF428"
@@ -2282,7 +2490,13 @@
 		}
 		{
 			dependencies: ["21EF9A40FB01EADC"]
+			description: ["Урон полученный вашими питомцами будет перенаправлен &4Вам&r. Таким образом ваши питомцы не смогут умереть пока не умрёте &4Вы&r &8(в пределах 24 блоках от вас)&r\\n\\n&2Можно усовершенствовать&r"]
 			id: "4659E3BEFF2C683C"
+			rewards: [{
+				id: "750242667BB00ABD"
+				type: "xp"
+				xp: 25
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "62E68A5DDCA56307"
@@ -2297,6 +2511,7 @@
 				"4659E3BEFF2C683C"
 				"21EF9A40FB01EADC"
 			]
+			description: ["Только для &5проклятых&r"]
 			id: "43E0F077DA351EFA"
 			shape: "circle"
 			tasks: [{
@@ -2309,7 +2524,21 @@
 		}
 		{
 			dependencies: ["21EF9A40FB01EADC"]
+			description: ["Только для &5проклятых&r"]
 			id: "2E589FC7B33090B7"
+			rewards: [
+				{
+					id: "43DEFF19DE2EA608"
+					type: "xp"
+					xp: 333
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22F5D5C9C18FFBCB"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "63582ADEC93C5DC5"
@@ -2336,7 +2565,13 @@
 		}
 		{
 			dependencies: ["21EF9A40FB01EADC"]
+			description: ["Удобный предмет для экономии места в инвентаре и одновременного использования книг"]
 			id: "3DFD0DE7F6E49FAF"
+			rewards: [{
+				id: "5C70A1C06531B1F1"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "066FE42B9A277C31"
@@ -2348,9 +2583,9 @@
 		}
 		{
 			dependencies: ["655D52905B760B9B"]
-			description: ["Доступные для создания книги из мода &5Enigmatic Legacy&r могут помочь вам как и в выживании с проклятиями, так и без таковых"]
+			description: ["Доступные для создания книги из мода &5Enigmatic Legacy&r могут помочь вам как и в выживании с проклятиями, так и без таковых. Пассивно активны если находятся в вашем &aинвентаре&r"]
 			hide_dependency_lines: true
-			icon: "minecraft:written_book"
+			icon: "rftoolsbase:manual"
 			id: "21EF9A40FB01EADC"
 			rewards: [{
 				id: "09543E25F34A8D22"
@@ -2381,6 +2616,7 @@
 			dependency_requirement: "one_completed"
 			description: ["Артефакты, которые можно случайно найти в &eсундуках&r или &aскрафтить&r"]
 			hide_dependency_lines: true
+			icon: "rftoolsbase:manual"
 			id: "20D208B606F6F81E"
 			tasks: [{
 				id: "5285B5062B6A5C74"
@@ -2504,7 +2740,13 @@
 		}
 		{
 			dependencies: ["20D208B606F6F81E"]
+			description: ["Соедините в крафте с любым снаряжением для полной его &2починки&r"]
 			id: "6AB77E19482D5A1F"
+			rewards: [{
+				id: "7CE0E77FF933A6DC"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "2285BB5E0398FF81"
 				item: "enigmaticlegacy:mending_mixture"
@@ -2525,7 +2767,21 @@
 		}
 		{
 			dependencies: ["20D208B606F6F81E"]
+			description: ["+1 слот к &eамулетам&r"]
 			id: "2F1252C4360498D8"
+			rewards: [
+				{
+					id: "2F05DFC8786378B8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32D1BB43241ABED5"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "115675A0154DA635"
 				item: "enigmaticlegacy:ichor_bottle"
@@ -2536,7 +2792,13 @@
 		}
 		{
 			dependencies: ["20D208B606F6F81E"]
+			description: ["Телепортирует к месту вашей последней смерти, но у вас будет &4половина сердца&r"]
 			id: "062798D0DC2BC51B"
+			rewards: [{
+				id: "03D408A0A38548B5"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7BD70494C2458B32"
 				item: "enigmaticlegacy:twisted_potion"
@@ -2547,7 +2809,13 @@
 		}
 		{
 			dependencies: ["20D208B606F6F81E"]
+			description: ["Возвращает к месту спавна, или кровати, если имеется"]
 			id: "5E5452E6F71654C9"
+			rewards: [{
+				id: "3CEDC7D236FC154C"
+				type: "xp"
+				xp: 75
+			}]
 			tasks: [{
 				id: "16105DD19CE8F666"
 				item: "enigmaticlegacy:recall_potion"
@@ -2557,16 +2825,71 @@
 			y: -9.5d
 		}
 		{
-			dependencies: ["20D208B606F6F81E"]
-			description: ["Бесполезен, не используется в крафтах"]
-			id: "63AE37C414B9B5C4"
+			dependencies: [
+				"5D9387FB7A693E22"
+				"7C01C87C2A697A37"
+				"4CEFC0B31305D8C6"
+			]
+			dependency_requirement: "all_started"
+			description: ["&8&o&m???&r&r&r"]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			id: "35EBB98E1E74AEEE"
+			rewards: [{
+				id: "4B2B93995248C861"
+				type: "xp"
+				xp: 666
+			}]
+			shape: "diamond"
 			tasks: [{
-				id: "64369F3264C7C4CB"
+				id: "5BEF88F25A3E9E34"
 				item: {
 					Count: 1b
-					id: "enigmaticaddons:astral_potion"
+					id: "enigmaticlegacy:cosmic_scroll"
 					tag: { }
 				}
+				type: "item"
+			}]
+			title: "???"
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2DD0A6A988C9917D"]
+			id: "060F45CD09C03F2A"
+			rewards: [
+				{
+					id: "2387F34233342B73"
+					type: "xp"
+					xp: 222
+				}
+				{
+					exclude_from_claim_all: true
+					id: "359D7D60CEA6C35D"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "071FC7594374F9A0"
+				item: "enigmaticlegacy:soul_compass"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["20D208B606F6F81E"]
+			description: ["+1 ячейка для &eкольца&r. Неизвестно как получить"]
+			id: "085C0374AED6D4F3"
+			rewards: [{
+				id: "18921BAEC58029AD"
+				type: "xp"
+				xp: 252
+			}]
+			tasks: [{
+				id: "6AA1DA6B99637FDC"
+				item: "enigmaticlegacy:astral_fruit"
 				type: "item"
 			}]
 			x: 23.0d

@@ -492,7 +492,7 @@
 			corner: false
 			dev: false
 			height: 3.2d
-			hover: ["Наш дискор сервер"]
+			hover: ["Наш дискорд сервер"]
 			image: "ftbquests:textures/item/discord.png"
 			rotation: 0.0d
 			width: 4.2d
@@ -533,6 +533,7 @@
 				type: "xp"
 				xp: 5
 			}]
+			shape: "octagon"
 			size: 2.5d
 			subtitle: "Техномагическая РПГ сборка по майнкрафту на версии 1.19.2"
 			tasks: [{

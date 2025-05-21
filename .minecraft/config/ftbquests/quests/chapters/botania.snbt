@@ -51,6 +51,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "6A9B7190D685F953"
 			dev: false
 			height: 2.3d
 			hover: [ ]

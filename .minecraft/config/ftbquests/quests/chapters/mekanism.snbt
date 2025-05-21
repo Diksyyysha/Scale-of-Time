@@ -271,7 +271,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["5329EC9BD9E981E1"]
+			dependencies: [
+				"5329EC9BD9E981E1"
+				"5B469D40AB95704B"
+			]
 			id: "479A57E065D461E5"
 			rewards: [
 				{
@@ -299,6 +302,7 @@
 			dependencies: [
 				"5329EC9BD9E981E1"
 				"72114239F2853E15"
+				"479A57E065D461E5"
 			]
 			id: "0381BE9DBF8FE5D2"
 			rewards: [{

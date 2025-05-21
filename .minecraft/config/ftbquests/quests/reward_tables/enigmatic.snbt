@@ -14,12 +14,11 @@
 					display: { }
 				}
 			}
-			weight: 5.0f
+			weight: 2.0f
 		}
 		{ item: "enigmaticlegacy:iron_ring", weight: 1.5f }
-		{ item: "enigmaticaddons:earth_heart_fragment", weight: 0.7f }
-		{ item: "enigmaticaddons:antique_bag", weight: 0.4f }
-		{ item: "enigmaticlegacy:cosmic_cake", weight: 0.2f }
+		{ count: 3, item: "enigmaticaddons:earth_heart_fragment" }
+		{ item: "enigmaticlegacy:cosmic_cake", weight: 0.1f }
 		{ item: "enigmaticlegacy:golden_ring", weight: 1.2f }
 		{
 			item: {
@@ -29,13 +28,47 @@
 			}
 			weight: 0.4f
 		}
-		{ count: 2, item: "enigmaticlegacy:etherium_ore", weight: 0.2f }
+		{ item: "enigmaticlegacy:etherium_ore", weight: 0.2f }
 		{ count: 3, item: "enigmaticlegacy:astral_dust", weight: 0.6f }
-		{ count: 4, item: "enigmaticlegacy:thicc_scroll" }
-		{ item: "enigmaticlegacy:magnet_ring" }
-		{ item: "enigmaticlegacy:ender_ring" }
-		{ item: "enigmaticlegacy:super_magnet_ring" }
-		{ count: 3, item: "enigmaticlegacy:darkest_scroll" }
+		{ count: 2, item: "enigmaticlegacy:thicc_scroll" }
+		{ item: "enigmaticlegacy:darkest_scroll" }
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:extradimensional_eye"
+				tag: { }
+			}
+			weight: 0.7f
+		}
+		{ item: "enigmaticlegacy:recall_potion" }
+		{ item: "enigmaticlegacy:soul_crystal", weight: 0.4f }
+		{ count: 3, item: "enigmaticlegacy:mending_mixture", weight: 0.8f }
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:tattered_tome"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:withered_tome"
+				tag: { }
+			}
+			weight: 0.8f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "enigmaticlegacy:corrupted_tome"
+				tag: { }
+			}
+			weight: 0.6f
+		}
+		{ item: "enigmaticlegacy:twisted_heart", weight: 0.3f }
+		{ count: 2, item: "enigmaticlegacy:evil_essence", weight: 0.2f }
+		{ count: 3, item: "enigmaticlegacy:astral_potato", weight: 0.7f }
 	]
 	title: "Enigmatic"
 }
