@@ -421,6 +421,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "68FD17A0DF088BA3"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -477,6 +478,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "34ED8C3B8CC630CA"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -689,6 +691,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "362801F7A9EDD76D"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -713,6 +716,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "77395930D140E807"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -796,11 +800,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "7822EA12EF81C4EA"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "4D73C84CCF51B761"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -903,6 +909,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "30CA54B7D68A0FEC"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -962,11 +969,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "0E86747E5E65C608"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "3862E3F9117A91DF"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1139,6 +1148,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "2CCF3AB81B8231CE"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1183,6 +1193,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "1F1C3F029C5673D4"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1230,6 +1241,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "364516D496C2023E"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1297,6 +1309,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "055B27F27A45871E"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1340,6 +1353,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "749C4081C46FB569"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1383,6 +1397,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "2B7A21A84A12700F"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1457,6 +1472,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "68CA2A1606C9E043"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1502,6 +1518,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "4160886ED7D22DC5"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1582,11 +1599,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "5A20416F816F49A5"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "420CF9D7184466D4"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1631,13 +1650,14 @@
 			id: "35FA55BE8DF49EE8"
 			rewards: [
 				{
-					exclude_from_claim_all: true
 					id: "23AB023224276D8B"
+					table_id: 6246434772585013667L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "2153675CF7021E26"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1665,6 +1685,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "5FCB9312466F3997"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1695,6 +1716,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "117278C807CC151D"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1744,6 +1766,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "4A4E483F09FCCBFF"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1928,6 +1951,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "07375BCFE91437B3"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
@@ -1989,6 +2013,7 @@
 				{
 					exclude_from_claim_all: true
 					id: "621377873D26BE59"
+					table_id: 6246434772585013667L
 					type: "loot"
 				}
 				{
