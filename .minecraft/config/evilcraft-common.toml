@@ -231,9 +231,9 @@
 
 	[item.vein_sword]
 		#The multiply boost this sword has on the blood that is obtained.
-		extractionBoost = 2.0
+		extractionBoost = 4.0
 		#Maximum uses for this item.
-		durability = 32
+		durability = 256
 
 	[item.exalted_crafter]
 		#If shift clicking on an item should first try to go into the crafting grid.

@@ -216,6 +216,7 @@
     S:ForgerGemUnbreakableBlackList <
         enigmaticaddons:totem_of_malice
         twilightforest:glass_sword
+        industrialforegoing:infinity_*
      >
 
     # Active ability cooldown for Forgotten Ice Crystal. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 300, synchronized: yes]
@@ -295,7 +296,7 @@
     D:PromiseoftheEarthArmor=8.0
 
     # Mining speed boost granted by Promise of the Earth. Defined as percentage. [range: 0 ~ 1000, default: 20, synchronized: yes]
-    I:PromiseoftheEarthBreakSpeed=20
+    I:PromiseoftheEarthBreakSpeed=40
 
     # Passive ability cooldown for Promise of the Earth. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 1000, synchronized: yes]
     I:PromiseoftheEarthCooldown=1000
