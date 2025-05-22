@@ -145,8 +145,8 @@
 			image: "botania:block/bifrost"
 			rotation: 45.0d
 			width: 2.0d
-			x: 9.5d
-			y: 9.0d
+			x: 11.0d
+			y: -15.0d
 		}
 		{
 			click: ""
@@ -1235,7 +1235,7 @@
 					type: "random"
 				}
 			]
-			shape: "pentagon"
+			shape: "hexagon"
 			tasks: [{
 				id: "34CCB056B129CD09"
 				item: "enigmaticlegacy:the_cube"
@@ -1650,7 +1650,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
@@ -1681,7 +1681,7 @@
 				type: "item"
 			}]
 			x: -14.5d
-			y: 12.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
@@ -1712,7 +1712,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 13.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
@@ -1774,7 +1774,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
@@ -1880,7 +1880,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 12.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["2DD0A6A988C9917D"]
@@ -2609,19 +2609,6 @@
 			dependencies: ["20D208B606F6F81E"]
 			description: ["Только для &5проклятых&r"]
 			id: "4504F50AD140E8A0"
-			rewards: [
-				{
-					id: "5ECCD5A232420AF8"
-					type: "xp"
-					xp: 255
-				}
-				{
-					exclude_from_claim_all: true
-					id: "66BFBA1EAC27C641"
-					table_id: 2994924812343091255L
-					type: "random"
-				}
-			]
 			tasks: [{
 				id: "5B32D67753449A9C"
 				item: "enigmaticlegacy:guardian_heart"
@@ -2648,13 +2635,7 @@
 		}
 		{
 			dependencies: ["20D208B606F6F81E"]
-			description: ["Карманная \"мусорка\""]
 			id: "53DECBE242028920"
-			rewards: [{
-				id: "51723881ABF2D964"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				id: "47BD666F23B50542"
 				item: {
@@ -2665,17 +2646,11 @@
 				type: "item"
 			}]
 			x: 20.5d
-			y: -5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["20D208B606F6F81E"]
-			description: ["После поедании этого яблока вы больше не нуждаетесь в еде, но любая регенерация &4уменьшена&r на &l80%!&r"]
 			id: "275E4495F1973AB0"
-			rewards: [{
-				id: "1E4E260E7D38DB04"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				id: "786193120C4F3EDF"
 				item: "enigmaticlegacy:forbidden_fruit"
@@ -2686,13 +2661,7 @@
 		}
 		{
 			dependencies: ["20D208B606F6F81E"]
-			description: ["Полезный предмет для переименовывания вашего снаряжения в любой форматируемый текст. Для использования требует &6Фрагмент писания&r"]
 			id: "2BF31AC159D85420"
-			rewards: [{
-				id: "18E9999EA34A1618"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				id: "595E1CFF76E493F7"
 				item: "enigmaticlegacy:lore_inscriber"
@@ -2703,13 +2672,7 @@
 		}
 		{
 			dependencies: ["20D208B606F6F81E"]
-			description: ["Одноразовый. Используется для перемещения существ в любую точку в пределах текущего измерения"]
 			id: "5E9262B8486AC23D"
-			rewards: [{
-				id: "74EEBF7228F54617"
-				type: "xp"
-				xp: 75
-			}]
 			tasks: [{
 				id: "66C8EB58429779AB"
 				item: {
@@ -2756,11 +2719,6 @@
 		{
 			dependencies: ["275E4495F1973AB0"]
 			id: "3EF139D3B56B1C54"
-			rewards: [{
-				id: "5F60E55904FAA830"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				id: "5F19D78E768C2A72"
 				item: "enigmaticlegacy:redemption_potion"
@@ -2772,11 +2730,6 @@
 		{
 			dependencies: ["2BF31AC159D85420"]
 			id: "1385F3C4CADB518D"
-			rewards: [{
-				id: "35A3DBE602EF4E66"
-				type: "xp"
-				xp: 25
-			}]
 			tasks: [{
 				id: "1F0325C48EC51A56"
 				item: {
@@ -2840,7 +2793,7 @@
 				item: "enigmaticlegacy:ichor_bottle"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 19.0d
 			y: -11.0d
 		}
 		{
@@ -2857,7 +2810,7 @@
 				item: "enigmaticlegacy:twisted_potion"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 22.0d
 			y: -11.0d
 		}
 		{
@@ -2874,7 +2827,7 @@
 				item: "enigmaticlegacy:recall_potion"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 18.0d
 			y: -9.5d
 		}
 		{
@@ -2945,9 +2898,10 @@
 				item: "enigmaticlegacy:astral_fruit"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 23.0d
 			y: -9.5d
 		}
+<<<<<<< HEAD
 		{
 			dependencies: ["20D208B606F6F81E"]
 			description: ["Работает как бесконечная &aкостная пыль&r"]
@@ -3068,6 +3022,8 @@
 			x: -14.0d
 			y: 6.0d
 		}
+=======
+>>>>>>> parent of 68e0cb0 (Merge branch 'main' of https://github.com/Diksyyysha/scale-of-time)
 	]
 	title: "&n&#FF00F8E&#F912DBn&#F423BDi&#EE35A0g&#E94682m&#E35865a&#DD6947t&#D87B2Ai&#D28C0Cc &#A6A546L&#90B163e&#7ABE7Fg&#64CA9Ca&#4ED7B9c&#38E3D6y"
 }
