@@ -26,10 +26,10 @@
 				id: "enigmaticlegacy:earth_heart"
 				tag: { }
 			}
-			weight: 0.4f
+			weight: 0.8f
 		}
 		{ item: "enigmaticlegacy:etherium_ore", weight: 0.2f }
-		{ count: 3, item: "enigmaticlegacy:astral_dust", weight: 0.6f }
+		{ count: 3, item: "enigmaticlegacy:astral_dust", weight: 0.4f }
 		{ count: 2, item: "enigmaticlegacy:thicc_scroll" }
 		{ item: "enigmaticlegacy:darkest_scroll" }
 		{
@@ -49,6 +49,7 @@
 				id: "enigmaticlegacy:tattered_tome"
 				tag: { }
 			}
+			weight: 1.5f
 		}
 		{
 			item: {
@@ -68,7 +69,7 @@
 		}
 		{ item: "enigmaticlegacy:twisted_heart", weight: 0.3f }
 		{ count: 2, item: "enigmaticlegacy:evil_essence", weight: 0.2f }
-		{ count: 3, item: "enigmaticlegacy:astral_potato", weight: 0.7f }
+		{ count: 4, item: "enigmaticlegacy:astral_potato", weight: 0.7f }
 	]
-	title: "Enigmatic"
+	title: "Enigmatic: Resources"
 }

@@ -564,6 +564,7 @@
 				id: "2FE485454A888320"
 				type: "command"
 			}]
+			shape: "octagon"
 			size: 3.0d
 			tasks: [{
 				id: "7880A3E0E6694E65"
@@ -628,6 +629,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "3FB4D1D4B26F3097"

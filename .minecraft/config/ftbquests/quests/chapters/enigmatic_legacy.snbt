@@ -213,7 +213,6 @@
 			y: 0.0d
 		}
 		{
-			alpha: 85
 			click: ""
 			corner: false
 			dependency: "1D0966690CE9B6AD"
@@ -296,25 +295,13 @@
 		{
 			click: ""
 			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "enigmaticaddons:item/ichor_droplet"
-			rotation: 0.0d
-			width: 2.0d
-			x: 15.5d
-			y: 0.0d
-		}
-		{
-			click: ""
-			corner: false
 			dependency: "51DD317C37546466"
 			dev: false
-			height: 2.1d
+			height: 2.5d
 			hover: [ ]
 			image: "enigmaticlegacy:blocks/redstone_lamp"
 			rotation: 45.0d
-			width: 2.1d
+			width: 2.5d
 			x: 17.5d
 			y: -3.5d
 		}
@@ -330,6 +317,19 @@
 			width: 1.05d
 			x: 9.5d
 			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "601A9DF1B2D01E4F"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "enigmaticaddons:item/earth_promise"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.0d
+			y: 0.0d
 		}
 	]
 	order_index: 2
@@ -792,7 +792,7 @@
 		}
 		{
 			dependencies: ["422A36EEB6675EE7"]
-			description: ["Неизвестно как получить"]
+			description: ["&o&8Неизвестно как получить&r&r  "]
 			id: "0424BD7E78D3CA8F"
 			rewards: [
 				{
@@ -823,6 +823,7 @@
 				}
 				type: "item"
 			}]
+			title: "&eАмулет вознесения&r"
 			x: -12.5d
 			y: -5.0d
 		}
@@ -831,7 +832,7 @@
 				"4096F4A501AB0261"
 				"79C8FE83542AF275"
 			]
-			description: [""]
+			description: ["Требует жертву в виде &lАмулет вознесения&r "]
 			hide: true
 			id: "6C26BAFEE7EE70C3"
 			rewards: [
@@ -863,6 +864,7 @@
 				}
 				type: "item"
 			}]
+			title: "&5Амулет презрения&r"
 			x: 29.0d
 			y: 2.0d
 		}
@@ -981,6 +983,7 @@
 				item: "enigmaticlegacy:desolation_ring"
 				type: "item"
 			}]
+			title: "&5Бремя опустошения"
 			x: 25.0d
 			y: 2.0d
 		}
@@ -1243,7 +1246,7 @@
 		}
 		{
 			dependencies: ["1D0966690CE9B6AD"]
-			description: ["Неизвестно как получить"]
+			description: ["&o&8Неизвестно как получить&r&r"]
 			id: "59F24080ABF20FFD"
 			rewards: [
 				{
@@ -1305,7 +1308,7 @@
 				type: "checkmark"
 			}]
 			x: -13.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["757655744EFD61C2"]
@@ -1604,7 +1607,7 @@
 				item: "enigmaticlegacy:etherium_ore"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -13.0d
 			y: 6.0d
 		}
 		{
@@ -1788,8 +1791,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: 8.5d
+			x: -12.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
@@ -1845,8 +1848,8 @@
 				item: "enigmaticaddons:ichor_spear"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 7.0d
+			x: -12.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["001AE81227DAF5C5"]
@@ -2300,6 +2303,7 @@
 				item: "enigmaticlegacy:the_infinitum"
 				type: "item"
 			}]
+			title: "&5Бесконечность"
 			x: 27.0d
 			y: -1.5d
 		}
@@ -2332,6 +2336,7 @@
 				item: "enigmaticlegacy:abyssal_heart"
 				type: "item"
 			}]
+			title: "&5Сердце бездны"
 			x: 27.0d
 			y: 0.5d
 		}
@@ -2602,6 +2607,7 @@
 		}
 		{
 			dependencies: ["20D208B606F6F81E"]
+			description: ["Только для &5проклятых&r"]
 			id: "4504F50AD140E8A0"
 			rewards: [
 				{
@@ -2839,7 +2845,7 @@
 		}
 		{
 			dependencies: ["20D208B606F6F81E"]
-			description: ["Телепортирует к месту вашей последней смерти, но у вас будет &4половина сердца&r"]
+			description: ["Телепортирует к месту вашей последней смерти, но у вас будет &4половина сердца&r\\n\\nТолько для &5проклятых&r"]
 			id: "062798D0DC2BC51B"
 			rewards: [{
 				id: "03D408A0A38548B5"
@@ -2927,7 +2933,7 @@
 		}
 		{
 			dependencies: ["20D208B606F6F81E"]
-			description: ["+1 ячейка для &eкольца&r. Неизвестно как получить"]
+			description: ["+1 ячейка для &eкольца&r &o&8Неизвестно как получить&r&r"]
 			id: "085C0374AED6D4F3"
 			rewards: [{
 				id: "18921BAEC58029AD"
@@ -3037,6 +3043,30 @@
 			}]
 			x: 20.5d
 			y: -14.0d
+		}
+		{
+			dependencies: ["001AE81227DAF5C5"]
+			id: "13F78FC87C495225"
+			rewards: [
+				{
+					id: "18E9A473EA05E578"
+					type: "xp"
+					xp: 175
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49F00725C3D654E3"
+					table_id: 2994924812343091255L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7A1B0753DC8B7306"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.0d
 		}
 	]
 	title: "&n&#FF00F8E&#F912DBn&#F423BDi&#EE35A0g&#E94682m&#E35865a&#DD6947t&#D87B2Ai&#D28C0Cc &#A6A546L&#90B163e&#7ABE7Fg&#64CA9Ca&#4ED7B9c&#38E3D6y"
